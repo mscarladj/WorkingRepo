@@ -4,13 +4,67 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Teen Summit Resource</title>
 <style>
-@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
-@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
-@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-<!-- @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ } -->
+@media (max-width:768px)
+<!--@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ } -->
+<!--@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ } -->
+<!--@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ } -->
+<!-- @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ } --> 
 <!-- @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ } -->
 <!-- @media (min-width:1281px) { /* hi-res laptops and desktops */ } -->
-<!-- @media only screen and (max-width: 700px) -->
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.scene {
+  width: 200px;
+  height: 200px;
+  perspective: 800px;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 8s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* Position each face */
+.front  { transform: rotateY(0deg) translateZ(100px); }
+.back   { transform: rotateY(180deg) translateZ(100px); }
+.right  { transform: rotateY(90deg) translateZ(100px); }
+.left   { transform: rotateY(-90deg) translateZ(100px); }
+.top    { transform: rotateX(90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+/* Animation */
+@keyframes spin {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to   { transform: rotateX(360deg) rotateY(360deg); }
+}  
 
 body {font-family: Baskerville}
 
@@ -32,7 +86,7 @@ body {font-family: Baskerville}
 
 .navbar {
   overflow: hidden;
-  background-color: #990000;
+  background-color: black;
 }
 
 .navbar a {
@@ -283,7 +337,7 @@ span{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 768px){
   .modal-content {
     width: 100%;
   }
@@ -297,7 +351,7 @@ span{
 <!--  /* background page color */  -->
 <!-- <body style="background: linear-gradient(to right, #990000 0%, #ffcc66 67%); -->
 <!-- <body style="background-color: color-mix(in oklab, #ff0000 50%, #ff9933); -->
-<body style="background-color:#F2C20D; #990000;">
+<body style="background-color: #990000;">
 
 <body>  
  <div class="a"> 
@@ -305,7 +359,7 @@ span{
  </div>
   
    <div class="b">
-    <p style="color:black;",style="font-size:5vw;"><a class="ex2"><em>Check out these Websites for Insightful Information!</em></a></p>
+    <p style="color:black;",style="font-size:5vw;"><a class="ex2"><em> Informational Websites </em></a></p>
   </div>
 
    <!--  <div class="c">
@@ -374,7 +428,7 @@ span{
 
   <div class="dropdown-other">
     <a href="#popup" style="padding: 10px 20px; background-color: #990000; 
-                            color: #fff; text-decoration: none; border-radius: 5px;">Click for List of FaceBook Groups!</a>
+                            color: #fff; text-decoration: none; border-radius: 5px;">Click for a List of FaceBook Groups!</a>
       <div id="popup" class="popup">
        <div class="popup-content">
         <h2>FaceBook Groups</h2>
@@ -390,7 +444,7 @@ span{
            <li style="text-align: center;">Scholarship 101: Securing the Bag</li>
            <li style="text-align: center;">The Scholarship Club</li>
          </ul>
-          <h4 style="color: Purple;">
+          <h4 style="color: Red;">
           <p style="text-align:center;">Connect by logging into your Facebook account and<br>typing in the title in your search browser.
                                         <br>You are Welcome to Join the Groups!</p></h4> 
            <a href="#" style="display: inline-block; 
@@ -400,6 +454,21 @@ span{
        </div>
       </div>
 
+<body>
+
+<div class="scene">
+  <div class="cube">
+    <div class="face front">Inspired</div>
+    <div class="face back">Informed</div>
+    <div class="face right">In Charge</div>
+    <div class="face left">NextGen</div>
+    <div class="face top">Ready</div>
+    <div class="face bottom">NextGen</div>
+  </div>
+</div>
+
+</body>
+    
    <!-- <div class="dropdown">
     <a href="#popup" style="padding: 10px 20px; background-color: #990000; 
                             color: #fff; text-decoration: none; border-radius: 5px;">Scan the QR codes for Scolarship Information!</a>
@@ -435,11 +504,11 @@ span{
   
 <!-- /* QR CODES SECTION -body */ -->
 
- <div class="a">
+<!--- <div class="a">
  <h4 style="color: Black;"> 
  <p style="text-align:center;">Additional Scholarship Opportunities!<br>
  <img id="myImg" src="https://github.com/mscarladj/WorkingRepo/blob/main/qrcode_test.jpg?raw=true" alt="Scan QR Codes" style="width:300%;max-width:500px"></p></h4>
- </div>
+ </div> -->
   
 <!-- The Modal 
 <div id="myModal" class="modal">
@@ -473,13 +542,13 @@ span.onclick = function() {
 
 <!--   /* END QR CODES SECTION -body*/ -->
  
-  <div class="b"> 
+  <div class="a"> 
     <p style="text-align: center;" style="color:#990000;"><span>Thank  You</span>Parents, Guardians, Visitors and Friends,<br>for helping to make </p>
     <h1 style="color:#990000;"><a class="ex2"><em>2026 TEEN SUMMIT A Success!</em></a></h1>
   </div>
 
   <!-- Quote #1 Section  -->
-  <div class="c"> 
+<!--  <div class="c"> 
    <div style="
       position: 
       background-color: inherit;
@@ -489,7 +558,7 @@ span.onclick = function() {
    "> 
     <p style="font-family:'Baskerville', Sans Serif;"><small>Before Anything Else, Preparation is the Key to Success!<br>~Alexander Graham Bell</small></p>
 </div>
-  </div>  
+  </div>  -->
 
   <body style="text-align:center">
       <div class="popuptw" onclick="myFunction()">Click here for contact information!
