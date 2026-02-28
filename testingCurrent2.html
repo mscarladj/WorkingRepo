@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 30px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+<!-- THIS SECTION manages the alignment through class -->  
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+} 
+  <!-- THIS SECTION to Manage the Background -->
+.cov-image {
+      background-image: url('data:image/jpeg;base64,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');
+      background-size: cover; /* or 'contain or cover' based on your preference */
+      height: 500px; /* Maintain aspect ratio, had 500px */
+      background-repeat: no-repeat;
+      background-position: center;
+      /* Optional: You can set background color as a fallback */
+      background-color: teal;
+      }
+   .cov-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gold;
+    }
+
+/* Additional styles for content */
+    h1 {
+      color: #ffffff;
+      text-align: center;
+    }
+
+  /* START Pop Button SECTION-style */
+  .popup {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .popup-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .popup:target {
+            display: flex;
+        }
+    /*  END POPUP SECTION-style */
+
+/* QR CODES SECTION - style */
+  #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* END QR CODES SECTION */
+  
+</style>
+</head>
+
+<body style="background-color:#bdb76b;">
+<body>
+
+<h3 class="animated-text">Educational Resources You can Use to Ensure your Student's Success!</h3>
+  
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">College Resources
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+            <a href="https://commonblackcollegeapp.com/">Common Black College App</a>
+            <a href="https://www.commonapp.org">Common App</a>            
+            <a href="http://www.collegedata.com">What do Colleges Look For?</a>
+            <a href="http://www.hbculifestyle.com">HBCU College Resources</a>
+            <a href="http://www.collegebound.org">College Bound Resources</a>
+            <a href="https://www.facebook.com/groups/4847253172020876/">Black, Brown and HBCU Bound</a>
+            <a href="https://www.teenlife.com">TeenLife Summer Programs</a>
+            <a href="https://hbcuconnect.com/hbcu/state/texas">DFW HBCU Connection</a>
+            <a href="https://www.dymensionseducation.com/programs-impact">Dymensions Edu Consulting</a>
+    </div>
+  </div> 
+  
+  <div class="dropdown">
+    <button class="dropbtn">Scholarship Resources
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+           <a href="https://scholarships360.org/">Scholarship 360</a>   
+           <a href="https://fafsa.gov/">FASFA</a>  
+           <a href="https://www.niche.com">2024 Scholarship Resources -- Apply Today</a>    
+           <a href="https://www.uncficb.org">Scholarships and College Planning Resources</a>  
+           <a href="https://hbcuscholarshipride.org/">HBCU Scholarship Ride</a>  
+     </div>
+  </div> 
+  
+  <div class="dropdown">
+    <button class="dropbtn">High School Resources
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+           <a href="https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html">ACT Test Strategies -- Free</a>  
+           <a href="https://www.princetonreview.com/college/free-sat-practice-test">SAT Test Strategies -- Free</a>  
+           <a href="https://www.quadeducationgroup.com">College Prep for High School Kids</a>  
+           <a href="https://www.c2educate.com">Start preparing for College</a>   
+           <a href="https://www.myfuture.com">Timeline for College Planning Steps</a>    
+           <a href="https://summer.harvard.edu/blog/how-to-prepare-for-college-in-high-school/">How to Prepare for College in High School</a>  
+           <a href="https://www.hesc.ny.gov/prepare-for-college/your-high-school-path-to-college/five-things-to-do-in-high-school.html">5 Things to Do in High School to Prepare for College</a>  
+     </div>
+  </div> 
+</div>
+
+   <div class="dropdown">
+    <a href="#popup" style="padding: 10px 20px; background-color: #990000; 
+                            color: #fff; text-decoration: none; border-radius: 5px;">Scan the QR codes for Scolarship Information!</a>
+      <div id="popup" class="popup">
+       <div class="popup-content">
+       
+       <img id="myImg" src="https://github.com/mscarladj/WorkingRepo/blob/main/qrcode_test.jpg?raw=true" alt="Scan QR Codes" style="width:100%;max-width:300px">
+        <p style="text-align:center;">Click the Image</p>
+         <h4 style="color: Red;">
+          <p style="text-align:center;">Here are a couple of<br>Scholarship Opportunities<br>provided by<br>Collin County Alumnae Chapter
+                                        <br>of Delta Sigma Theta Sorority, Inc.</p></h4> 
+           <a href="#" style="display: inline-block; 
+                       margin-top: 10px; padding: 5px 10px; 
+                       background-color: #dc3545; color: #fff; 
+                       text-decoration: none; border-radius: 3px;">Close</a>
+       </div>
+      </div>
+   </div>
+
+<body style="
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+  ">
+    <div style="
+      background-color: gold;
+      color: red;
+      position: centered;
+      top: 0;
+      left: 10px;
+      right: 10px;
+      height: 50px;
+      z-index: 100;
+    ">
+      </div>
+      
+     
+
+
+<h1 style="text-align:center;">2024 TEEN SUMMIT</h1>
+  
+
+<div class="a">
+<h4>You Got Next</h2>
+<h1>Face Book Groups</h1>
+<button type="button" onclick="alert('The Scholarship Club 
+                                      Black, Brown & HBCU Bound')">Click Here</button>
+</div>
+
+<div class="b">
+<h2>text-align: left:</h2>
+<p> I would just list them with directions for them to search facebook for the names and join the groups if interested.</p>
+<h1>Check Out FaceBook Groups</h1>
+<button type="button" onclick="alert('The Scholarship Club
+Black, Brown & HBCU Bound
+College Ave
+HBCU Connect
+Common Black College Application
+Scholarship 101: Securing the Bag
+DFW HBCU Connection')">Click Here</button>
+</div>
+
+<div class="c">
+<h2>text-align: right:</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+</div>
+/* QR CODES SECTION -body */
+
+ <h2>Click the Image</h2>
+<img id="myImg" src="https://github.com/mscarladj/WorkingRepo/blob/main/qrcode_test.jpg?raw=true" alt="Scan QR Codes" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+  /* END QR CODES SECTION -body*/
+  
+</body>
+</html>
