@@ -79,6 +79,41 @@ body {font-family: Arial, Helvetica, sans-serif}
   background-repeat: no-repeat;
   background-size: cover; 
  }
+   /* Sliding bar SECTION */
+  
+  .sliding-text {
+            position: absolute;
+            white-space: nowrap;
+            color: #ffd662;
+            font-size: 24px;
+            font-weight: bold;
+            animation: slide 10s linear infinite;
+                }
+  
+ .slider-container {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #00539c;
+  overflow: hidden;
+   }
+ .sliding-bar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background-color: silver;
+  animation: slide 20s linear infinite;
+      }
+  @keyframes slide {
+      from {
+      left: -200px;
+         }
+     to {
+       left: 100%;
+     }
+   }
+
+/*END Sliding bar SECTION*/
   
 /*Navbar SECTION*/  
 .navbar {
@@ -150,8 +185,8 @@ body {font-family: Arial, Helvetica, sans-serif}
             top: 0; left: 0;
             width: 80%; height: 80%;
             background: rgba(0, 0, 0, 0.5);
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: left;
         }
         .popup-content {
             background: #fff;
@@ -259,7 +294,7 @@ a.ex6:hover, a.ex6:active {background: white;}
       <i class="fa fa-caret-down"></i>
     </button>
   <div class="dropdown-content">
-       <img src= "agendaTnSmt.htm" width="500" height="400">
+       <img src="Presentation3.svg" width="500" height="400">
   </div>
  </div>
 
@@ -366,7 +401,12 @@ a.ex6:hover, a.ex6:active {background: white;}
   
   <div class="a"> 
     <p style="text-align: center;" style="color:#0a030a;">Thank you Parents, Guardians, Visitors and Friends!</p>
-    <h1 style="color:#0a030a;"><a class="ex2"><em>2026 TEEN SUMMIT</em></a></h1>
+    <h1 style="color:#0a030a;"><a class="ex2"><em>2026 TEEN SUMMIT</em></a></h1>    
   </div>
+   <div class="slider-container">
+        <div class="sliding-bar">
+          <div class="sliding-text">2026 TEEN SUMMIT&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Thank you for your participation</div>
+        </div>
+    </div> 
   </body>
 </html>
