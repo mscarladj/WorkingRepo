@@ -1,138 +1,278 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
-    <title>Interactive Time-Activity-Desc Chart</title>
-    
-    <!-- vis.js Timeline CDN (CSS & JS) -->
-    <link href="https://cloudflare.com" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="https://cloudflare.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity Schedule</title>
 
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-        #visualization {
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            background-color: #ffffff;
-            overflow: hidden;
-        }
-        /* Custom styling for Timeline items */
-        .vis-item {
-            border-color: #3498db;
-            background-color: #aed6f1;
-            font-size: 14px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .vis-item.vis-selected {
-            background-color: #f1c40f;
-            border-color: #f39c12;
-        }
-        /* Description Panel Styling */
-        #details-panel {
-            margin-top: 25px;
-            padding: 15px 20px;
-            background-color: #fff;
-            border-left: 5px solid #3498db;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            min-height: 60px;
-        }
-        #details-panel h3 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-        .time-label {
-            font-size: 0.9em;
-            color: #7f8c8d;
-            margin-bottom: 10px;
-        }
-    </style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f5f9;
+      margin: 0;
+      padding: 25px;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 15px #0001;
+    }
+
+    h1 {
+      text-align: center;
+      color: #b22222;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 11px 16px;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+      color: white;
+      background: #b22222;
+      font-weight: bold;
+    }
+
+    button:hover {
+      opacity: 0.85;
+    }
+
+    .save {
+      background: #237a45;
+    }
+
+    .print {
+      background: #344563;
+    }
+
+    .delete {
+      background: #777;
+      padding: 7px 10px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+    }
+
+    th {
+      background: #b22222;
+      color: white;
+      padding: 15px;
+      text-align: left;
+    }
+
+    td {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f7f7f7;
+    }
+
+    td[contenteditable="true"]:focus {
+      outline: 2px solid #b22222;
+      background: #fff4f4;
+    }
+
+    .status {
+      margin-top: 15px;
+      text-align: left;
+      color: #237a45;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .container {
+        box-shadow: none;
+      }
+
+      .buttons, .actions, .status, p {
+        display: none;
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <div class="container">
+    <h1>Activity Schedule</h1>
+    <p>Daily Program Agenda</p>
 
-    <h2>Interactive Daily Schedule & Activity Log</h2>
-    
-    <!-- Timeline Container -->
-    <div id="visualization"></div>
-
-    <!-- Description Display Panel -->
-    <div id="details-panel">
-        <h3 id="activity-title">Click an activity to view details</h3>
-        <div id="activity-time" class="time-label"></div>
-        <p id="activity-desc">Select any item on the timeline above to see its full breakdown and description here.</p>
+    <div class="buttons">
+      <button onclick="addRow()">+ Add Activity</button>
+      <button class="save" onclick="saveSchedule()">
+        Save Changes
+      </button>
+      <button class="print" onclick="window.print()">
+        Print Schedule
+      </button>
     </div>
 
-    <script type="text/javascript">
-        // 1. Define your activities (Time-Activity-Description Data)
-        const itemsData = [
-            { id: 1, content: '📧 Morning Catch-up', start: '2026-10-21T08:00:00', end: '2026-10-21T09:00:00', desc: 'Review urgent customer support tickets, answer team Slack messages, and prioritize tasks for the day.' },
-            { id: 2, content: '💻 Core Dev Work', start: '2026-10-21T09:15:00', end: '2026-10-21T12:00:00', desc: 'Deep work sprint focusing on implementing the new interactive dashboard charts UI modules.' },
-            { id: 3, content: '🍱 Lunch Break', start: '2026-10-21T12:00:00', end: '2026-10-21T13:00:00', desc: 'Quick walk to the corner cafe and mindful lunch away from screens.' },
-            { id: 4, content: '👥 Team Standup', start: '2026-10-21T13:00:00', end: '2026-10-21T13:45:00', desc: 'Cross-functional alignment meeting detailing project tracking milestones and clearing blockages.' },
-            { id: 5, content: '🛠️ Code Review', start: '2026-10-21T14:00:00', end: '2026-10-21T15:30:00', desc: 'Reviewing pull requests from frontend engineers to maintain codebase health and performance standards.' },
-            { id: 6, content: '🏋️ Evening Gym Session', start: '2026-10-21T17:00:00', end: '2026-10-21T18:30:00', desc: 'Push-day workout routine focusing on chest, shoulders, and triceps.' }
-        ];
+    <div class="table-wrap">
+      <table id="schedule">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Description</th>
+            <th class="actions">Action</th>
+          </tr>
+        </thead>
 
-        // Convert data into vis.js DataSet format
-        const items = new vis.DataSet(itemsData);
+        <tbody id="scheduleBody">
+          <tr>
+            <td contenteditable="true">9:00–10:00 AM</td>
+            <td contenteditable="true">Check-in</td>
+            <td contenteditable="true">
+              Welcome participants and take attendance.
+            </td>
+            <td class="actions">
+              <button class="delete" onclick="deleteRow(this)">
+                Delete
+              </button>
+            </td>
+          </tr>
 
-        // 2. Configuration Options
-        const container = document.getElementById('visualization');
-        const options = {
-            width: '100%',
-            height: '250px',
-            selectable: true,
-            editable: false,
-            margin: { item: 15 },
-            orientation: 'top',
-            showCurrentTime: true,
-            // Restrict window view to keep it user-friendly
-            start: '2026-10-21T07:00:00',
-            end: '2026-10-21T20:00:00'
-        };
+          <tr>
+            <td contenteditable="true">10:00–11:00 AM</td>
+            <td contenteditable="true">Music</td>
+            <td contenteditable="true">
+              Music, listening activities, and group participation.
+            </td>
+            <td class="actions">
+              <button class="delete" onclick="deleteRow(this)">
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-        // 3. Initialize the Timeline Chart
-        const timeline = new vis.Timeline(container, items, options);
+    <div class="buttons">
+      <button class="save" onclick="saveSchedule()">
+        Save Schedule
+      </button>
+      <button class="print" onclick="window.print()">
+        Print / PDF
+      </button>
+    </div>
 
-        // 4. Interactivity: Hook into selection event to update Description UI
-        timeline.on('select', function (properties) {
-            const selectedId = properties.items[0];
-            const titleEl = document.getElementById('activity-title');
-            const timeEl = document.getElementById('activity-time');
-            const descEl = document.getElementById('activity-desc');
+    <div class="status" id="status">
+      Edit any cell, then click Save Changes.
+    </div>
+  </div>
 
-            if (selectedId) {
-                // Find matching object data
-                const matchedItem = itemsData.find(item => item.id === selectedId);
-                
-                // Format timestamps neatly
-                const startTime = new Date(matchedItem.start).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                const endTime = new Date(matchedItem.end).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  <script>
+    const body = document.getElementById("scheduleBody");
+    const status = document.getElementById("status");
 
-                // Update UI elements
-                titleEl.textContent = matchedItem.content;
-                timeEl.textContent = `⏰ Scheduled: ${startTime} - ${endTime}`;
-                descEl.textContent = matchedItem.desc;
-            } else {
-                // Reset placeholder text if clicked outside
-                titleEl.textContent = "Click an activity to view details";
-                timeEl.textContent = "";
-                descEl.textContent = "Select any item on the timeline above to see its full breakdown and description here.";
-            }
+    function addRow() {
+      const row = body.insertRow();
+
+      for (let i = 0; i < 3; i++) {
+        const cell = row.insertCell();
+        cell.contentEditable = "true";
+        cell.textContent = [
+          "Enter time",
+          "Enter activity",
+          "Enter description"
+        ][i];
+      }
+
+      const action = row.insertCell();
+      action.className = "actions";
+      action.innerHTML =
+        '<button class="delete" onclick="deleteRow(this)">Delete</button>';
+
+      status.textContent = "New activity added.";
+    }
+
+    function deleteRow(button) {
+      if (confirm("Delete this activity?")) {
+        button.closest("tr").remove();
+        saveSchedule();
+      }
+    }
+
+    function saveSchedule() {
+      const rows = [...body.rows].map(row => {
+        return [...row.cells]
+          .slice(0, 3)
+          .map(cell => cell.innerText.trim());
+      });
+
+      try {
+        localStorage.setItem(
+          "activitySchedule",
+          JSON.stringify(rows)
+        );
+
+        status.textContent =
+          "Schedule saved in this browser!";
+      } catch (error) {
+        status.textContent =
+          "Could not save. Please copy your schedule.";
+      }
+    }
+
+    function loadSchedule() {
+      try {
+        const saved = localStorage.getItem("activitySchedule");
+        if (!saved) return;
+
+        const rows = JSON.parse(saved);
+        body.innerHTML = "";
+
+        rows.forEach(data => {
+          const row = body.insertRow();
+
+          data.forEach(value => {
+            const cell = row.insertCell();
+            cell.contentEditable = "true";
+            cell.textContent = value;
+          });
+
+          const action = row.insertCell();
+          action.className = "actions";
+          action.innerHTML =
+            '<button class="delete" onclick="deleteRow(this)">Delete</button>';
         });
-    </script>
+      } catch (error) {
+        status.textContent = "Unable to load saved schedule.";
+      }
+    }
+
+    loadSchedule();
+  </script>
 </body>
 </html>
