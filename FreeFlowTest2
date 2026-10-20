@@ -1,0 +1,972 @@
+<!DOCTYPE html><!-- Last Published: Fri Oct 16 2026 04:25:18 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.marcellin.vic.edu.au" data-wf-page="637e46ea42ffe86bae721f55" data-wf-site="63297a19b276572e2343c0da" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Marcellin College | Catholic Boys School Melbourne</title><meta content="Explore exceptional education and community service at Marcellin College, a top-rated Catholic boys high school in Bulleen" name="description"/><meta content="Marcellin College | Catholic Boys School Melbourne" property="og:title"/><meta content="Explore exceptional education and community service at Marcellin College, a top-rated Catholic boys high school in Bulleen" property="og:description"/><meta content="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1).jpg" property="og:image"/><meta content="Marcellin College | Catholic Boys School Melbourne" name="twitter:title"/><meta content="Explore exceptional education and community service at Marcellin College, a top-rated Catholic boys high school in Bulleen" name="twitter:description"/><meta content="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1).jpg" name="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/css/marcellin-college.webflow.shared.7b66b262c.min.css" rel="stylesheet" type="text/css" integrity="sha384-e2ayYsZw9+s5OMQ383BmXt4g1fTJCn5DxFroLHVFMVzf8nU8Gk9z2y6WnvGU18qG" crossorigin="anonymous"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/6461dddeabd174ddaab32721_favicon2.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/63f76cee64fac240c9a0162c_marcellin-crest-webclip.png" rel="apple-touch-icon"/><!-- Nav Menu Component -->
+<!-- <script defer src="http://localhost:3000/components/menu.js"></script> -->
+<script defer src="https://d25vfild7rvz0k.cloudfront.net/marcellin/components/menu.js"></script>
+
+<!-- [Attributes by Finsweet] Disable scrolling -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script>
+
+<style>
+  .preloader {display: flex;}
+</style>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TVCJRR2');</script>
+<!-- End Google Tag Manager --><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollegeOrUniversity",
+  "name": "Marcellin College",
+  "url": "https://www.marcellin.vic.edu.au",
+  "logo": "https://assets.website-files.com/63297a19b276572e2343c0da/632c1a5f9c754c4e605760f7_Group%20439.svg",
+  "description": "Explore exceptional education and community service at Marcellin College, a top-rated Catholic boys high school in Bulleen.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "160 Bulleen Road",
+  "addressLocality": "Bulleen",
+  "postalCode": "3105",
+  "addressRegion": "VIC",
+  "addressCountry": "Australia"
+  },
+  "telephone": "+61-3-9851-1589",
+  "sameAs": [
+    "https://twitter.com/Marcellin",
+    "https://www.linkedin.com/school/marcellin-college/",
+    "https://www.youtube.com/channel/UC3f7HxxtHqtKhIoJOVmXZ9g"
+  ]
+}
+</script></head><body><div class="page-wrapper"><div class="global-styles"><div class="global-styles_site w-embed"><style>
+  html {
+    font-size: 1.25rem;
+  }
+
+  @media screen and (max-width:1920px) {
+    html {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media screen and (max-width:1440px) {
+    html {
+      font-size: calc(0.8753902185223725rem + 0.41623309053069724vw);
+    }
+  }
+
+  @media screen and (max-width:479px) {
+    html {
+      font-size: calc(0.8747384937238494rem + 0.41841004184100417vw);
+    }
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+  }
+
+  /* Make up for the gap left by the title on the start edge */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-inline-start: -0.075em;
+  }
+
+  /* Table */
+  table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid var(--color-maroon);
+  }
+
+  th,
+  td {
+    padding: 0.3rem 0.75rem;
+    text-align: center;
+    min-width: 7rem;
+  }
+
+  /* Get rid of top margin on first element in any rich text element */
+  .w-richtext> :not(div):first-child,
+  .w-richtext>div:first-child> :first-child {
+    margin-top: 0 !important;
+  }
+
+  /* Get rid of bottom margin on last element in any rich text element */
+  .w-richtext>:last-child,
+  .w-richtext ol li:last-child,
+  .w-richtext ul li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* 
+  Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+  Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+  Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+  */
+  /*
+  a,
+  .w-input,
+  .w-select,
+  .w-tab-link,
+  .w-nav-link,
+  .w-dropdown-btn,
+  .w-dropdown-toggle,
+  .w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+  }
+  */
+
+  /* Prevent all click and hover interaction with an element */
+  .pointer-events-off {
+    pointer-events: none;
+  }
+
+  /* Enables all click and hover interaction with an element */
+  .pointer-events-on {
+    pointer-events: auto;
+  }
+
+  /* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+  .div-square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  /*Hide focus outline for main content element*/
+  main:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+  }
+
+  /* Make sure containers never lose their center alignment*/
+  .container-medium,
+  .container-small,
+  .container-large {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  /*Reset selects, buttons, and links styles*/
+  .w-input,
+  .w-select,
+  a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+  }
+
+  /*Apply "..." after 3 lines of text */
+  .text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  /* Apply "..." after 2 lines of text */
+  .text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .text-rich-text:not(.is-bold-style) b,
+  .text-rich-text:not(.is-bold-style) strong {
+    color: inherit;
+  }
+
+  .text-rich-text.is-bold-style blockquote sub {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-style: normal;
+  }
+
+  /* Normal font weight for bold headings within rich text */
+  .text-rich-text h1 b,
+  .text-rich-text h1 strong,
+  .text-rich-text h2 b,
+  .text-rich-text h2 strong,
+  .text-rich-text h3 b,
+  .text-rich-text h3 strong,
+  .text-rich-text h4 b,
+  .text-rich-text h4 strong {
+    font-weight: 400;
+  }
+
+  /* Apply "..." at 100% width */
+  .truncate-width {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Adds inline flex display */
+  .display-inlineflex {
+    display: inline-flex;
+  }
+
+  /* These classes are never overwritten */
+  .hide {
+    display: none !important;
+  }
+
+  @media screen and (max-width: 991px) {
+
+    .hide,
+    .hide-tablet {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 479px) {
+    .hide-mobile {
+      display: none !important;
+    }
+  }
+
+  .margin-0 {
+    margin: 0rem !important;
+  }
+
+  .padding-0 {
+    padding: 0rem !important;
+  }
+
+  .spacing-clean {
+    padding: 0rem !important;
+    margin: 0rem !important;
+  }
+
+  .margin-top {
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .padding-top {
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+  }
+
+  .margin-right {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .padding-right {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+  }
+
+  .margin-bottom {
+    margin-top: 0rem !important;
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .padding-bottom {
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+
+  .margin-left {
+    margin-top: 0rem !important;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .padding-left {
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+
+  .margin-horizontal {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .padding-horizontal {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+
+  .margin-vertical {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .padding-vertical {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+
+  /* Reset for `.w-button` class - accidentally applied on some rich text links */
+  .w-richtext .w-button {
+    background: unset;
+    padding: unset;
+    color: inherit;
+  }
+  
+  .wf-design-mode {
+    body {
+      counter-reset: linkcount;
+    }
+  a[href="#"]:not([role="button"]),
+a[href=""]:not([role="button"]) {
+        outline: 3px dashed orange;
+        outline-offset: 3px;
+        counter-increment: linkcount;
+      }
+  
+
+
+    body::after {
+    content: "Page empty link count: " counter(linkcount);
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    padding: 0.5rem 0.75rem;
+    background: #dddddd;
+    colour: white;
+    font-size: 14px;
+    z-index: 9999;
+    border-radius: 4px;
+  }
+
+  }
+</style></div><div class="global-styles_components w-embed"><style>
+	html {
+		--color-blue: #06a2d3;
+		--color-maroon: #773141;
+		--image-aspect-ratio: 4/3;
+	}
+
+	/* Preloader - Hide in Editor */
+	html.w-editor .preloader {
+		display: none;
+	}
+
+	/* Nav Menu */
+	.w-nav-overlay {
+		z-index: 201;
+	}
+
+	.nav_menu,
+	.nav-search_component {
+		--top-height: 5.5rem;
+	}
+
+	.nav_menu {
+		height: calc(100vh - var(--top-height));
+	}
+
+	.nav-search_component {
+		top: var(--top-height);
+	}
+
+	.nav_menu[data-nav-menu-open] {
+		display: flex !important;
+	}
+
+	.nav_menu-link.w--current::before {
+		content: '';
+		position: absolute;
+		left: -1rem;
+		top: 0.5rem;
+		bottom: 0.5rem;
+		width: 6px;
+		background-color: var(--color-blue);
+	}
+
+	.nav_menu-link.is-subhead.w--current::before {
+		background-color: var(--color-maroon);
+	}
+
+	@media screen and (max-width: 991px) {
+		.nav_menu-link.w--current+.nav_accordion-expand-icon .nav_accordion-line.is-vertical {
+			transform: rotate(0deg);
+		}
+
+		.nav_menu-link.w--current::before {
+			left: -2%;
+		}
+	}
+
+	@media (min-width: 992px) {
+		.nav_accordion-body.js-accordion-body {
+			padding-bottom: 0;
+		}
+	}
+
+	.nav_accordion-body.js-accordion-body {
+		display: none;
+	}
+  
+  .nav_accordion-body.js-accordion-body[data-edit-mode="true"] {
+  	display: flex;
+    position: static;
+  }
+
+	/* Nav sub menu */
+	.sub-menu_wrapper {
+		max-width: fit-content;
+	}
+
+	@media screen and (min-width: 80rem) {
+		.sub-menu {
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+
+		.sub-menu_wrapper {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	/* Footer */
+	.footer_link,
+	.footer_copyright,
+	.footer_link-heading {
+		text-underline-position: under;
+	}
+
+	/* Home Hero */
+	.is-main-slider .splide__slide.is-active {
+		height: 100%;
+	}
+
+	.is-main-slider .splide__slide.is-active>img {
+		transform: scale(1.1);
+	}
+
+	.hero-landing_slider-image-overlay {
+		pointer-events: none;
+	}
+
+	/* Home News & Events Slider */
+	.featured-news_slide-item {
+		--moveX: 0;
+		--moveY: 0;
+		--scale: 1;
+		transform: translateX(var(--moveX)) translateY(var(--moveY)) scale(var(--scale));
+	}
+
+	.featured-news_slide-item.is-previous,
+	.featured-news_slide-arrow.is-disabled {
+		pointer-events: none;
+	}
+
+	/* Breakout Image Components */
+	.breakout-image-left_image,
+	.breakout-image-right_image {
+		aspect-ratio: var(--image-aspect-ratio);
+	}
+
+	.container-xlarge>.breakout-image-left_component:first-child {
+		/* Removing padding when grey background is hidden */
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.breakout-image-left_hide-image-outline:not(:empty)+.breakout-image-left_image {
+		box-shadow: none;
+	}
+
+	/* Cross animation container */
+	.cross-animation-container {
+		pointer-events: none;
+	}
+
+	@media screen and (min-width: 80rem) {
+		.cross-animation_grid {
+			--line-gap: minmax(5vw, calc(calc(100% - 80rem) / 2));
+			grid-template-columns: var(--line-gap) minmax(0px, 1fr);
+			grid-template-rows: var(--line-gap) auto;
+		}
+	}
+
+	/* Lead magnet form */
+	/* Hide placeholder on focus */
+	.lead-magnet_input-field:focus::placeholder,
+	.lead-magnet_input-field:focus-visible::placeholder {
+		color: rgba(0, 0, 0, 0.3);
+	}
+
+	/* Hero section */
+	.hero-landing_component:not(.is-home) {
+		aspect-ratio: 16/9;
+		min-height: 20rem;
+	}
+
+	/* Image tile section */
+	@media screen and (min-width:992px) {
+		.image-tile_position-id:not(:empty)+.image-tile_image-wrapper {
+			order: 2;
+			padding-left: 0.75rem;
+		}
+
+		.image-tile_image-wrapper {
+			aspect-ratio: 1/1;
+		}
+	}
+
+	@media screen and (max-width:991px) {
+		.image-tile_image-wrapper {
+			aspect-ratio: 4/3;
+		}
+	}
+
+	/* Border CTA Card */
+	.border-cta_border.is-yellow~.border-cta_content-wrapper .border-cta_heading,
+	.border-cta_border.is-yellow~.border-cta_content-wrapper .subhead.is-border-cta-card {
+		color: #000 !important;
+	}
+
+	/* Cover Image Section */
+	.cover-image_image-wrapper {
+		aspect-ratio: var(--image-aspect-ratio);
+	}
+
+	/* Rich Text */
+	.text-rich-text h2:not(:first-child),
+	.text-rich-text h3:not(:first-child),
+	.text-rich-text h4:not(:first-child),
+	.text-rich-text h5:not(:first-child),
+	.text-rich-text h6:not(:first-child) {
+		margin-top: 0.8em;
+	}
+
+	@media screen and (max-width: 991px) {
+		.section-rich-text .spacer_cross-animation:not(.w-condition-invisible)+.padding-global {
+			padding-left: 11%;
+		}
+	}
+
+	/* News/Events Archive page */
+	.events_filter-form_category-item:last-child {
+		padding-right: 1.25rem;
+	}
+
+	/* Hide empty filter parent divs */
+	.events_filter-form_category-item:empty {
+		display: none;
+	}
+
+	.events-cms_image-wrapper {
+		aspect-ratio: var(--image-aspect-ratio);
+	}
+
+	.events-cms_link-wrapper:hover .events-cms_image-shadow {
+		transform: translate(12px, 12px);
+	}
+
+	/* Video Lightbox */
+	.video-lightbox_component {
+		pointer-events: none;
+	}
+
+	/* Info Slider Dynamic Component */
+	.info-slider_image-cover-top:not(.w-condition-invisible)+.info-slider_image {
+		object-position: 50% 0%;
+	}
+  
+  .text-rich-text[data-list-2col="true"] ul {
+  	columns: 2;
+  }
+  
+    .text-rich-text:not([data-list-2col="true"]) ul {
+  	columns: auto;
+  }
+  
+ @media screen and (max-width: 479px) {
+  .btc_links-list > *:first-child {
+  	flex: 1 1 100%;
+  }
+ }
+ 
+   .sub-menu_wrapper {
+    scrollbar-width: thin; /* Fallback for Firefox */
+  }
+
+  .sub-menu_wrapper::-webkit-scrollbar {
+    width: 1rem; /* Scrollbar width */
+    background: transparent; /* Transparent background */
+  }
+
+  .sub-menu_wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* 50% black */
+    border-radius: 0px; /* Rounded corners */
+  }
+
+  .sub-menu_wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.75); /* 75% black */
+  }
+
+  .sub-menu_wrapper {
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent; /* Thumb color and track color */
+  }
+
+  .sub-menu_wrapper:hover {
+    scrollbar-color: rgba(0, 0, 0, 0.75) transparent; /* Change color on hover */
+  }
+</style></div><div class="preloader"><img src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/67a024ddf815c92cd0417f4e_marcellin75.svg" loading="eager" alt="" class="preloader-logo"/><div class="preloader-bg"></div><img src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/63e17d4718c70e79696045a6_marcellin-loader.svg" loading="eager" width="Auto" height="Auto" alt="" class="preloader-spinner"/></div><div data-w-id="421a8310-d518-d79f-69fa-e1e8e1cae0dd" class="is-horizontal-line hide"></div><div data-w-id="d1a67a3e-dae9-fec5-ac41-25bc608a8488" class="is-vertical-line hide"></div></div><div data-animation="default" class="nav_component w-nav" data-easing2="ease-in-out-quart" fs-scrolldisable-element="smart-nav" data-easing="ease-in-out-quart" data-collapse="all" data-w-id="f361892a-9a5c-6c32-3a65-56a1eb491fdf" role="banner" data-duration="800" data-doc-height="1"><div class="nav_wrapper"><div class="padding-global"><div class="container-large"><div class="nav_container large"><div id="w-node-e9c2bc23-bcba-38a6-b252-73686effe386-6effe382" class="nav_link-wrapper"><div class="nav_menu-button w-nav-button"><div class="nav_menu-trigger-wrapper"><div class="nav_menu-line is--1"></div><div class="nav_menu-line is--2"></div><div class="nav_menu-line is--3"></div></div></div><a href="https://marcellin-vic.compass.education/" target="_blank" class="nav_icon-link is-search w-inline-block"><img alt="" loading="lazy" src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/632c1a5f9c754c24d65760f8_Variant4.svg" class="nav_menu-icon"/></a><a aria-controls="search-modal" aria-roledescription="search-modal-trigger" role="button" tabindex="0" aria-haspopup="dialog" aria-expanded="false" href="#" class="nav_icon-link is-search w-inline-block"><img alt="" loading="lazy" src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/632c1a5f9c754c2b905760f9_Variant5.svg" class="nav_menu-icon"/></a></div><a href="/" aria-current="page" class="nav_logo-link w-inline-block w--current large"><img alt="" loading="eager" src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/679b074254399e2a9de1d63f_Mercellin%20College_75th%20Lockup_Black_Small_(RGB)_HR%20(1).webp" sizes="(max-width: 957px) 100vw, 957px" srcset="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/679b074254399e2a9de1d63f_Mercellin%20College_75th%20Lockup_Black_Small_(RGB)_HR%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/679b074254399e2a9de1d63f_Mercellin%20College_75th%20Lockup_Black_Small_(RGB)_HR%20(1)-p-800.png 800w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/679b074254399e2a9de1d63f_Mercellin%20College_75th%20Lockup_Black_Small_(RGB)_HR%20(1).webp 957w" class="nav_logo-image large large"/></a><a href="https://www.trybooking.com/events/landing/1533203" target="_blank" rel="https://www.trybooking.com/events/landing/1358951" id="w-node-e9c2bc23-bcba-38a6-b252-73686effe394-6effe382" class="button is-nav-cta w-button">Book a tour</a></div></div></div><nav role="navigation" class="nav_menu w-nav-menu"><div class="nav_link-wrappers"><div class="container-large is-full-height"><div class="nav_menu-links-grid"><div data-ix="fade-up-1" id="w-node-e9c2bc23-bcba-38a6-b252-73686effe399-6effe382" class="nav_accordion js-accordion"><div class="nav_menu-heading text-style-allcaps text-spacing">Sections</div><div class="nav_accordion_item js-accordion-item"><div class="nav_accordion-header js-accordion-header"><a href="/about-us" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">About Us</div></a><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div data-ix="hide-on-load" class="nav_accordion-body js-accordion-body"><div class="nav_links-column _100"><div class="nav_menu-subheading text-style-allcaps text-spacing">About Us</div><a href="/about-us" class="nav_menu-link is-subhead w-inline-block">Overview</a><a href="/about-us/principals-welcome" class="nav_menu-link is-subhead w-inline-block">Principal’s Welcome</a><a href="/about-us/why-choose-us" class="nav_menu-link is-subhead w-inline-block">Why Choose Us</a><a href="/about-us/college-leadership" class="nav_menu-link is-subhead w-inline-block">College Leadership</a><a href="/about-us/our-story" class="nav_menu-link is-subhead w-inline-block">Our Story</a><a href="/about-us/our-faith" class="nav_menu-link is-subhead w-inline-block">Our Faith</a><a href="/about-us/our-care" class="nav_menu-link is-subhead w-inline-block">Our Care</a><a href="/about-us/sustainability" class="nav_menu-link is-subhead w-inline-block">Sustainability</a><a href="/about-us/governance-policies" class="nav_menu-link is-subhead w-inline-block">Governance &amp; Policies</a></div></div></div><div class="nav_accordion_item js-accordion-item"><div class="nav_accordion-header js-accordion-header"><a href="/learning" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Learning</div></a><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div data-ix="hide-on-load" class="nav_accordion-body js-accordion-body"><div class="nav_links-column _100"><div class="nav_menu-subheading text-style-allcaps text-spacing">Learning</div><a href="/learning" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Overview</div></a><a href="/learning/a-personalised-approach" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">A Personalised Approach</div></a><a href="/learning/years-7-9" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Years 7 - 9</div></a><a href="/learning/years-10-12" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Years 10 - 12</div></a><a href="/learning/applied-learning" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Applied Learning</div></a><a href="/learning/accelerated-learning" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Accelerated Learning</div></a><a href="/learning/beyond-the-classroom" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Beyond the Classroom</div></a><a href="/learning/gifted-talented-program" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Gifted &amp; Talented Program</div></a></div></div></div><div class="nav_accordion_item js-accordion-item"><div class="nav_accordion-header js-accordion-header"><a href="/enrolments" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Enrolment</div></a><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div data-ix="hide-on-load" class="nav_accordion-body js-accordion-body"><div class="nav_links-column _100"><div class="nav_menu-subheading text-style-allcaps text-spacing">Enrolments</div><a href="/enrolments" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Overview</div></a><a href="/enrolments/application-process" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Application Process</div></a><a href="/enrolments/tours-and-open-days" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Tours and Open Days</div></a><a href="/enrolments/tuition-fees" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Tuition</div></a><a href="/enrolments/year-7-transition-program" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Year 7 Transition Program</div></a><a href="/enrolments/uniform" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Uniform</div></a><a href="/enrolments/books-resources" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Books &amp; Resources</div></a><a href="/enrolments/transport" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Transportation</div></a></div></div></div><div class="nav_accordion_item js-accordion-item"><div class="nav_accordion-header js-accordion-header"><a href="/community" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Community</div></a><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div data-ix="hide-on-load" class="nav_accordion-body js-accordion-body"><div class="nav_links-column _100"><div class="nav_menu-subheading text-style-allcaps text-spacing">Community</div><a href="/community" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Overview</div></a><a href="/community/alumni-archives" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Alumni &amp; Archives</div></a><a href="/community/parents-friends-group" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Parents &amp; Friends Group</div></a><a href="/community/network-affiliations" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Networks &amp; Affiliations</div></a><a href="/community/volunteering" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Volunteering</div></a><a href="/community/reunions" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Reunions</div></a><a href="/community/giving-programs" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Giving Programs</div></a><a href="/community/building-fund" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Building Fund</div></a></div></div></div><div class="nav_accordion_item js-accordion-item"><div class="nav_accordion-header js-accordion-header"><a href="/news-events" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">News &amp; Events</div></a><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div data-ix="hide-on-load" class="nav_accordion-body js-accordion-body"><div id="w-node-_269144e8-ba11-6375-a6a5-48bed662c216-d662c216" class="nav_links-column _100"><div class="nav_menu-subheading text-style-allcaps text-spacing">News &amp; events</div><a href="/news-events" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Overview</div></a><a href="/news-events/latest-news" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Latest News</div></a><a href="/news-events/events" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Events</div></a><a href="/news-events/annual-reports" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Annual Report</div></a><a href="/news-events/the-eagle" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">The Eagle</div></a><a href="/news-events/marcellin-life" class="nav_menu-link is-subhead w-inline-block"><div class="nav_menu-link-text is-subhead">Marcellin Life</div></a></div></div></div><div class="accordion_desktop-gradient-overlay pointer-events-off"></div><div class="nav_secondary-links-list"><a href="/get-in-touch" class="nav_secondary-link">Contact</a><a href="/employment" class="nav_secondary-link">Employment Opportunities</a></div></div><div id="w-node-e9c2bc23-bcba-38a6-b252-73686effe43f-6effe382" class="nav_quick-links"><div class="nav_quick-links-heading-wrapper"><div class="nav_menu-heading text-style-allcaps text-spacing is-not-hidden">Quick Links</div></div><a href="/term-dates" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Term Dates</div></a><a href="https://marcellin-vic.compass.education/" target="_blank" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Compass</div></a><a href="/news-events" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Latest News &amp; Events</div></a><a href="/enrolments/tuition-fees" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Tuition Fees</div></a><a href="/get-in-touch" class="nav_menu-link w-inline-block"><div class="nav_menu-link-text">Contact Us </div></a></div></div></div></div><div class="nav_bottom-wrapper"><div class="padding-global"><div class="container-large"><div class="nav_menu-links-grid is-nav-footer"><div class="nav_bottom-social"><div class="vertical-menu-divider"></div><a href="https://twitter.com/Marcellin" target="_blank" class="nav_bottom-social-link w-inline-block"><div class="social-icon-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="currentColor" /></svg></div></a><a href="https://www.linkedin.com/school/marcellin-college/" target="_blank" class="nav_bottom-social-link w-inline-block"><div class="social-icon-embed w-embed"><svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+  <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" fill="currentColor" />
+</svg></div></a><a href="https://www.youtube.com/channel/UC3f7HxxtHqtKhIoJOVmXZ9g" target="_blank" class="nav_bottom-social-link w-inline-block"><div class="social-icon-embed w-embed"><svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+  <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+</svg></div></a></div><div class="nav_bottom-info-wrapper"><div class="w-layout-grid nav_bottom-info-list"><div id="w-node-e9c2bc23-bcba-38a6-b252-73686effe460-6effe382" class="font-weight-semibold">Marcellin College</div><a id="w-node-e9c2bc23-bcba-38a6-b252-73686effe462-6effe382" href="https://goo.gl/maps/N4fChPdEKNDncdDt7" target="_blank" class="menu-address-link">160 Bulleen Road, Bulleen VIC 3105</a><a id="w-node-e9c2bc23-bcba-38a6-b252-73686effe464-6effe382" href="tel:+610398511589" class="menu-address-link">03 9851 1589</a><a id="w-node-e9c2bc23-bcba-38a6-b252-73686effe466-6effe382" href="mailto:info@marcellin.vic.edu.au?subject=Inquiry" class="menu-address-link">info@marcellin.vic.edu.au</a></div></div></div></div></div></div></nav></div><div class="sub-menu_component"><div class="container-large"></div></div><div id="search-modal" role="dialog" aria-modal="true" aria-labelledby="search-modal" fs-scrolldisable-element="when-visible" class="nav-search_component"><div id="fs-modal-1-popup" class="nav-search_modal"><div aria-hidden="true" class="nav-search_cover"></div><div class="nav-search_wrapper"><div id="w-node-f4f7479b-103c-967a-5366-cff9a18d58d0-a18d58cb" class="padding-global"><div class="container-small position-relative"><div class="nav-search_content-wrapper"><form action="/search" class="nav-search_search w-form"><input class="search_input w-input" maxlength="256" name="query" placeholder="Search…" type="search" id="search" required=""/><input type="submit" class="hide w-button" value="Start typing then hit enter"/></form><div class="text-size-small opacity-50">Start typing then hit enter</div><div aria-expanded="false" role="button" aria-roledescription="close-modal-trigger" aria-controls="search-modal" aria-label="Close modal" tabindex="0" class="nav-search_close"><div class="nav-search_close-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 24 24">
+<path fill="CurrentColor" d="M14.5,12l9-9c0.7-0.7,0.7-1.8,0-2.5c-0.7-0.7-1.8-0.7-2.5,0l-9,9l-9-9c-0.7-0.7-1.8-0.7-2.5,0 c-0.7,0.7-0.7,1.8,0,2.5l9,9l-9,9c-0.7,0.7-0.7,1.8,0,2.5c0.7,0.7,1.8,0.7,2.5,0l9-9l9,9c0.7,0.7,1.8,0.7,2.5,0 c0.7-0.7,0.7-1.8,0-2.5L14.5,12z"/>
+</svg></div></div></div></div></div></div></div></div></div><div class="sub-menu_component"><div class="container-large"></div></div><main class="main-wrapper"><section class="section-hero-landing"><div class="hero-landing_component is-slider is-home"><div class="main-slider_component"><div class="splide is-main-slider"><div class="splide__track w-dyn-list"><div role="list" class="splide__list w-dyn-items"><div role="listitem" class="splide__slide w-dyn-item"><img alt="" loading="eager" data-w-id="2d2d5096-19d9-533d-2d84-331f89152614" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1).webp" sizes="100vw" srcset="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1)-p-1600.webp 1600w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1)-p-2000.webp 2000w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1)-p-2600.webp 2600w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5ab3a6aece517088462e4__D4S9117.optimised%20(1).webp 3696w" class="hero-slider_image"/><div class="hero-slider_image-overlay"></div><div class="hero-slider_content-wrapper"><p class="hero-slider_kicker">A CATHOLIC MARIST SECONDARY BOYS COLLEGE ESTABLISHED IN 1950</p><h2 class="hero-slider_title">Marcellin College</h2><div data-w-id="8566a398-15b4-646e-901a-f2a4adcb1bb0" data-is-ix2-target="1" class="hero-slider_script-lottie" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/636b323993d67d855af32316_strive2.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0" data-loading="eager" data-ix2-initial-state="0"></div><a href="#" class="button is-light-hover-text w-condition-invisible w-dyn-bind-empty w-button"></a></div></div><div role="listitem" class="splide__slide w-dyn-item"><img alt="" loading="eager" data-w-id="2d2d5096-19d9-533d-2d84-331f89152614" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983.webp" sizes="100vw" srcset="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983-p-500.webp 500w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983-p-800.webp 800w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983-p-1080.webp 1080w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983-p-1600.webp 1600w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983-p-2000.webp 2000w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983-p-2600.webp 2600w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/64e6cb75e6d43f37a398ad8e_IMG_7983.webp 2800w" class="hero-slider_image"/><div class="hero-slider_image-overlay"></div><div class="hero-slider_content-wrapper"><p class="hero-slider_kicker">Year 7 2028 enrolments</p><h2 class="hero-slider_title">STILL ACCEPTING</h2><div data-w-id="8566a398-15b4-646e-901a-f2a4adcb1bb0" data-is-ix2-target="1" class="hero-slider_script-lottie w-condition-invisible" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/636b323993d67d855af32316_strive2.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0" data-loading="eager" data-ix2-initial-state="0"></div><a href="https://www.marcellin.vic.edu.au/enrolments/application-process" class="button is-light-hover-text w-button">APPLY HERE</a></div></div><div role="listitem" class="splide__slide w-dyn-item"><img alt="" loading="eager" data-w-id="2d2d5096-19d9-533d-2d84-331f89152614" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1).webp" sizes="100vw" srcset="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1)-p-1600.webp 1600w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1)-p-2000.webp 2000w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1)-p-2600.webp 2600w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/643e3721a4695bbca90f869c_1Password%20Emergency%20Kit%20A3-AE4S4G-ignite%20(1).webp 2776w" class="hero-slider_image"/><div class="hero-slider_image-overlay"></div><div class="hero-slider_content-wrapper"><p class="hero-slider_kicker">Marcellin College</p><h2 class="hero-slider_title">EXPLORE OUR GROUNDS</h2><div data-w-id="8566a398-15b4-646e-901a-f2a4adcb1bb0" data-is-ix2-target="1" class="hero-slider_script-lottie w-condition-invisible" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/636b323993d67d855af32316_strive2.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0" data-loading="eager" data-ix2-initial-state="0"></div><a href="https://www.marcellin.vic.edu.au/enrolments/tours-and-open-days" class="button is-light-hover-text w-button">DISCOVER MORE</a></div></div><div role="listitem" class="splide__slide w-dyn-item"><img alt="" loading="eager" data-w-id="2d2d5096-19d9-533d-2d84-331f89152614" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5b14a898fd139d4f3f9cb_image%20(2).webp" sizes="100vw" srcset="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5b14a898fd139d4f3f9cb_image%20(2)-p-500.webp 500w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5b14a898fd139d4f3f9cb_image%20(2)-p-800.webp 800w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5b14a898fd139d4f3f9cb_image%20(2)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/63f5b14a898fd139d4f3f9cb_image%20(2).webp 1600w" class="hero-slider_image"/><div class="hero-slider_image-overlay"></div><div class="hero-slider_content-wrapper"><p class="hero-slider_kicker">marcellin college</p><h2 class="hero-slider_title">STAY INFORMED</h2><div data-w-id="8566a398-15b4-646e-901a-f2a4adcb1bb0" data-is-ix2-target="1" class="hero-slider_script-lottie w-condition-invisible" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/636b323993d67d855af32316_strive2.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0" data-loading="eager" data-ix2-initial-state="0"></div><a href="https://www.marcellin.vic.edu.au/news-events" class="button is-light-hover-text w-button">LATEST NEWS</a></div></div></div></div><div class="splide_pagination-wrapper"><ul role="list" class="splide__pagination"><li class="splide__pagination__item hide"><div class="splide__pagination__page">1</div></li></ul></div></div></div><div class="hero-site-links_component"><div class="padding-global"><div class="w-layout-grid hero-site-links_list"><a data-w-id="793b0c63-76e8-78fd-a948-63d9390eefe7" href="/about-us/our-story" class="hero-site-links_item w-inline-block"><div class="hero-site-link_content"><div class="margin-bottom margin-small hide-mobile-portrait"><div class="hero-landing-slider_kicker">About Us</div></div><div class="text-size--small">A History of </div><h4 class="hero-site-link_heading">Excellence</h4><div class="hero-site-links_arrow-w"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></div><div class="hero-site-links_bg"></div></a><a id="w-node-_793b0c63-76e8-78fd-a948-63d9390eefef-ae721f55" href="/learning" class="hero-site-links_item w-inline-block"><div class="hero-site-link_content"><div class="margin-bottom margin-small hide-mobile-portrait"><div class="hero-landing-slider_kicker">Learning</div></div><div class="text-size--small">Our</div><h4 class="hero-site-link_heading">Curriculum</h4><div class="hero-site-links_arrow-w"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></div><div class="hero-site-links_bg"></div></a><a href="/enrolments/application-process" class="hero-site-links_item w-inline-block"><div class="hero-site-link_content"><div class="margin-bottom margin-small hide-mobile-portrait"><div class="hero-landing-slider_kicker">Enrol online</div></div><div class="text-size--small">Join Our</div><h4 class="hero-site-link_heading">Family</h4><div class="hero-site-links_arrow-w"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></div><div class="hero-site-links_bg"></div></a><a href="/news-events/latest-news" class="hero-site-links_item w-inline-block"><div class="hero-site-link_content"><div class="margin-bottom margin-small hide-mobile-portrait"><div class="hero-landing-slider_kicker">News &amp; events</div></div><div class="text-size--small">Read Our Latest</div><h4 class="hero-site-link_heading">News</h4><div class="hero-site-links_arrow-w"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></div><div class="hero-site-links_bg"></div></a></div></div></div></div></section><section class="section-breakout-image-right margin-section-small"><div class="cross-animation-container"><div class="w-layout-grid cross-animation_grid is-horizontal"><div id="w-node-_392e8e57-4004-94fb-0d82-25f5e4e4f802-e4e4f7fa" class="cross-animation_horizontal-line-red is-horizontal-line"></div><div id="w-node-_392e8e57-4004-94fb-0d82-25f5e4e4f803-e4e4f7fa" class="cross-animation_placeholder"></div><div id="w-node-_392e8e57-4004-94fb-0d82-25f5e4e4f804-e4e4f7fa" class="cross-animation_horizontal-line-blue is-horizontal-line"></div></div><div class="w-layout-grid cross-animation_grid is-vertical"><div id="w-node-_392e8e57-4004-94fb-0d82-25f5e4e4f807-e4e4f7fa" class="cross-animation_vertical-line is-blue is-vertical-line"></div><div id="w-node-_392e8e57-4004-94fb-0d82-25f5e4e4f80a-e4e4f7fa" class="cross-animation_vertical-line is-gold is-vertical-line"></div></div></div><div class="background-color-gray"><div class="padding-global has-no-tablet-gap"><div class="container-large position-relative"><div class="padding-horizontal padding-breakout-image-right"><div class="padding-section-medium is-no-gap-mobile"><div class="w-layout-grid breakout-image-right_component"><div class="breakout-image-right_title-wrapper"><div class="margin-bottom margin-xsmall"><div class="margin-bottom margin-xsmall"><p class="heading-style-h6">About us</p></div><h1 class="heading-style-h2">A Community of <strong>Faith, Learning </strong>and <strong>Life</strong></h1></div></div><div id="w-node-dfbb74b5-21e6-3530-0dbf-aa0fa98b6bc5-ae721f55" class="breakout-image-right_image-container"><div class="breakout-image-right_image-wrapper outline"><img loading="lazy" sizes="(max-width: 479px) 48vw, (max-width: 991px) 49vw, 50vw" srcset="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-500.webp 500w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-800.webp 800w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-1080.webp 1080w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-1600.webp 1600w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-2000.webp 2000w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-2600.webp 2600w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005-p-3200.webp 3200w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005.webp 5616w" src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/69af5763f95d21a1664cb629__MG_2005.webp" alt="" class="breakout-image-right_image has-outline"/></div></div><div id="w-node-dfbb74b5-21e6-3530-0dbf-aa0fa98b6bc9-ae721f55" class="breakout-image-right_text-wrapper"><p>At Marcellin College, we understand that a successful school must adapt and change, constantly evolve and ‘dare to create something new’. Our innovative approach to education is informed by evidence-based learning and teaching that sits within our Catholic and Marist framework.</p><a href="/about-us" class="button is-xlarge w-button">Learn more</a></div></div></div></div></div></div></div></section><div class="video-embed_section margin-section-small"><div class="padding-global"><div class="container-large"><div class="video-embed_video-wrapper"><div style="padding-top:56.17021276595745%" class="video-embed_video w-video w-embed"><iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FbswG5Aj2M6E%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbswG5Aj2M6E&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FbswG5Aj2M6E%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen title="Marcellin College - 75 Years in the Making"></iframe></div></div></div></div></div><section class="section-link-block margin-section-small"><div class="padding-global"><div class="container-large position-relative"><div class="link-block_component"><div class="w-layout-grid link-block_grid"><div class="link-block_content-left"><div class="margin-bottom margin-xsmall"><p class="heading-style-h6">BECOME PART OF OUR FAMILY</p></div><div id="w-node-_094d2395-64b3-3b62-2b27-1d3e33671970-62b45d8e" class="text-rich-text is-bold-style w-richtext"><h2>Enrolment <strong>Process</strong></h2></div></div><div class="link-block_content-right"><p>We encourage families to tour our facilities to explore, discover and learn about the wonderful opportunities available at Marcellin College.</p><div class="margin-top margin-6rem mobile-margin-3"><div class="button-group text-align-right mobile-text-align-left"><a href="/enrolments/application-process" class="learn-more-button w-inline-block"><div class="learn-more-button_text-wrapper"><div class="learn-more-button_text">Learn more</div><div class="learn-more-button_text">Learn more</div></div><div class="learn-more-button_arrow-wrapper"><div class="learn-more-button_arrow-inner"><div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div><div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></div></a></div></div></div></div><div class="divider_container is-auto-width"><div class="vertical-cross is-maroon is-vertical-line"></div></div></div></div></div></section><div class="section-featured-news margin-section-small"><div class="padding-global has-no-tablet-gap"><div class="container-large position-relative"><div class="divider_container static"><div class="divider_container-vertical"><div class="vertical-cross is-blue is-full-size is-vertical-line"></div></div></div><div class="featured-news_component"><div id="w-node-e08dfc06-c000-51ac-000a-32218ea9c05a-8ea9c053" class="featured-news_content-left"><div class="featured-news_text-wrapper"><div class="margin-bottom margin-xsmall"><p class="heading-style-h6">News and events</p></div><h2>Featured news and <strong>events</strong></h2><div class="margin-top margin-medium"><p>From our annual sport days to social events, there&#x27;s never a dull moment at the College. We believe in fostering a strong sense of community, and our events are a testament to that. Stay updated on all the latest news and events by visiting our website regularly.</p></div></div><div class="margin-top margin-3-25rem"><a href="/news-events/latest-news" class="button is-white w-button">LEARN MORE</a></div></div><div id="w-node-e08dfc06-c000-51ac-000a-32218ea9c06a-8ea9c053" class="featured-news_content-right"><div class="featured-news_slide-wrapper"><div class="w-dyn-list"><div fs-cmscombine-element="list" role="list" class="featured-news_slide-list w-dyn-items"><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/news/principals-update-16-october-2026" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">News</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ad1a9c04770193952defc53_DSC00055.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ad1a9c04770193952defc53_DSC00055-p-500.jpg 500w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ad1a9c04770193952defc53_DSC00055-p-800.jpg 800w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ad1a9c04770193952defc53_DSC00055.jpg 900w" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">October</div><div class="date-container is-large">16</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Principal&#x27;s Update 16 October 2026</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Read the latest news from our Principal, Marco Di Cesare</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/news/principals-update-18-september-2026" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">News</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1ea10b9ac882bf6d47462_6ab1e7f61c1932302ebfdc7d_optimised-738fe4e03a42c53b8e23b92215e13f34.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">September</div><div class="date-container is-large">18</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Principal&#x27;s Update 18 September 2026</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Read the latest news from our Principal, Marco Di Cesare</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/news/principals-update-4-september-2026" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">News</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1ea396b394b42f5559512_6ab1e801b9ac882bf6d3d808_optimised-74988517a44c4677da31c6990fd77d24.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">September</div><div class="date-container is-large">4</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Principal&#x27;s Update 4 September 2026</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Read the latest news from our Principal, Macro Di Cesare</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/news/principals-update-21-august-2026" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">News</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1ea8db88843fcd24c646d_6ab1e809b9ac882bf6d3dbbb_optimised-f199e8054ea82dde6363fe77eb77fed8.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">August</div><div class="date-container is-large">21</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Principal&#x27;s Update 21 August 2026</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Read the latest news from our Principal, Marco Di Cesare</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/news/principals-update-7-august-2026" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">News</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1ec2db9ac882bf6d5392a_6ab1e8195c5e4bb96a0c3a41_optimised-dc8b73746386863d4380f8b117a56422.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">August</div><div class="date-container is-large">7</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Principal&#x27;s Update 7 August 2026</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Read the latest news from our Principal, Marco Di Cesare</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div></div></div><div class="w-dyn-list"><div fs-cmscombine-element="list" role="list" class="featured-news_slide-list w-dyn-items"><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/event/create26---art-design-technology-showcase" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">Event</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6acd5bfcb2cfb436b0effc9c_2026_CREATE26_Web_Tile_1580x900_D1.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6acd5bfcb2cfb436b0effc9c_2026_CREATE26_Web_Tile_1580x900_D1-p-500.jpg 500w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6acd5bfcb2cfb436b0effc9c_2026_CREATE26_Web_Tile_1580x900_D1-p-800.jpg 800w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6acd5bfcb2cfb436b0effc9c_2026_CREATE26_Web_Tile_1580x900_D1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6acd5bfcb2cfb436b0effc9c_2026_CREATE26_Web_Tile_1580x900_D1.jpg 1580w" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">October</div><div class="date-container is-large">10</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Create26 – Art, Design &amp; Technology Showcase</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>CREATE 26 - Join us for our Opening Night </p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/event/2026-alumni-reunion-evening" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">Event</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1e9a6b2cc972c5279a837_6ab1e7c61c1932302ebfcaf7_optimised-a78cc5c5257caf879f0dee05f5720a76.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">November</div><div class="date-container is-large">11</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">2026 Alumni Reunion Evening</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>2026 Alumni Reunion Evening - Class of 1966, 1976, 1986, 1996, 2006, 2016 </p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/event/i-hate-shakespeare-junior-production" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">Event</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1e9b671e48579a7c2001b_6ab1e7cd179b3eff405d4382_optimised-97cee8a598afdafceed9b270305c0cc4.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">November</div><div class="date-container is-large">11</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">I Hate Shakespeare! Junior Production</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Our Lady of Mercy College (OLMC) and Marcellin College proudly present I Hate Shakespeare! by Steph DeFerie.</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/event/captains-lounge" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">Event</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1e9c478537266707e9ea1_6ab1e7d3c9fd66af91fb42d0_optimised-75fe1e22453f9fafaf2a240a44c61dd9.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">September</div><div class="date-container is-large">9</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Captains Lounge Launch</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Calling all past Marcellin Captains and Vice Captains!</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div><div role="listitem" class="featured-news_slide-item w-dyn-item"><a href="/event/alumnae-connection" class="featured-news_slide-link-wrapper w-inline-block"><div class="blur-title">Event</div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/6332b7cd63aca80019c2ac93/6ab1e9d1845657d06cb91bce_6ab1e7db0d4af0af40c890a1_optimised-305c765b18c453dc1900920e6c892519.webp" class="featured-news_slide-image"/><div class="featured-news_slide-content"><div class="event-date-container"><div class="date-container">August</div><div class="date-container is-large">8</div></div><h3 class="heading-style-h5 text-color-black text-size-medium">Alumnae Connection</h3><div class="text-size-small"><div class="margin-vertical margin-xsmall"><p>Join us for Marcellin College&#x27;s very first Alumnae Connection, a relaxed afternoon tea get-together.</p></div><div class="text-style-allcaps text-color-maroon text-style-link">Read more</div></div></div></a></div></div></div><div class="featured-news_slide-arrows"><a href="#" class="featured-news_slide-arrow is-left w-inline-block"><div class="featured-news_slide-arrow_icon-wrapper"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></a><a href="#" class="featured-news_slide-arrow is-right w-inline-block"><div class="featured-news_slide-arrow_icon-wrapper is-right"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11H6.414l5.293-5.293l-1.414-1.414L2.586 12l7.707 7.707l1.414-1.414L6.414 13H21z"></path></svg></div></div></a></div></div></div></div></div></div><div class="custom-js w-embed w-script"><!-- [Attributes by Finsweet] CMS Combine -->
+<script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmscombine@1/cmscombine.js"></script>
+
+<!-- <script defer src="http://localhost:3000/components/sliders.js"></script> -->
+<script defer src="https://d25vfild7rvz0k.cloudfront.net/marcellin/components/sliders.js"></script></div></div><section class="section-lead-magnet margin-section-small"><div class="padding-global"><div class="container-large"><div class="lead-magnet_component"><div id="w-node-c38c5533-9546-1c94-cac3-aa5bddca74ec-11b7dd1c" class="lead-magnet_content-wrapper"><div id="w-node-_47072981-f935-bb78-e9a6-c20b710e275c-11b7dd1c" class="margin-bottom margin-xsmall"><p class="heading-style-h6 opacity-80">Free Download</p></div><div id="w-node-_5c03f8a2-4337-5c3a-4b2e-460c36380803-11b7dd1c" class="text-rich-text is-bold-style w-richtext"><h2>How to avoid choosing the <strong>wrong</strong> school for your son</h2><p>Critical areas for families to consider:</p><ul role="list"><li>Your child&#x27;s educational needs</li><li>Your family values</li><li>Explore a number of schools</li><li>Involve your child in the process</li></ul></div></div><div id="w-node-_54996465-f885-d8bf-e648-152c11b7dd37-11b7dd1c" class="lead-magnet_image-wrapper"><img src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/63773d4325cdcb594845ac39_A4%20Magazine%20Mockup%20Kit%201%201.webp" loading="lazy" id="w-node-_54996465-f885-d8bf-e648-152c11b7dd38-11b7dd1c" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/63773d4325cdcb594845ac39_A4%20Magazine%20Mockup%20Kit%201%201-p-500.webp 500w, https://cdn.prod.website-files.com/63297a19b276572e2343c0da/63773d4325cdcb594845ac39_A4%20Magazine%20Mockup%20Kit%201%201.webp 745w" class="lead-magnet_image"/></div><a id="w-node-_60c87d1f-4ea3-9c00-2741-9025a9c37fe2-11b7dd1c" href="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/6434e48033f26620673a39c0_Choosing_A_Secondary_School_For_Your_Child_Booklet.pdf" target="_blank" class="button w-button">Download PDF</a></div></div></div></section></main><footer class="section-footer"><div data-w-id="4626bcea-a2ee-df8c-9c29-d06d59edccf7" class="footer-line-whipe"></div><div class="footer-newsletter_component"><div class="padding-global"><div class="container-large"><div class="footer_row is-email-component"><a href="/" id="w-node-_90f1c628-78d7-9c46-20c0-1d1cea6fd8a3-ea6fd896" aria-current="page" class="footer_logo-link w-inline-block w--current"><img src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/679b07255435c6b6e8ab338d_2024_MarcellinCollege_Logo_Stacked_RGB_D1_Maroon.webp" loading="lazy" width="232" alt=""/></a><div id="w-node-_951ef274-2ef7-9181-805e-54076119af3a-ea6fd896" class="footer-newsletter_divider"></div><div id="w-node-_1d21b2c3-34d0-406b-e526-4448574870ce-ea6fd896" class="footer-form_component"><div class="footer-newsletter_text-wrapper"><p class="footer-newsletter_subheader">Newsletter</p><p class="footer-newsletter-heading">Stay up-to-date with what&#x27;s happening around the College</p></div><div class="button-group"><a href="https://marcellincollege.schoolzineplus.com/subscribe" target="_blank" class="footer-form__submit-button w-button">subscribe to the eagle </a></div></div></div></div></div></div><div class="footer-sitelinks_component"><div class="footer-sitelinks_container"><div class="footer_row"><div id="w-node-b6c93a58-ffa3-6662-71dc-88afed8f9ec1-ea6fd896" class="footer_acknowledgement-wrapper"><div class="footer_heading">ACKNOWLEDGEMENT OF COUNTRY</div><div class="padding-vertical"><p class="footer_paragraph">We acknowledge the traditional custodians of the land on which this school stands, the Wurundjeri-Baluk clan of the Woiwurrung people in the Kulin Nation. We pay our respects to their Elders, past and present.</p></div></div><div id="w-node-b6c93a58-ffa3-6662-71dc-88afed8f9ec8-ea6fd896" class="footer_link-desktop-container"><div class="footer_link-desktop-wrapper"><a href="/about-us" class="footer_link-heading">About us</a><div class="footer_link-list"><a href="/about-us/principals-welcome" class="footer_link">From Our Principal</a><a href="/about-us/college-leadership" class="footer_link">College Leadership</a><a href="/about-us/why-choose-us" class="footer_link">Why Choose Us</a><a href="/about-us/sustainability" class="footer_link">Sustainability</a></div></div><div class="footer_link-desktop-wrapper"><a href="/learning" class="footer_link-heading">Learning</a><div class="footer_link-list"><a href="/learning/years-7-9" class="footer_link">Years 7 - 9</a><a href="/learning/years-10-12" class="footer_link">Years 10 - 12</a><a href="/learning/applied-learning" class="footer_link">Applied Learning</a><a href="/learning/beyond-the-classroom" class="footer_link">Beyond the Classroom</a></div></div><div class="footer_link-desktop-wrapper"><a href="/enrolments" class="footer_link-heading">Enrolments</a><div class="footer_link-list"><a href="/enrolments/application-process" class="footer_link">Application Process</a><a href="/enrolments/tours-and-open-days" class="footer_link">Tours &amp; Open Days</a><a href="/enrolments/tuition-fees" class="footer_link">Tuition</a></div></div><div class="footer_link-desktop-wrapper"><a href="/news-events" class="footer_link-heading">News &amp; Events</a><div id="w-node-c06cee9a-296c-29ba-c22e-72a0d0502a99-d0502a99" class="footer_link-list"><a href="/news-events/latest-news" class="footer_link">Latest News</a><a href="https://www.marcellin.vic.edu.au/news-events/events" class="footer_link">Events</a><a href="/news-events/the-eagle" class="footer_link">The Eagle</a><a href="/news-events/annual-reports" class="footer_link">Annual Reports </a><a href="/news-events/marcellin-life" class="footer_link">Marcellin Life</a></div></div><div class="footer_link-desktop-wrapper"><div class="footer_link-heading is-no-link">Quick Links</div><div id="w-node-a1700423-3a09-ec52-9399-d6e020b0d168-20b0d168" class="footer_link-list"><a href="/term-dates" class="footer_link">Term Dates</a><a href="https://marcellin-vic.compass.education/" target="_blank" class="footer_link">Compass</a><a href="/community/giving-programs" class="footer_link">Giving Programs</a><a href="/get-in-touch" class="footer_link">Contact Us</a></div></div></div><div class="footer_row-tablet"><div class="footer_nav-tablet_component"><div class="footer_nav-tablet_accordion"><div class="footer_nav-tablet_title-wrapper"><h3 class="footer_nav-tablet_header">About Us </h3><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div class="footer_nav-tablet_list-wrapper"><div class="footer_link-list"><a href="/about-us/principals-welcome" class="footer_link">From Our Principal</a><a href="/about-us/college-leadership" class="footer_link">College Leadership</a><a href="/about-us/why-choose-us" class="footer_link">Why Choose Us</a><a href="/about-us/sustainability" class="footer_link">Sustainability</a></div></div></div><div class="footer_nav-tablet_accordion"><div class="footer_nav-tablet_title-wrapper"><h3 class="footer_nav-tablet_header">Learning</h3><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div class="footer_nav-tablet_list-wrapper"><div class="footer_link-list"><a href="/learning/years-7-9" class="footer_link">Years 7 - 9</a><a href="/learning/years-10-12" class="footer_link">Years 10 - 12</a><a href="/learning/applied-learning" class="footer_link">Applied Learning</a><a href="/learning/beyond-the-classroom" class="footer_link">Beyond the Classroom</a></div></div></div><div class="footer_nav-tablet_accordion"><div class="footer_nav-tablet_title-wrapper"><h3 class="footer_nav-tablet_header">Enrolments</h3><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div class="footer_nav-tablet_list-wrapper"><div class="footer_link-list"><a href="/enrolments/application-process" class="footer_link">Application Process</a><a href="/enrolments/tours-and-open-days" class="footer_link">Tours &amp; Open Days</a><a href="/enrolments/tuition-fees" class="footer_link">Tuition</a></div></div></div><div class="footer_nav-tablet_accordion"><div class="footer_nav-tablet_title-wrapper"><h3 class="footer_nav-tablet_header">News &amp; Events</h3><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div class="footer_nav-tablet_list-wrapper"><div id="w-node-c06cee9a-296c-29ba-c22e-72a0d0502a99-d0502a99" class="footer_link-list"><a href="/news-events/latest-news" class="footer_link">Latest News</a><a href="https://www.marcellin.vic.edu.au/news-events/events" class="footer_link">Events</a><a href="/news-events/the-eagle" class="footer_link">The Eagle</a><a href="/news-events/annual-reports" class="footer_link">Annual Reports </a><a href="/news-events/marcellin-life" class="footer_link">Marcellin Life</a></div></div></div><div class="footer_nav-tablet_accordion"><div class="footer_nav-tablet_title-wrapper"><h3 class="footer_nav-tablet_header">Quick Links</h3><div class="footer_nav-tablet_accordion-expand-icon"><div class="footer_nav-tablet_accordion-line"></div><div class="footer_nav-tablet_accordion-line is-vertical"></div></div></div><div class="footer_nav-tablet_list-wrapper"><div id="w-node-a1700423-3a09-ec52-9399-d6e020b0d168-20b0d168" class="footer_link-list"><a href="/term-dates" class="footer_link">Term Dates</a><a href="https://marcellin-vic.compass.education/" target="_blank" class="footer_link">Compass</a><a href="/community/giving-programs" class="footer_link">Giving Programs</a><a href="/get-in-touch" class="footer_link">Contact Us</a></div></div></div></div></div><div id="w-node-_3a89e8a1-0a25-406d-e52c-bee7e7880963-ea6fd896" class="footer_info-wrapper"><div class="footer_heading is-bottom-credits">Marcellin College</div><p><a href="https://goo.gl/maps/N4fChPdEKNDncdDt7" target="_blank" class="footer_contact-link">160 Bulleen Road, Bulleen VIC 3105</a><br/><a href="tel:+610398511589" class="footer_contact-link">+ 61 3 9851 1589</a><br/><a href="mailto:info@marcellin.vic.edu.au?subject=Inquiry" class="footer_contact-link">info@marcellin.vic.edu.au</a></p></div><div id="w-node-c83e49e4-8df6-8d11-a1e0-91101488ea49-ea6fd896" class="footer_link-desktop-container is-social-icon-wrapper"><div id="w-node-e44e579c-fc28-087f-f91b-598a17711e93-ea6fd896" class="footer-social_wrapper"><a id="w-node-_2d937f0e-b87e-56af-72a2-9a20bed3475b-ea6fd896" href="https://twitter.com/Marcellin" target="_blank" class="footer-social w-inline-block"></a><a href="https://www.linkedin.com/school/marcellin-college/" target="_blank" class="footer-social w-inline-block"><div class="social-icon-embed w-embed"><svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+  <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" fill="currentColor" />
+</svg></div></a><a href="https://www.youtube.com/channel/UC3f7HxxtHqtKhIoJOVmXZ9g" target="_blank" class="footer-social w-inline-block"><div class="social-icon-embed w-embed"><svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+  <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+</svg></div></a><a href="https://www.facebook.com/Marcellin.College.Bulleen/" target="_blank" class="footer-social w-inline-block"><div class="social-icon-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bx" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z" fill="currentColor"></path></svg></div></a><a href="https://www.instagram.com/marcellin.college.bulleen/" target="_blank" class="footer-social w-inline-block"><div class="social-icon-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="100%"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor"/></svg></div></a></div><div id="w-node-_3a89e8a1-0a25-406d-e52c-bee7e7880990-ea6fd896" class="footer_copyright-container"><div>© <span class="footer_copyright-year">2023</span> Marcellin College</div><div class="hide w-embed w-script"><script defer src="https://d25vfild7rvz0k.cloudfront.net/marcellin/blocks/footer-copyright.js"></script></div><div><a href="/about-us/governance-policies" class="footer_link">Privacy Policy</a> | ABN: 77 413 001 496</div><a href="https://igniteonline.com.au/" target="_blank" class="footer_link">Website by IGNITE</a></div></div></div></div></div></footer><div class="notice-popup_component"><div class="w-dyn-list"><div class="hide w-dyn-empty"></div></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63297a19b276572e2343c0da" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/js/webflow.schunk.644051b877a75604.js" type="text/javascript" integrity="sha384-HoHmx3XMZ0P8U602cFFqI64Bc3mptXtOxxBJgracefsDglxq54uTV/o0WzDz47p6" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/js/webflow.schunk.3bbc31205a267248.js" type="text/javascript" integrity="sha384-M/qSq6Eq1u6bGsycNRRZi065quTCwNtqIjOBPPLSCgwxm1km2nhelrii/jt/2MxC" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/63297a19b276572e2343c0da/js/webflow.aac7a4a5.7a3894614dd4bf33.js" type="text/javascript" integrity="sha384-1UWl1ZxakbwgH41EndyYyRD6LdePCBURC/gcS9y/mZXzrWFtc+4YLl9QbdnFyRXl" crossorigin="anonymous"></script><!-- You don't have to copy this -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+<script>
+  
+//menu open animations
+  $('.nav_menu-button').on('click', function() {
+	
+  	if($(this).hasClass("w--open")){
+    
+      gsap.to(".nav_menu-link", {
+        ease: "power2.inOut",
+        opacity: 0,
+        y: "60%",
+        duration: 0.4
+      });
+      gsap.to(".nav_menu-heading", {
+        ease: "power2.inOut",
+        opacity: 0,
+        y: "60%",
+        duration: 0.4
+      });    
+      gsap.to(".nav_menu-subheading", {
+        ease: "power2.inOut",
+        opacity: 0,
+        y: "60%",
+        duration: 0.4
+      });  
+      gsap.to(".nav_secondary-link", {
+        ease: "power2.inOut",
+        opacity: 0,
+        y: "60%",
+        duration: 0.4
+      });  
+      gsap.to(".nav_bottom-social-link", {
+        ease: "power2.inOut",
+        opacity: 0,
+        y: "60%",
+        duration: 0.4
+      });  
+      gsap.to(".nav_bottom-info-list", {
+        ease: "power2.inOut",
+        opacity: 0,
+        y: "60%",
+        duration: 0.4
+      });  
+    
+    } else{
+    
+      gsap.fromTo(".nav_menu-link", {
+        opacity: 0,
+        y: "60%",},
+      {
+      	delay: 0.6,
+        ease: "power2.inOut",
+        opacity: 1,
+        y: "0%",
+        duration: 0.6,
+        stagger: {amount: 0.1}
+      });
+      gsap.fromTo(".nav_menu-heading", {
+        opacity: 0,
+        y: "60%",},
+      {
+      	delay: 0.6,
+        ease: "power2.inOut",
+        opacity: 1,
+        y: "0%",
+        duration: 0.6,
+        stagger: {amount: 0.2}
+      });
+      gsap.fromTo(".nav_menu-subheading", {
+        opacity: 0,
+        y: "60%",},
+      {
+      	delay: 0.7,
+        ease: "power2.inOut",
+        opacity: 1,
+        y: "0%",
+        duration: 0.6
+      });
+      gsap.fromTo(".nav_secondary-link", {
+        opacity: 0,
+        y: "60%",},
+      {
+      	delay: 0.8,
+        ease: "power2.inOut",
+        opacity: 1,
+        y: "0%",
+        duration: 0.6,
+        stagger: {amount: 0.2}
+      });
+      gsap.fromTo(".nav_bottom-social-link", {
+        opacity: 0,
+        y: "30%",},
+      {
+      	delay: 0.8,
+        ease: "power2.inOut",
+        opacity: 1,
+        y: "0%",
+        duration: 0.6,
+        stagger: {amount: 0.1}
+      });
+      gsap.fromTo(".nav_bottom-info-list", {
+        opacity: 0,
+        y: "30%",},
+      {
+      	delay: 0.8,
+        ease: "power2.inOut",
+        opacity: 1,
+        y: "0%",
+        duration: 0.6
+      });
+
+    }
+  
+});
+  
+//set initial states for items that are to be animated
+        gsap.set(".main-wrapper", {
+          y: 50,
+          opacity: 0
+        });
+        gsap.set(".hero-slider_kicker", {
+          yPercent: 60,
+          opacity: 0
+        });
+        gsap.set(".hero-slider_title", {
+          yPercent: 60,
+          opacity: 0
+        });
+        gsap.set(".hero-slider_script-lottie", {
+          yPercent: 60,
+          opacity: 0
+        });        
+        gsap.set(".nav_component", {
+          yPercent: -100,
+          opacity: 0
+        });
+        gsap.set(".hero-site-links_item", {
+          yPercent: 60,
+          opacity: 0,
+        });
+        gsap.set(".splide_pagination-wrapper", {
+          yPercent: 60,
+          opacity: 0,
+        });
+        gsap.set(".hero-slider_image-overlay", {
+          scaleY: 0,
+          opacity: 0
+        });
+        gsap.set(".breakout-image-right_component", {
+          opacity: 0
+        });
+
+
+window.onload = function () {
+  // Wait 1 second after page has finished loading
+  gsap.delayedCall(1, function () {
+    gsap.to(".preloader-spinner", {
+      duration: 0.6,
+      ease: "power2.inOut",
+      opacity: 0
+    });    
+    gsap.to(".preloader-logo", {
+      delay: 0.2,
+      duration: 0.6,
+      ease: "power2.inOut",
+      yPercent: 10,
+      scale: 0.5,
+      opacity: 0
+    });
+    // Fade out .preloader
+    gsap.to(".preloader-bg", {
+      delay: 0.4,
+      duration: 0.6,
+      yPercent: 101,
+      ease: "power2.inOut",
+      // Set .preloader to display: none after fade out is complete
+      onComplete: function () {
+        gsap.set(".preloader", { display: "none" });
+
+        gsap.to(".main-wrapper", {
+          delay: 0,
+          duration: 0.6,
+      		ease: "power2.inOut",
+          y: 0,
+          opacity: 1
+        });
+        gsap.to(".hero-slider_kicker", {
+          delay: 0,
+          duration: 0.8,
+      		ease: "power2.inOut",
+          yPercent: 0,
+          opacity: 1
+        });
+        gsap.to(".hero-slider_title", {
+          delay: 0.15,
+          duration: 0.8,
+					ease: "power2.inOut",
+          yPercent: 0,
+          opacity: 1
+        });
+        gsap.to(".hero-slider_script-lottie", {
+          delay: 0.3,
+          duration: 0.8,
+					ease: "power2.inOut",
+          yPercent: 0,
+          opacity: 1
+        });
+        gsap.to(".nav_component", {
+          delay: 0.45,
+          duration: 0.8,
+      		ease: "power2.inOut",
+          yPercent: 0,
+          opacity: 1
+        });
+        gsap.to(".hero-site-links_item", {
+          delay: 0.45,
+          duration: 0.8,
+      		ease: "power2.inOut",
+          yPercent: 0,
+          opacity: 1,
+          stagger: { amount: 0.15 }
+        });
+        gsap.to(".splide_pagination-wrapper", {
+        	delay: 0.45,
+          duration: 0.8,
+      		ease: "power2.inOut",
+          yPercent: 0,
+          opacity: 1,
+          stagger: { amount: 0.15 }
+        });
+        gsap.to(".main-slider_component", {
+          duration: 0.6,
+      		ease: "power2.inOut",
+          opacity: 1
+        });
+        gsap.to(".hero-slider_image-overlay", {
+          duration: 0.8,
+      		ease: "power2.inOut",
+          scaleY: 1,
+          opacity: 1
+        });
+        gsap.to(".breakout-image-right_component", {
+          duration: 1,
+          delay: 1,
+      		ease: "power2.inOut",
+          opacity: 1
+        });
+      }
+    });
+  });
+};
+  
+  
+  
+  
+/*
+let introDurationMS = 1000;
+let exitDurationMS = 700;
+let excludedClass = "no-trans";
+  
+// On Link Click
+$(".").on("click", function (e) {
+  if ($(this).prop("hostname") == window.location.host && $(this).attr("href").indexOf("#") === -1 &&
+     !$(this).hasClass(excludedClass) &&
+      $(this).attr("target") !== "_blank") {
+    
+    e.preventDefault();
+    let transitionURL = $(this).attr("href");
+    
+    //GSAP animations before going to new page
+    
+    gsap.set(".preloader", { display: "flex" });
+
+    gsap.fromTo(".preloader-bg",{
+      yPercent: 101},
+      {
+        duration: 0.6,
+        yPercent: 0,
+        ease: "power2.inOut",
+    });
+    
+    gsap.fromTo(".preloader-logo", {
+      yPercent: 60,
+      opacity: 0},
+      {
+      	delay: 0.2,
+        duration: 0.6,
+        ease: "power2.inOut",
+        yPercent: 0,
+        opacity: 1
+    });
+    
+    gsap.to(".main-wrapper", {
+      duration: 0.6,
+      y: "-3%",
+      opacity: 0,
+      ease: "power2.inOut"
+    });
+
+    setTimeout(function () {window.location = transitionURL;}, exitDurationMS);
+  }
+});
+  
+// On Back Button Tap
+window.onpageshow = function(event) {if (event.persisted) {window.location.reload()}};
+*/
+  
+  
+  
+  
+  
+  
+</script></body></html>
