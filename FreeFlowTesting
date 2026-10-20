@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head>
+
+		<!-- Google Tag Manager -->
+	<script>
+	(function(w,d,s,l,i){
+		w[l]=w[l]||[];
+		w[l].push( {'gtm.start': new Date().getTime(),event:'gtm.js'});
+		var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+		j.async=true;
+		j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KDHWSN7');
+	</script>
+	<!-- End Google Tag Manager -->
+	
+	<!-- CookiePro Cookies Consent Notice start for www.wellingtoncollege.org.uk -->
+	<!-- <script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="a6e59d64-292f-47ef-95cd-7926ea21ce0f" ></script>
+	<script type="text/javascript">
+	function OptanonWrapper() { }
+	</script> -->
+	<!-- CookiePro Cookies Consent Notice end for www.wellingtoncollege.org.uk -->
+
+
+	<meta charset="UTF-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- SETUP AND AUTHENTICATE WITH TWK CLIENTS USER http://google.com/webmasters -->
+	<meta name="google-site-verification" content="">
+
+	<!-- USE YOAST TO ADD SOCIAL MEDIA META TAGS -->
+
+	<!-- GENERATE FAVICON USING https://realfavicongenerator.net/ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/favicon/site.webmanifest">
+	<link rel="mask-icon" href="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/favicon/safari-pinned-tab.svg" color="#007470">
+	<meta name="msapplication-TileColor" content="#007470">
+	<meta name="theme-color" content="#ffffff">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="pingback" href="https://www.wellingtoncollege.org.uk/xmlrpc.php" />
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<link rel="stylesheet" href="https://www.wellingtoncollege.org.uk/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css" />
+	<link rel="stylesheet" href="https://www.wellingtoncollege.org.uk/wp-content/plugins/gravityforms/assets/css/dist/theme-admin.min.css" />
+	
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Wellington College</title>
+	<meta name="description" content="We believe that every child has immense potential that, in the right environment, can be uncovered, nurtured and realised." />
+	<link rel="canonical" href="https://www.wellingtoncollege.org.uk/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Wellington College" />
+	<meta property="og:description" content="We believe that every child has immense potential that, in the right environment, can be uncovered, nurtured and realised." />
+	<meta property="og:url" content="https://www.wellingtoncollege.org.uk/" />
+	<meta property="og:site_name" content="Wellington College" />
+	<meta property="article:publisher" content="https://www.facebook.com/WellingtonCollege/" />
+	<meta property="article:modified_time" content="2026-10-20T11:58:29+00:00" />
+	<meta property="og:image" content="https://www.wellingtoncollege.org.uk/wp-content/uploads/2023/11/55358645019_1a8cb314a8_k.jpg" />
+	<meta property="og:image:width" content="2048" />
+	<meta property="og:image:height" content="1365" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.wellingtoncollege.org.uk\/","url":"https:\/\/www.wellingtoncollege.org.uk\/","name":"Wellington College","isPartOf":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#website"},"about":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#primaryimage"},"image":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#primaryimage"},"thumbnailUrl":"https:\/\/www.wellingtoncollege.org.uk\/wp-content\/uploads\/2023\/11\/55358645019_1a8cb314a8_k.jpg","datePublished":"2025-10-06T11:53:24+00:00","dateModified":"2026-10-20T11:58:29+00:00","description":"We believe that every child has immense potential that, in the right environment, can be uncovered, nurtured and realised.","breadcrumb":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.wellingtoncollege.org.uk\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.wellingtoncollege.org.uk\/#primaryimage","url":"https:\/\/www.wellingtoncollege.org.uk\/wp-content\/uploads\/2023\/11\/55358645019_1a8cb314a8_k.jpg","contentUrl":"https:\/\/www.wellingtoncollege.org.uk\/wp-content\/uploads\/2023\/11\/55358645019_1a8cb314a8_k.jpg","width":2048,"height":1365},{"@type":"BreadcrumbList","@id":"https:\/\/www.wellingtoncollege.org.uk\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/www.wellingtoncollege.org.uk\/#website","url":"https:\/\/www.wellingtoncollege.org.uk\/","name":"Wellington College","description":"","publisher":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.wellingtoncollege.org.uk\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.wellingtoncollege.org.uk\/#organization","name":"Wellington College","url":"https:\/\/www.wellingtoncollege.org.uk\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.wellingtoncollege.org.uk\/#\/schema\/logo\/image\/","url":"https:\/\/www.wellingtoncollege.org.uk\/wp-content\/uploads\/2022\/08\/crest-black.png","contentUrl":"https:\/\/www.wellingtoncollege.org.uk\/wp-content\/uploads\/2022\/08\/crest-black.png","width":150,"height":184,"caption":"Wellington College"},"image":{"@id":"https:\/\/www.wellingtoncollege.org.uk\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/WellingtonCollege\/","https:\/\/uk.linkedin.com\/school\/wellingtoncollege\/","https:\/\/www.youtube.com\/channel\/UCqTI4j5uj8bAThuOvA3cvaA","https:\/\/www.instagram.com\/wellingtoncollege\/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.wellingtoncollege.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wellingtoncollege.org.uk%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.wellingtoncollege.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wellingtoncollege.org.uk%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:where(.wp-block-gallery.is-layout-flex){gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}:where(.wp-block-gallery.is-layout-grid){gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+:where(.wp-block-latest-posts.is-layout-flex){gap: 1.25em;}:where(.wp-block-latest-posts.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='screen-css-css' href='https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/css/screen.css?ver=1792487574' media='all' />
+<script id="jquery-js" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script id="animations-homepage-2025-js-js" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/js/animations-homepage-2025.js?ver=1788434690"></script>
+<link rel="https://api.w.org/" href="https://www.wellingtoncollege.org.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.wellingtoncollege.org.uk/wp-json/wp/v2/pages/22773" /><link rel='shortlink' href='https://www.wellingtoncollege.org.uk/' />
+		<script type="text/javascript">
+			(function(c, l, a, r, i, t, y) {
+				c[a] = c[a] || function() {
+					(c[a].q = c[a].q || []).push(arguments)
+				};
+				t = l.createElement(r);
+				t.async = 1;
+				t.src = "https://www.clarity.ms/tag/" + i + "?ref=wordpress";
+				y = l.getElementsByTagName(r)[0];
+				y.parentNode.insertBefore(t, y);
+			})(window, document, "clarity", "script", "uyau6mhdd5");
+		</script>
+				<style id="wpsp-style-frontend"></style>
+						<script src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+	</head>
+
+
+<body class="home wp-singular page-template page-template-tpl page-template-tpl-home-2025 page-template-tpltpl-home-2025-php page page-id-22773 wp-theme-wellington-2022 wp-schema-pro-2.12.3" >
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDHWSN7"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+		
+	
+	<div id="page-wrap">
+		<a class="skip-link sr-only" href="#content-wrap">Skip to content</a>
+
+		<div class="top-nav">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-4 top-nav__col-left">
+						<a href="https://www.wellingtoncollege.org.uk/?source=logo">
+							<p class="visually-hidden">Wellington College</p>
+							<div class="top-nav__logo logo-color-default">
+																	<img class="top-nav__logo__img" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/logos/wellington-college-crest-black.svg" alt="Wellington College Crest" />
+															</div>
+						</a>
+					</div>
+					<div class="col-md-8 top-nav__col-right">
+						<div class="hamburger-menu-wrapper hamburger-menu-wrapper--with-scroll-and-links" role="button" aria-label="Menu" tabindex="0">
+							<div class="hamburger-menu-wrapper__links">
+																	<a href="https://www.wellingtoncollege.org.uk/admissions/enquiry-form/" target="_self" class="button-outline-black">
+										Enquire									</a>
+																									<a href="https://www.wellingtoncollege.org.uk/admissions/admissions-overview/" target="_self" class="button-outline-black">
+										Register									</a>
+															</div>
+							<div class="line"></div>
+							<div class="hamburger-menu">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+
+						<div class="top-nav-menu-container">
+							<div class="back-overlay"></div>
+							<div class="menus">
+								<div class="menus-container">
+									<div class="menu-main-menu-container"><ul id="main-menu" class="menu"><li id="menu-item-434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434 accent-color-orange menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/about/">About Wellington</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-110' class='menu-item menu-item-110 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/an-introduction-to-wellington/'>An Introduction to Wellington</a></div>
+</li>
+<li id='menu-item-111' class='menu-item menu-item-111 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/the-masters-mission/'>The Master&#8217;s Mission</a></div>
+</li>
+<li id='menu-item-112' class='menu-item menu-item-112 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/our-purpose-vision-attitude/'>Our Purpose, Vision &#038; Attitude</a></div>
+</li>
+<li id='menu-item-113' class='menu-item menu-item-113 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/our-values/'>Our Values</a></div>
+</li>
+<li id='menu-item-114' class='menu-item menu-item-114 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/our-heritage/'>Our History</a></div>
+</li>
+<li id='menu-item-115' class='menu-item menu-item-115 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/our-future/'>Our Future</a></div>
+</li>
+<li id='menu-item-116' class='menu-item menu-item-116 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/the-wellington-community/'>The Wellington Community</a></div>
+</li>
+<li id='menu-item-117' class='menu-item menu-item-117 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/our-family-of-schools/'>Our Family of Schools</a></div>
+</li>
+<li id='menu-item-119' class='menu-item menu-item-119 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/inspections/'>Inspections</a></div>
+</li>
+<li id='menu-item-120' class='menu-item menu-item-120 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/policies/'>Policies</a></div>
+</li>
+<li id='menu-item-121' class='menu-item menu-item-121 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/about/leaders-governors/'>Leaders &#038; Governors</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435 accent-color-yellow menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/admissions/">Admissions</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-124' class='menu-item menu-item-124 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/admissions-overview/'>Admissions Overview</a></div>
+</li>
+<li id='menu-item-126' class='menu-item menu-item-126 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/our-selection-criteria/'>Our Selection Criteria</a></div>
+</li>
+<li id='menu-item-22562' class='menu-item menu-item-22562 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/joining-at-11/'>Joining at 11+</a></div>
+</li>
+<li id='menu-item-569' class='menu-item menu-item-569 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/joining-at-13/'>Joining at 13+</a></div>
+</li>
+<li id='menu-item-10454' class='menu-item menu-item-10454 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/joining-at-14/'>Joining at 14+</a></div>
+</li>
+<li id='menu-item-10534' class='menu-item menu-item-10534 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/joining-at-16/'>Joining at 16+</a></div>
+</li>
+<li id='menu-item-22861' class='menu-item menu-item-22861 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/enquiry-form/'>Enquiry Form</a></div>
+</li>
+<li id='menu-item-125' class='menu-item menu-item-125 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/visiting-wellington/'>Visiting Wellington</a></div>
+</li>
+<li id='menu-item-118' class='menu-item menu-item-118 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/virtual-tour/'>Virtual Tour</a></div>
+</li>
+<li id='menu-item-128' class='menu-item menu-item-128 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/scholarships/'>Scholarships</a></div>
+</li>
+<li id='menu-item-129' class='menu-item menu-item-129 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/college-fees/'>College Fees</a></div>
+</li>
+<li id='menu-item-132' class='menu-item menu-item-132 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/assistance-with-fees/'>Assistance with Fees</a></div>
+</li>
+<li id='menu-item-134' class='menu-item menu-item-134 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/admissions/international-pupils/'>International Pupils</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436 accent-color-green menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/academic/">Academic</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-135' class='menu-item menu-item-135 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/our-learning-philosophy/'>Our Learning Philosophy</a></div>
+</li>
+<li id='menu-item-136' class='menu-item menu-item-136 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/curriculum/'>Curriculum</a></div>
+</li>
+<li id='menu-item-137' class='menu-item menu-item-137 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/academic-faculties/'>Academic Faculties</a></div>
+</li>
+<li id='menu-item-138' class='menu-item menu-item-138 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/beyond-the-classroom/'>Beyond the Classroom</a></div>
+</li>
+<li id='menu-item-139' class='menu-item menu-item-139 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/fireside-lectures/'>Fireside Talks</a></div>
+</li>
+<li id='menu-item-140' class='menu-item menu-item-140 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/library/'>Library</a></div>
+</li>
+<li id='menu-item-141' class='menu-item menu-item-141 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/examination-results/'>Examination Results</a></div>
+</li>
+<li id='menu-item-142' class='menu-item menu-item-142 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/academic-support/'>Academic Support</a></div>
+</li>
+<li id='menu-item-143' class='menu-item menu-item-143 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/progress-and-reporting/'>Progress &#038; Reporting</a></div>
+</li>
+<li id='menu-item-144' class='menu-item menu-item-144 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/universities-careers/'>Universities &#038; Careers</a></div>
+</li>
+<li id='menu-item-145' class='menu-item menu-item-145 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/academic/digital-learning/'>Digital Learning</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-437 accent-color-orange menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/co-curricular/">Co-Curricular</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-147' class='menu-item menu-item-147 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/the-arts/'>The Arts</a></div>
+</li>
+<li id='menu-item-146' class='menu-item menu-item-146 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/sport/'>Sport</a></div>
+</li>
+<li id='menu-item-148' class='menu-item menu-item-148 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/global-citizenship/'>Global Citizenship</a></div>
+</li>
+<li id='menu-item-149' class='menu-item menu-item-149 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/leadership/'>Leadership</a></div>
+</li>
+<li id='menu-item-592' class='menu-item menu-item-592 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/ccf/'>CCF</a></div>
+</li>
+<li id='menu-item-150' class='menu-item menu-item-150 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/expeditions-adventure/'>Expeditions &#038; Adventure</a></div>
+</li>
+<li id='menu-item-151' class='menu-item menu-item-151 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/co-curricular/enrichment/'>Enrichment</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-438 accent-color-yellow menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/health-wellbeing/">Health &#038; Wellbeing</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-152' class='menu-item menu-item-152 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/health-wellbeing/excellence-in-care/'>Excellence in Care</a></div>
+</li>
+<li id='menu-item-153' class='menu-item menu-item-153 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/health-wellbeing/wellbeing/'>Wellbeing Lessons</a></div>
+</li>
+<li id='menu-item-7532' class='menu-item menu-item-7532 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/health-wellbeing/safeguarding/'>Safeguarding</a></div>
+</li>
+<li id='menu-item-155' class='menu-item menu-item-155 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/health-wellbeing/healthy-eating/'>Healthy Eating</a></div>
+</li>
+<li id='menu-item-154' class='menu-item menu-item-154 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/health-wellbeing/health-centre/'>Health Centre</a></div>
+</li>
+<li id='menu-item-157' class='menu-item menu-item-157 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/health-wellbeing/our-house-system/'>Our House System</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439 accent-color-green menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/college-life/">College Life</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-21189' class='menu-item menu-item-21189 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/pupil-experience/'>Pupil Experience</a></div>
+</li>
+<li id='menu-item-14225' class='menu-item menu-item-14225 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/sixth-form/'>Sixth Form</a></div>
+</li>
+<li id='menu-item-15879' class='menu-item menu-item-15879 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/equality-diversity-and-inclusion-edi-at-wellington-college/'>Equality, Diversity and Inclusion</a></div>
+</li>
+<li id='menu-item-26111' class='menu-item menu-item-26111 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/boarding/'>Boarding</a></div>
+</li>
+<li id='menu-item-25123' class='menu-item menu-item-25123 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/minibus-service/'>Minibus Service</a></div>
+</li>
+<li id='menu-item-21472' class='menu-item menu-item-21472 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/pioneering-women/'>Pioneering Women&#8217;s Trail</a></div>
+</li>
+<li id='menu-item-164' class='menu-item menu-item-164 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/the-chapel/'>Spiritual and Religious Life</a></div>
+</li>
+<li id='menu-item-165' class='menu-item menu-item-165 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/the-college-shop/'>The College Shop</a></div>
+</li>
+<li id='menu-item-166' class='menu-item menu-item-166 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/college-life/life-beyond-wellington/'>Life Beyond Wellington</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-440 accent-color-orange menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/leading-education/">Leading Education</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-167' class='menu-item menu-item-167 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/leading-education/wellington-college-learning-alliance/'>Wellington College Learning Alliance</a></div>
+</li>
+<li id='menu-item-168' class='menu-item menu-item-168 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/leading-education/festival-of-education/'>Festival of Education</a></div>
+</li>
+<li id='menu-item-171' class='menu-item menu-item-171 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/leading-education/the-bridge/'>The Bridge</a></div>
+</li>
+<li id='menu-item-6287' class='menu-item menu-item-6287 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/leading-education/grants-donations/'>Grants &#038; Donations</a></div>
+</li>
+<li id='menu-item-160' class='menu-item menu-item-160 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/leading-education/sustainability/'>Sustainability</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-441 accent-color-yellow menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/news-events/">News &#038; Events</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-175' class='menu-item menu-item-175 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/whats-new/'>What&#8217;s New</a></div>
+</li>
+<li id='menu-item-27135' class='menu-item menu-item-27135 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/videos/'>Videos</a></div>
+</li>
+<li id='menu-item-20993' class='menu-item menu-item-20993 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/recent-awards-recognitions/'>Recent Awards &#038; Recognitions</a></div>
+</li>
+<li id='menu-item-176' class='menu-item menu-item-176 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/events/'>Events</a></div>
+</li>
+<li id='menu-item-177' class='menu-item menu-item-177 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/latest-news/'>Latest News</a></div>
+</li>
+<li id='menu-item-179' class='menu-item menu-item-179 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/school-calendar/'>College Calendar</a></div>
+</li>
+<li id='menu-item-21754' class='menu-item menu-item-21754 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/sports-fixtures/'>Sports Fixtures</a></div>
+</li>
+<li id='menu-item-181' class='menu-item menu-item-181 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/sport-results/'>Sport Results</a></div>
+</li>
+<li id='menu-item-182' class='menu-item menu-item-182 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/galleries/'>Galleries</a></div>
+</li>
+<li id='menu-item-183' class='menu-item menu-item-183 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/college-term-dates/'>College Term Dates</a></div>
+</li>
+<li id='menu-item-22009' class='menu-item menu-item-22009 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/news-events/celebrating-50-years-of-co-education-at-wellington-college/'>Celebrating 50 Years of Co-education</a></div>
+</li>
+</ul>
+</li>
+<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442 accent-color-green menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/contact/">Contact</a></div><ul class='sub-menu'><li class='menu-back d-none title title--xs font-sans-medium'>Back</li>
+<li id='menu-item-185' class='menu-item menu-item-185 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/contact/get-in-touch/'>Get in Touch</a></div>
+</li>
+<li id='menu-item-186' class='menu-item menu-item-186 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/contact/how-to-visit-us/'>How to Visit Us</a></div>
+</li>
+<li id='menu-item-188' class='menu-item menu-item-188 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/contact/where-we-are/'>Where We Are</a></div>
+</li>
+<li id='menu-item-189' class='menu-item menu-item-189 '>
+	<div class='link-container'><a href='https://www.wellingtoncollege.org.uk/contact/department-contacts/'>Department Contacts</a></div>
+</li>
+</ul>
+</li>
+</ul></div><div class="menu-secondary-menu-container"><ul id="secondary-menu" class="menu"><li id="menu-item-17820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17820"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/admissions/virtual-tour/">Virtual Tour</a></div></li>
+<li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/about/the-wellington-community/">The Wellington Community</a></div></li>
+<li id="menu-item-445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-445"><div class="link-container"><a href="http://www.wellingtoncollegeeducation.com">Wellington College Education</a></div></li>
+<li id="menu-item-23450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23450"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/vacancies/">Vacancies</a></div></li>
+<li id="menu-item-3471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3471 menu-item-has-children menu-item-has-child"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/venue-hire/">Venue Hire</a></div></li>
+<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/news-events/college-term-dates/">Term Dates</a></div></li>
+<li id="menu-item-6645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6645"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/news-events/sports-fixtures/sport-fixtures/">All Sports Fixtures</a></div></li>
+<li id="menu-item-14535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14535"><div class="link-container"><a href="https://www.wellingtoncollege.org.uk/parents-hub/">Parents’ Hub</a></div></li>
+</ul></div>
+									<div id="search-full-screen" class="menu-search-form-container mfp-hide white-popup-block my-mfp-zoom-in">
+										
+<form action="https://www.wellingtoncollege.org.uk" id="searchform" method="get">
+	<div class="inputs-container">
+		<label for="s" class="visually-hidden">Search for:</label>
+		<input type="search" id="s" name="s" value="" placeholder="Enter a keyword" required />
+
+		<input class="visually-hidden" type="submit" value="Search" id="searchsubmit" />
+	</div>
+	<footer class="mt-20">
+		Hit enter to search <span class="optional">or ESC to close</span>
+	</footer>
+</form>
+									</div>
+	
+									<div class="d-flex flex-wrap align-items-center justify-content-between">
+										<a href="#search-full-screen" class="search-box-button magnific-full-screen-popup mb-10">
+											<span>Search</span>
+											<span role="img"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20 18.711l-6.044-6.044a7.782 7.782 0 0 0 1.688-4.845c0-2.089-.822-4.044-2.288-5.533C11.866.822 9.91 0 7.822 0S3.778.822 2.29 2.289A7.801 7.801 0 0 0 0 7.822c0 2.09.822 4.045 2.289 5.534a7.801 7.801 0 0 0 5.533 2.288c1.778 0 3.467-.6 4.845-1.688L18.71 20 20 18.711zM3.578 12.067c-2.334-2.334-2.334-6.156 0-8.49a5.968 5.968 0 0 1 4.244-1.755c1.6 0 3.111.622 4.245 1.756 2.333 2.333 2.333 6.155 0 8.489a5.968 5.968 0 0 1-4.245 1.755c-1.6 0-3.11-.622-4.244-1.755z"/></svg></span>
+										</a>
+										<div class="social-media">
+											<a class="social-media__link mr-10" href="https://www.facebook.com/WellingtonCollege"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/facebook_circle_green.svg" alt="facebook Icon"/></a><a class="social-media__link mr-10" href="https://twitter.com/WellingtonUK"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/twitter_circle_green.svg" alt="twitter Icon"/></a><a class="social-media__link mr-10" href="https://www.youtube.com/channel/UCqTI4j5uj8bAThuOvA3cvaA"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/youtube_circle_green.svg" alt="youtube Icon"/></a><a class="social-media__link mr-10" href="https://www.instagram.com/wellingtoncollege/"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/instagram_circle_green.svg" alt="instagram Icon"/></a><a class="social-media__link mr-10" href="https://www.tiktok.com/@wellingtoncollege"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/tiktok_circle_green.svg" alt="tiktok Icon"/></a>										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+									<div id="mobile-cta-bar-green" class="mobile-cta-bar green-cta-bar">
+											<a href="https://www.wellingtoncollege.org.uk/admissions/enquiry-form/" target="_self" class="button-outline-black" data-cta-position="green" data-cta-type="enquire">
+							Enquire						</a>
+																<a href="https://www.wellingtoncollege.org.uk/admissions/admissions-overview/" target="_self" class="button-outline-black" data-cta-position="green" data-cta-type="register">
+							Register						</a>
+									</div> 
+					
+		<div id="content-wrap">
+
+							<div class="intro-video-wrapper">
+										<video poster="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/video/wellington-intro-poster.jpg" muted="true" preload playsinline class="intro-video">
+						<source src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/video/wellington-intro.webm" type="video/webm">
+						<source src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/video/wellington-intro.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					</video>
+						
+					<div class="intro-video-buttons-group">
+						<button class="intro-video-with-sound button button--unmute button--sm no-animation" tabindex="1">Unmute</button>
+						<button class="intro-video-skip-button button button--sm no-animation" tabindex="2">Skip to site</button>
+					</div>
+				</div>
+				
+	
+			<div class="sections-container" style="visibility: hidden;">
+				
+<section id="banner" class="banner">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-10 col-xl-8 text-center">
+				<div class="banner__text-group">
+											<div class="banner__title"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1033px" height="272px" viewBox="0 0 1033 272" version="1.1"> 								<g id="realise-your-potential" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 									<g transform="translate(101.000000, 0.000000)"> 										<path d="M1.13014929,113.886107 L22.926214,113.886107 L22.926214,68.8435789 L28.188443,68.8435789 L64.8654198,113.886107 L91.1719664,113.886107 L52.8397669,66.4337542 C67.1206607,62.0656588 74.7875604,53.027664 74.7875604,38.5641078 C74.7875604,20.7899222 61.8584318,6.92997408 42.0164494,6.92997408 L1.13014929,6.92997408 L1.13014929,113.886107 Z M22.926214,50.1639813 L22.926214,26.9665381 L39.4623488,26.9665381 C47.7292667,26.9665381 53.1409255,31.1825795 53.1409255,38.5641078 C53.1409255,45.7958859 47.7292667,50.1639813 39.4623488,50.1639813 L22.926214,50.1639813 Z M122.740742,115.542573 C141.830977,115.542573 156.863618,104.546308 161.222371,89.3316971 L139.725166,89.3316971 C137.320495,94.6029008 131.00766,97.6163337 123.791349,97.6163337 C110.864519,97.6163337 104.250525,89.9330014 103.498778,81.0470606 L162.123548,81.0470606 C163.325884,52.72586 144.837965,36.9076412 122.890172,36.9076412 C100.041202,36.9076412 83.3556369,53.6289683 83.3556369,76.0753571 C83.3556369,98.9733 99.7400429,115.542573 122.740742,115.542573 L122.740742,115.542573 Z M122.287855,53.6289683 C129.203007,53.6289683 137.171066,57.3957594 139.575736,67.4889165 L104.250525,67.4889165 C106.204607,59.0522259 112.669172,53.6289683 122.287855,53.6289683 L122.287855,53.6289683 Z M201.658083,115.542573 C212.028513,115.542573 219.844843,110.271369 223.302419,105.449416 L223.302419,113.886107 L243.896148,113.886107 L243.896148,38.5641078 L223.302419,38.5641078 L223.302419,47.0007983 C219.844843,42.1811487 212.028513,36.9076412 201.658083,36.9076412 C181.664372,36.9076412 166.332872,54.9859346 166.332872,76.2251072 C166.332872,97.4665836 181.664372,115.542573 201.658083,115.542573 L201.658083,115.542573 Z M206.016836,96.7132254 C194.591202,96.7132254 187.076031,88.1267847 187.076031,76.2251072 C187.076031,64.3257335 194.591202,55.736989 206.016836,55.736989 C217.440172,55.736989 224.957642,64.3257335 224.957642,76.2251072 C224.957642,88.1267847 217.440172,96.7132254 206.016836,96.7132254 L206.016836,96.7132254 Z M257.875884,113.886107 L278.469613,113.886107 L278.469613,0.905412172 L257.875884,0.905412172 L257.875884,113.886107 Z M302.520919,26.2131799 C309.88666,26.2131799 315.748907,20.3360642 315.748907,13.1065899 C315.748907,5.8748118 309.88666,0 302.520919,0 C295.454037,0 289.44236,5.8748118 289.44236,13.1065899 C289.44236,20.3360642 295.454037,26.2131799 302.520919,26.2131799 L302.520919,26.2131799 Z M292.29762,113.886107 L312.891349,113.886107 L312.891349,38.5641078 L292.29762,38.5641078 L292.29762,113.886107 Z M355.731731,115.542573 C373.92079,115.542573 387.148778,106.806382 387.148778,92.6446302 C387.148778,80.7452565 381.137101,73.0619242 366.256189,69.2951331 L353.028201,65.680396 C348.368289,64.6252337 344.457826,62.9687671 344.457826,58.7504219 C344.457826,55.1356847 348.067131,53.027664 353.327061,53.027664 C357.986972,53.027664 362.196296,54.8338807 363.249201,60.7086925 L383.992361,60.7086925 C382.790025,45.6461358 370.012625,36.9076412 353.628219,36.9076412 C334.988572,36.9076412 323.413508,46.2474401 323.413508,59.201976 C323.413508,70.2005453 329.275755,79.08879 342.503743,82.5514731 L356.635207,86.1685141 C363.249201,87.8249807 366.104461,89.6335012 366.104461,93.6997925 C366.104461,97.3145296 362.798613,99.7266582 356.334049,99.7266582 C349.720054,99.7266582 344.007237,96.5611714 343.25549,89.9330014 L321.760584,89.9330014 C322.512331,104.696058 336.342636,115.542573 355.731731,115.542573 L355.731731,115.542573 Z M430.591478,115.542573 C449.681713,115.542573 464.714354,104.546308 469.073107,89.3316971 L447.578201,89.3316971 C445.171231,94.6029008 438.858396,97.6163337 431.644384,97.6163337 C418.715255,97.6163337 412.101261,89.9330014 411.349514,81.0470606 L469.974284,81.0470606 C471.17662,52.72586 452.688701,36.9076412 430.740908,36.9076412 C407.891937,36.9076412 391.206373,53.6289683 391.206373,76.0753571 C391.206373,98.9733 407.593078,115.542573 430.591478,115.542573 L430.591478,115.542573 Z M430.14089,53.6289683 C437.053743,53.6289683 445.021802,57.3957594 447.426472,67.4889165 L412.101261,67.4889165 C414.055343,59.0522259 420.519907,53.6289683 430.14089,53.6289683 L430.14089,53.6289683 Z" id="realise" fill="#0A0A0A"/> 										<path d="M80.312326,216.607306 L103.913043,163.204115 L92.5632731,163.204115 L82.567567,187.608774 L72.4959965,163.204115 L61.2220906,163.204115 L77.0041795,198.757094 L69.1142845,216.607306 L80.312326,216.607306 Z M121.950373,201.6945 C132.849555,201.6945 141.71879,193.108059 141.71879,182.035767 C141.71879,171.037197 132.849555,162.377034 121.950373,162.377034 C111.05349,162.377034 102.184255,171.037197 102.184255,182.035767 C102.184255,193.108059 111.05349,201.6945 121.950373,201.6945 L121.950373,201.6945 Z M121.950373,192.052897 C116.538714,192.052897 112.556984,187.834551 112.556984,182.035767 C112.556984,176.234678 116.538714,172.016333 121.950373,172.016333 C127.288466,172.016333 131.270197,176.234678 131.270197,182.035767 C131.270197,187.834551 127.288466,192.052897 121.950373,192.052897 L121.950373,192.052897 Z M159.831984,201.6945 C164.641326,201.6945 168.098902,199.584175 170.128849,196.570742 L170.128849,200.865114 L180.425714,200.865114 L180.425714,163.204115 L170.128849,163.204115 L170.128849,181.581909 C170.128849,188.889714 166.972431,192.278674 162.386085,192.278674 C157.877902,192.278674 155.997385,189.039464 155.997385,183.314402 L155.997385,163.204115 L145.70052,163.204115 L145.70052,185.046896 C145.70052,194.990303 150.813319,201.6945 159.831984,201.6945 L159.831984,201.6945 Z M187.340866,200.865114 L197.637731,200.865114 L197.637731,182.862848 C197.637731,176.612509 200.867714,172.845718 205.75292,172.845718 C207.481708,172.845718 208.835773,173.147522 210.412832,173.675103 L210.412832,163.204115 C209.136931,162.828588 208.084026,162.752561 206.957555,162.752561 C202.748231,162.752561 198.913632,165.540217 197.637731,169.230981 L197.637731,163.204115 L187.340866,163.204115 L187.340866,200.865114 Z" id="your" fill="#0A0A0A"/> 										<path d="M261.389324,270.136518 L261.389324,230.215444 C264.8469,235.037397 272.81266,240.308601 283.185389,240.308601 C303.1791,240.308601 318.5106,222.232611 318.5106,200.991135 C318.5106,179.751962 303.1791,161.673669 283.185389,161.673669 C272.81266,161.673669 264.8469,166.947176 261.389324,171.766826 L261.389324,163.330135 L240.795594,163.330135 L240.795594,270.136518 L261.389324,270.136518 Z M278.677206,221.479253 C267.251571,221.479253 259.7364,212.892812 259.7364,200.991135 C259.7364,189.091761 267.251571,180.505321 278.677206,180.505321 C290.100541,180.505321 297.615712,189.091761 297.615712,200.991135 C297.615712,212.892812 290.100541,221.479253 278.677206,221.479253 L278.677206,221.479253 Z M362.10273,240.308601 C383.898794,240.308601 401.637265,223.13572 401.637265,200.991135 C401.637265,178.998604 383.898794,161.673669 362.10273,161.673669 C340.306665,161.673669 322.568195,178.998604 322.568195,200.991135 C322.568195,223.13572 340.306665,240.308601 362.10273,240.308601 L362.10273,240.308601 Z M362.10273,221.027699 C351.279412,221.027699 343.311354,212.591008 343.311354,200.991135 C343.311354,189.391261 351.279412,180.956875 362.10273,180.956875 C372.774318,180.956875 380.742377,189.391261 380.742377,200.991135 C380.742377,212.591008 372.774318,221.027699 362.10273,221.027699 L362.10273,221.027699 Z M445.231693,239.555243 C451.09394,239.555243 454.850376,238.953938 458.307953,237.898776 L458.307953,219.670733 C455.903282,220.576145 453.048023,221.027699 449.891605,221.027699 C440.870641,221.027699 437.114205,217.410658 437.114205,208.222913 L437.114205,181.408429 L458.307953,181.408429 L458.307953,163.330135 L437.114205,163.330135 L437.114205,142.392767 L416.520476,142.392767 L416.520476,163.330135 L401.336106,163.330135 L401.336106,181.408429 L416.520476,181.408429 L416.520476,212.289204 C416.520476,230.819052 429.295577,239.555243 445.231693,239.555243 L445.231693,239.555243 Z M500.548317,240.308601 C519.638552,240.308601 534.671193,229.312335 539.029946,214.097725 L517.53504,214.097725 C515.130369,219.368928 508.815235,222.382361 501.601222,222.382361 C488.672094,222.382361 482.0581,214.699029 481.306353,205.813088 L539.931123,205.813088 C541.135757,177.491888 522.64554,161.673669 500.697747,161.673669 C477.848776,161.673669 461.163212,178.394996 461.163212,200.841385 C461.163212,223.739328 477.549917,240.308601 500.548317,240.308601 L500.548317,240.308601 Z M500.097728,178.394996 C507.012881,178.394996 514.97864,182.161787 517.383311,192.254944 L482.0581,192.254944 C484.012182,183.818254 490.476746,178.394996 500.097728,178.394996 L500.097728,178.394996 Z M548.949788,238.652134 L569.543517,238.652134 L569.543517,201.896547 C569.543517,187.432991 576.610399,180.505321 586.229082,180.505321 C594.797158,180.505321 599.45707,187.133491 599.45707,197.977702 L599.45707,238.652134 L620.053098,238.652134 L620.053098,194.515019 C620.053098,174.930009 609.229781,161.673669 591.040722,161.673669 C581.27031,161.673669 573.603411,165.892014 569.543517,171.916576 L569.543517,163.330135 L548.949788,163.330135 L548.949788,238.652134 Z M668.45457,239.555243 C674.316817,239.555243 678.075552,238.953938 681.533128,237.898776 L681.533128,219.670733 C679.128457,220.576145 676.273198,221.027699 673.114481,221.027699 C664.095816,221.027699 660.33938,217.410658 660.33938,208.222913 L660.33938,181.408429 L681.533128,181.408429 L681.533128,163.330135 L660.33938,163.330135 L660.33938,142.392767 L639.743352,142.392767 L639.743352,163.330135 L624.561281,163.330135 L624.561281,181.408429 L639.743352,181.408429 L639.743352,212.289204 C639.743352,230.819052 652.520752,239.555243 668.45457,239.555243 L668.45457,239.555243 Z M700.471635,150.979208 C707.837376,150.979208 713.699623,145.104396 713.699623,137.872618 C713.699623,130.640839 707.837376,124.766028 700.471635,124.766028 C693.407052,124.766028 687.393076,130.640839 687.393076,137.872618 C687.393076,145.104396 693.407052,150.979208 700.471635,150.979208 L700.471635,150.979208 Z M690.250634,238.652134 L710.844364,238.652134 L710.844364,163.330135 L690.250634,163.330135 L690.250634,238.652134 Z M755.18824,240.308601 C765.560969,240.308601 773.377299,235.037397 776.834875,230.215444 L776.834875,238.652134 L797.428604,238.652134 L797.428604,163.330135 L776.834875,163.330135 L776.834875,171.766826 C773.377299,166.947176 765.560969,161.673669 755.18824,161.673669 C735.194529,161.673669 719.863029,179.751962 719.863029,200.991135 C719.863029,222.232611 735.194529,240.308601 755.18824,240.308601 L755.18824,240.308601 Z M759.546993,221.479253 C748.123658,221.479253 740.606188,212.892812 740.606188,200.991135 C740.606188,189.091761 748.123658,180.505321 759.546993,180.505321 C770.970329,180.505321 778.487799,189.091761 778.487799,200.991135 C778.487799,212.892812 770.970329,221.479253 759.546993,221.479253 L759.546993,221.479253 Z M811.406041,238.652134 L831.99977,238.652134 L831.99977,125.67144 L811.406041,125.67144 L811.406041,238.652134 Z" id="potential" fill="#0A0A0A"/> 										<polygon id="blue-block" stroke="#FEFEFE" stroke-width="2" fill="#A6D6C9" points="681.121391 162.458129 624.788645 162.458129 623.639184 162.458129 623.639184 163.610053 623.639184 181.206842 623.639184 182.358766 624.788645 182.358766 681.121391 182.358766 682.270852 182.358766 682.270852 181.206842 682.270852 163.610053 682.270852 162.458129"/> 										<polygon id="block-grow" stroke="#FEFEFE" stroke-width="2" fill="#F7D117" points="239.428197 163.551766 239.428197 269.848998 239.428197 271.000922 240.577657 271.000922 261.394381 271.000922 262.543842 271.000922 262.543842 269.848998 262.543842 163.551766 262.543842 162.399842 261.394381 162.399842 240.577657 162.399842 239.428197 162.399842"/> 										<polygon id="orange-block" stroke="#FFFFFF" stroke-width="2" fill="#F27D00" points="22.9432261 5.72460093 1.1471613 5.72460093 0 5.72460093 0 6.87791235 0 114.073596 0 115.224601 1.1471613 115.224601 22.9432261 115.224601 24.0903874 115.224601 24.0903874 114.073596 24.0903874 6.87791235 24.0903874 5.72460093"/> 									</g> 								</g> 							</svg></div>
+					
+					<h1 class="visually-hidden">
+						Discover your potential					</h1>
+
+											<p class="banner__text title title--sm my-20 my-lg-50 mx-0 mx-md-30 mx-xl-gc">We believe that every child has immense potential that, in the right environment, can be uncovered, nurtured and realised.</p>
+										
+				</div>
+			</div>
+		</div>
+	</div>
+	<span id="scrolldownhome" data-element="scroll-home-label">
+			<span class="main">Scroll to explore</span>
+			<span class="second">Scroll to explore</span>
+	</span>
+</section>
+
+<section class="section-container section-container--meet-the-master">
+	<div id="meet-the-master-background" class="section-fixed meet-the-master-background background-green">
+					<div class="meet-the-master__title__wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5 offset-md-1">
+							<h2 class="meet-the-master__title title title--3xl font-sans-semibold">Meet the Master</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+	<div id="meet-the-master" class="section meet-the-master">
+					<div class="container meet-the-master__content position-relative z-10">
+				<div class="row">
+					<div class="col-md-10 offset-md-2 col-lg-8 offset-lg-3 col-xl-7 offset-xl-4">
+						<div class="meet-the-master__text title title--lg font-sans-semibold"><p>“If I had to put my finger on the one aspect of Wellington College that excites me most, it is the all-pervading culture of ambition and aspiration, an atmosphere which encourages every pupil, teacher and parent to believe that anything is possible.”</p>
+</div>
+
+						<footer class="d-md-flex justify-content-between align-items-center mt-50 mt-md-80">
+							<div class="d-flex align-items-center mb-20 mb-md-0">
+								<div class="meet-the-master__avatar">
+																			<img loading="lazy" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2022/03/testimonial-profile@2x.jpg" alt="" srcset="" sizes="(max-width: 340px) 100vw, 340px" class="full-cover"/>																	</div>
+								<div class="meet-the-master__data">
+																			<p class="meet-the-master__data__name title title--sm font-sans-medium mb-0" role="heading" aria-level="3">James Dahl</p>
+																												<p class="meet-the-master__data__subtitle title title--xs font-sans-medium mb-0">15th Master of Wellington</p>
+																	</div>
+							</div>
+															<span class="background-green">
+									<a href="https://www.wellingtoncollege.org.uk/about/the-masters-mission" target="_self" class="meet-the-master__button button button--green">Meet the Master</a>								</span>
+													</footer>
+					</div>
+				</div>
+			</div>
+			</div>
+</section>
+
+<section class="section-container section-container--big-picture background-white">
+	<div id="big-picture-background" class="section-fixed big-picture-background">
+					<video poster="" muted="true" preload playsinline autoplay loop class="full-cover">
+				<source src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/04/the-wellington-experience_1_1.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+		
+					<h2 class="big-picture__title title title--3xl font-sans-semibold text-center">The Wellington </br> experience</h2>
+			</div>
+
+	<div id="big-picture" class="section big-picture position-relative">
+					<div class="data-wrapper">
+				<div class="container">
+					<div class="row">
+								<div class="col-md-6 offset-md-0 col-lg-5 offset-lg-1 col-xl-4 offset-xl-3">
+
+																		<a href="https://www.wellingtoncollege.org.uk/health-wellbeing/excellence-in-care" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-1"
+										class="data data--1 data--stat d-flex flex-column justify-content-between align-items-center background-yellow"
+										data-block-id=1										data-speed=0.9										>  
+																																	<h3 class="data__title title title--2xl font-sans-semibold mb-10" data-text="1st">1st</h3>
+											
+																							<p class="data__text text-center">school in the UK to introduce wellbeing to the curriculum</p>
+											
+																							<span class="data__button button">Excellence in care</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							
+								<div class="col-md-6 offset-md-0 col-lg-5 col-xl-4 offset-xl-1">
+
+																		<a href="https://www.wellingtoncollege.org.uk/academic/our-learning-philosophy/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-2"
+										class="data data--2 data--stat d-flex flex-column justify-content-between align-items-center background-green"
+										data-block-id=2										data-speed=1.1										>  
+																																	<h3 class="data__title title title--2xl font-sans-semibold mb-10" data-text="31% ">31% </h3>
+											
+																							<p class="data__text text-center">of all grades were A* (A-level) or 7 (IB)</p>
+											
+																							<span class="data__button button">Our Learning Philosophy</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							</div><div class="row">
+								<div class="col-md-6 offset-md-0 col-lg-5 col-xl-4">
+
+																		<a href="https://www.wellingtoncollege.org.uk/co-curricular/the-arts/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-3"
+										class="data data--3 data--quote d-flex flex-column justify-content-between align-items-center background-orange"
+										data-block-id=3										data-speed=1.2										>  
+																																	<h3 class="data__quote">"Wellington gives everyone the platform to explore and develop their own passions."  </h3>
+											
+																							<p class="data__quote-by">Harry </p>
+																																		<p class="data__quote-description">Upper Sixth</p>
+											
+																							<span class="data__button button">The Arts</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							
+								<div class="col-md-6 offset-md-0 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
+
+																		<a href="https://www.wellingtoncollege.org.uk/about/the-wellington-community/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-4"
+										class="data data--4 data--stat d-flex flex-column justify-content-between align-items-center background-yellow"
+										data-block-id=4										data-speed=1.1										>  
+																																	<h3 class="data__title title title--2xl font-sans-semibold mb-10" data-text="6500+">6500+</h3>
+											
+																							<p class="data__text text-center">pupils and parents in our global professional and social network </p>
+											
+																							<span class="data__button button">The Wellington Community</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							</div><div class="row">
+								<div class="col-md-6 offset-md-0 col-lg-5 col-xl-4 offset-xl-1">
+
+																		<a href="https://www.wellingtoncollege.org.uk/news-events/recent-awards-recognitions/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-5"
+										class="data data--5 data--stat d-flex flex-column justify-content-between align-items-center background-green"
+										data-block-id=5										data-speed=0.9										>  
+																																	<h3 class="data__title title title--2xl font-sans-semibold mb-10" data-text="10">10</h3>
+											
+																							<p class="data__text text-center">awards won in 2025/26 </p>
+											
+																							<span class="data__button button">Recent Awards & Recognitions</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							
+								<div class="col-md-6 offset-md-0 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
+
+																		<a href="https://www.wellingtoncollege.org.uk/academic/examination-results/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-6"
+										class="data data--6 data--stat d-flex flex-column justify-content-between align-items-center background-orange"
+										data-block-id=6										data-speed=1.2										>  
+																																	<h3 class="data__title title title--2xl font-sans-semibold mb-10" data-text="47%">47%</h3>
+											
+																							<p class="data__text text-center">of all GCSE grades awarded were 9s</p>
+											
+																							<span class="data__button button">Examination results</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							</div><div class="row">
+								<div class="col-md-6 offset-md-0 col-lg-5 col-xl-4 offset-xl-1">
+
+																		<a href="https://www.wellingtoncollege.org.uk/co-curricular/sport/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-7"
+										class="data data--7 data--stat d-flex flex-column justify-content-between align-items-center background-yellow"
+										data-block-id=7										data-speed=										>  
+																																	<h3 class="data__title title title--2xl font-sans-semibold mb-10" data-text="1500+">1500+</h3>
+											
+																							<p class="data__text text-center">sports fixtures each year</p>
+											
+																							<span class="data__button button">Sport</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							
+								<div class="col-md-6 offset-md-0 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
+
+																		<a href="https://www.wellingtoncollege.org.uk/about/the-masters-mission/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-8"
+										class="data data--8 data--quote d-flex flex-column justify-content-between align-items-center background-green"
+										data-block-id=8										data-speed=										>  
+																																	<h3 class="data__quote">"James Dahl has a forensic knowledge of every pupil at the College! He also knows the name of every pupil’s parent, guardian, brother and sister."</h3>
+											
+																							<p class="data__quote-by">Phoebe</p>
+																																		<p class="data__quote-description">Current Wellington Parent </p>
+											
+																							<span class="data__button button">The Master’s Mission</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+							</div><div class="row">
+								<div class="col-md-6 offset-md-0 col-lg-5 col-xl-4 offset-xl-1">
+
+																		<a href="https://www.wellingtoncollege.org.uk/co-curricular/sport/" target="" class="big-picture-block-link">
+									
+									<div
+										id="big-picture-block-9"
+										class="data data--9 data--quote d-flex flex-column justify-content-between align-items-center background-orange"
+										data-block-id=9										data-speed=										>  
+																																	<h3 class="data__quote">"The wide range of choice for sport at Wellington is unbelievable and the quality of teaching is amazing. Everyone can find a sport that they love or be inspired to try a new one."</h3>
+											
+																							<p class="data__quote-by">Mimi </p>
+																																		<p class="data__quote-description">Third Form</p>
+											
+																							<span class="data__button button">Sport</span>
+																														</div>
+
+																		</a>
+									
+								</div>
+											</div>
+			</div>
+			</div>
+</section>
+
+<section class="section-container section-container--our-wellington">
+	<div class="section-fixed our-wellington-background background-yellow" style="height: 0;"></div>
+
+	<div id="our-wellington" class="section our-wellington position-relative background-white">
+		<div class="container position-relative z-10">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="section-title"><span>#</span><span>Our</span><span>Wellington</span></h2>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- VIDEOS -->
+		<div class="container position-relative z-10">
+							<div class="our-wellington__videos">
+					<div class="row">
+						 
+					
+							<div class="col-12 mb-30">
+								<div class="our-wellington__video-wrapper first-video position-relative js-cursor-content ">
+									<!-- Video -->
+																			<video muted="true" preload playsinline autoplay loop poster="https://www.wellingtoncollege.org.uk/wp-content/uploads/2022/04/fallback.jpg" class="our-wellington__video full-cover">
+											<source src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/07/ourwellington_v1-web-comp.mp4" type="video/mp4">
+											Your browser does not support HTML5 video.
+										</video>
+									
+																			<div id="cursor-content" class="cursor-content">
+											<!-- Video title -->
+																							<p class="cursor-content__title">Delve into everyday life at Wellington...</p>
+											
+											<!-- Play button -->
+											<div class="fill-orange" role="img">
+												<svg width="19px" height="26px" viewBox="0 0 19 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Designs-2021-V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-page-–-Landscape" transform="translate(-353.000000, -1472.000000)" fill="#FF9100">
+            <g id="Group-3" transform="translate(278.950000, 1364.000000)">
+                <g id="Group-2" transform="translate(0.000000, 17.000000)">
+                    <polygon id="Triangle" transform="translate(83.404255, 104.025145) rotate(90.000000) translate(-83.404255, -104.025145) " points="83.4042553 94.7408124 96.1702128 113.309478 70.6382979 113.309478"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>											</div>
+										</div>
+									
+									<!-- Popup link -->
+																			<a href="https://vimeo.com/1119377949" class="magnific-video stretched-link"><span class="visually-hidden">Video link</span></a>
+																	</div>
+							</div>
+					
+							 
+					
+							<div class="col-md-4 mb-30">
+								<div class="our-wellington__video-wrapper  ">
+									<!-- Video -->
+																			<video muted="true" preload playsinline autoplay loop poster="https://www.wellingtoncollege.org.uk/wp-content/uploads/2022/04/fallback.jpg" class="our-wellington__video full-cover">
+											<source src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/07/wellington_college_-_finding_your_way_v1-web-comp-2.mp4" type="video/mp4">
+											Your browser does not support HTML5 video.
+										</video>
+									
+																			<!-- Play button -->
+										<div class="play-button"><svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="33.4323" cy="33.4323" r="33.4323" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.0977 33.5663L30.3678 39.5681V27.5645L39.0977 33.5663Z" fill="#FF9100"/>
+</svg></div>
+										<!-- Video title -->
+																					<h3 class="our-wellington__video-title">Finding Your Way</h3>
+
+											<!-- Overlay -->
+											<div class="overlay overlay--bottom"></div>
+																			
+									<!-- Popup link -->
+																			<a href="https://vimeo.com/1096035855" class="magnific-video stretched-link"><span class="visually-hidden">Video link</span></a>
+																	</div>
+							</div>
+					
+							 
+					
+							<div class="col-md-4 mb-30">
+								<div class="our-wellington__video-wrapper  ">
+									<!-- Video -->
+																			<video muted="true" preload playsinline autoplay loop poster="https://www.wellingtoncollege.org.uk/wp-content/uploads/2022/04/fallback.jpg" class="our-wellington__video full-cover">
+											<source src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/07/wellington_college_-_making_connections_v1-web-comp-2.mp4" type="video/mp4">
+											Your browser does not support HTML5 video.
+										</video>
+									
+																			<!-- Play button -->
+										<div class="play-button"><svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="33.4323" cy="33.4323" r="33.4323" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.0977 33.5663L30.3678 39.5681V27.5645L39.0977 33.5663Z" fill="#FF9100"/>
+</svg></div>
+										<!-- Video title -->
+																					<h3 class="our-wellington__video-title">Making Connections</h3>
+
+											<!-- Overlay -->
+											<div class="overlay overlay--bottom"></div>
+																			
+									<!-- Popup link -->
+																			<a href="https://vimeo.com/1096034813" class="magnific-video stretched-link"><span class="visually-hidden">Video link</span></a>
+																	</div>
+							</div>
+					
+							 
+					
+							<div class="col-md-4 mb-30">
+								<div class="our-wellington__video-wrapper  ">
+									<!-- Video -->
+																			<video muted="true" preload playsinline autoplay loop poster="https://www.wellingtoncollege.org.uk/wp-content/uploads/2022/04/fallback.jpg" class="our-wellington__video full-cover">
+											<source src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/07/wellington_college_-_being_yourself_v1-web-comp-2.mp4" type="video/mp4">
+											Your browser does not support HTML5 video.
+										</video>
+									
+																			<!-- Play button -->
+										<div class="play-button"><svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="33.4323" cy="33.4323" r="33.4323" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.0977 33.5663L30.3678 39.5681V27.5645L39.0977 33.5663Z" fill="#FF9100"/>
+</svg></div>
+										<!-- Video title -->
+																					<h3 class="our-wellington__video-title">Being Yourself</h3>
+
+											<!-- Overlay -->
+											<div class="overlay overlay--bottom"></div>
+																			
+									<!-- Popup link -->
+																			<a href="https://vimeo.com/1096033863" class="magnific-video stretched-link"><span class="visually-hidden">Video link</span></a>
+																	</div>
+							</div>
+					
+												</div>
+				</div>
+					</div>
+
+
+
+
+	<!-- ACCORDION -->
+	<div class="accordion-container js-trigger">
+		
+		<!-- Floating Image (Desktop Only) -->
+		<div class="mouse-pos-list-image">
+			<div class="overlay">
+				<ul class="list-unstyled float-image-wrap">
+					<li class="visible mouse-pos-list-image-inner">
+						<picture class="overlay award-preview"></picture>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+					<ul class="accordion-list mouse-pos-list-image-wrap" data-directional-hover data-type="y">
+				
+					<li class="accordion-item visible item-green" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Big.-Small-scaled.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-green"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-green">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										Big. Small.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										You don’t just come to Wellington, you belong.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-green">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="img" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Big.-Small-scaled.jpg" alt="big-small" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Big.-Small-scaled.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Big.-Small-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Big.-Small-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Big.-Small-1280x853.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>A thriving school of over 1,100 students, with 18 Houses that are small enough for each child to feel at home – a place where they are known, supported, and part of a close-knit community. From the moment they arrive, every student becomes part of a House, a team, a tradition, a family – Wellington is a place where lifelong friendships are forged, voices are heard, and everyone is valued. You don’t just come to Wellington, you belong.</p>
+								</div>
+
+															</div>
+						</div>
+					</li>
+
+				
+					<li class="accordion-item visible item-orange" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Everything.-Anything-scaled.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-orange"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-orange">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										Everything. Anything.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										Find your true self at Wellington.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-orange">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="img" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Everything.-Anything-scaled.jpg" alt="everything-anything" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Everything.-Anything-scaled.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Everything.-Anything-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Everything.-Anything-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Everything.-Anything-1280x853.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>At Wellington, students don’t have to choose between being an academic, an artist, an athlete, or a leader. They can be all of them or any of them, as they embark on a journey of self-discovery in an environment that encourages every passion to flourish. Students are challenged and supported in equal measure because here, academic ambition and personal wellbeing go hand in hand.</p>
+								</div>
+
+															</div>
+						</div>
+					</li>
+
+				
+					<li class="accordion-item visible item-yellow" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/wellbeing-festival-2023_003-scaled-1.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-yellow"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-yellow">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										Time. Space.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										The time to fully immerse yourself in College life.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-yellow">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/wellbeing-festival-2023_003-scaled-1.jpg" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/wellbeing-festival-2023_003-scaled-1.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/wellbeing-festival-2023_003-scaled-1-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/wellbeing-festival-2023_003-scaled-1-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/wellbeing-festival-2023_003-scaled-1-1280x854.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>With 400 acres of stunning grounds, Wellington offers the space to breathe, the time to think and the environment to be yourself. Whether it’s exploring an academic passion, enjoying a particular sport, or getting lost in the arts, students have the freedom to discover who they are. From historic buildings to state-of-the-art facilities, our beautiful setting isn’t just a backdrop – it’s a home, a home that inspires. Days here are carefully structured to enable all students to immerse themselves fully in the Wellington experience.</p>
+								</div>
+
+															</div>
+						</div>
+					</li>
+
+				
+					<li class="accordion-item visible item-green" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Human.-Intelligence-scaled-1-scaled.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-green"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-green">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										Human. Intelligence.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										Achieve outstanding results and so much more.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-green">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="img" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Human.-Intelligence-scaled-1-scaled.jpg" alt="human-intelligence" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Human.-Intelligence-scaled-1-scaled.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Human.-Intelligence-scaled-1-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Human.-Intelligence-scaled-1-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Human.-Intelligence-scaled-1-1280x853.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>Academic excellence is just the beginning at Wellington. We empower students to achieve GCSE, A Level and IB results that are simply outstanding, not just nationally, but globally. Our pioneering approach nurtures independent thinkers, equipping them for higher education and beyond, and wellbeing is inter-woven into everything we do — ensuring every student flourishes in a dynamic and supportive environment. Because at Wellington, we don’t just develop minds — we inspire futures.</p>
+								</div>
+
+															</div>
+						</div>
+					</li>
+
+				
+					<li class="accordion-item visible item-orange" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Perspective.-Purpose-scaled.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-orange"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-orange">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										Perspective. Purpose.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										Inspired by our traditions, and always looking forwards.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-orange">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="img" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Perspective.-Purpose-scaled.jpg" alt="perspective-purpose" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Perspective.-Purpose-scaled.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Perspective.-Purpose-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Perspective.-Purpose-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Perspective.-Purpose-1280x853.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>With a wonderful fusion of heritage and future-focus, Wellington blends history with innovation. Our curriculum offers AI, entrepreneurship and global citizenship courses, alongside world-class academics, drama, music, and sport. In additional our unique Life Beyond Wellington programme equips our students with the knowledge and skills they’ll need for an ever-changing world of work. Inspired by our traditions, we’re always looking forwards, constantly striving to sit at the forefront of educational thinking. And here education is all about developing intellect – curiosity, creativity, and character – preparing students for life.</p>
+								</div>
+
+															</div>
+						</div>
+					</li>
+
+				
+					<li class="accordion-item visible item-yellow" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Chapel-Choir-Concert-2024_001-scaled.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-yellow"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-yellow">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										All. Together.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										A strong sense of community, kindness, and excellence without exclusivity.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-yellow">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="img" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Chapel-Choir-Concert-2024_001-scaled.jpg" alt="chapel-choir" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Chapel-Choir-Concert-2024_001-scaled.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Chapel-Choir-Concert-2024_001-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Chapel-Choir-Concert-2024_001-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Chapel-Choir-Concert-2024_001-1280x853.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>Wellington is a school for the ambitious, the curious and the ‘can-doers’. This is a place where all students can thrive – bringing together a broad array of perspectives, talents, and ambitions. And widening access is at the heart of our vision for the future, to allow children from all walks of life to thrive at Wellington, enriching our community and striving to provide an education that offers excellence without exclusivity.</p>
+								</div>
+
+															</div>
+						</div>
+					</li>
+
+				
+					<li class="accordion-item visible item-green" 
+						data-directional-hover-item 
+						data-image="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Above.-Beyond-scaled.jpg">
+						
+						<div data-directional-hover-tile class="directional-list__hover-tile bg-green"></div>
+						 
+						<div class="accordion__trigger js-accordion-trigger item-green">
+							<div class="accordion__trigger--text">
+																	<h3 class="accordion__title title title--sm m-0">
+										Above. Beyond.									</h3>
+																									<p class="accordion__subtitle title title--sm m-0">
+										Lifelong friendships and the human skills to help serve and shape a better world.									</p>
+															</div>
+
+						<div class="accordion__trigger-icon js-accordion-trigger-icon">
+							<!-- PLUS -->
+							<div class="accordion__plus js-accordion-plus"></div>
+						</div>
+					</div>
+
+						<div class="accordion__content--wrapper js-accordion-target item-green">
+							<div class="accordion__content">
+																	<div class="accordion__content--picture">
+										<img loading="eager" role="img" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Above.-Beyond-scaled.jpg" alt="above-beyond" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Above.-Beyond-scaled.jpg 2560w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Above.-Beyond-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Above.-Beyond-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2025/11/Above.-Beyond-1280x853.jpg 1280w" sizes="(max-width: 2560px) 100vw, 2560px" class="full-cover"/>									</div>
+																<div class="accordion__content--text">
+									<p>This is an education with purpose — learning, leading, giving back. Whether it’s through service projects, leadership initiatives, or global citizenship programmes, Wellingtonians make an impact far beyond the classroom. And the Wellington journey doesn’t stop at 18 – this is a lifelong adventure. Our students leave with more than just qualifications – they make lifelong friendships, connections, and gain the human skills to enable them to thrive, wherever life takes them.</p>
+								</div>
+
+								 
+									<div class="accordion__content--button background-green">
+										<a href="https://www.wellingtoncollege.org.uk/college-life/life-beyond-wellington/" target="_self" class="button">Life Beyond Wellington</a>
+										
+									</div>
+															</div>
+						</div>
+					</li>
+
+							</ul>
+		
+	</div>
+	</div>
+</section>
+
+<section class="section-container section-container--our-values">
+	<div class="section-fixed our-values-background background-yellow">
+					<div class="our-values__title__wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5 offset-md-1">
+							<h2 class="our-values__title title title--3xl font-sans-semibold">Our values</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+	<div id="our-values" class="section our-values position-relative">
+					<div class="container position-relative z-10">
+				<div class="row">
+					<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-3 col-xl-6 offset-xl-3">
+						<div class="js-trigger">
+															<p class="our-values__intro title title--lg font-sans-semibold" aria-level="3" role="heading">Underpinning everything we do at Wellington are our five College values.</p>
+							
+															<div class="our-values__values values d-inline-flex">
+																				<p class="our-values__value title title--2xl font-sans-semibold mr-80">Kindness.</p>
+																						<p class="our-values__value title title--2xl font-sans-semibold mr-80">Courage.</p>
+																						<p class="our-values__value title title--2xl font-sans-semibold mr-80">Respect.</p>
+																						<p class="our-values__value title title--2xl font-sans-semibold mr-80">Integrity.</p>
+																						<p class="our-values__value title title--2xl font-sans-semibold mr-80">Responsibility.</p>
+																			</div>
+							
+							<div class="our-values__outro-group">
+																	<p class="our-values__outro title title--lg font-sans-semibold">We ask everyone in the Wellington Community to live by these values in order to cultivate a happy, productive and supportive school environment. </p>
+																									<a href="https://www.wellingtoncollege.org.uk/about/our-values/" target="_self" class="our-values__button button mt-60">How we live our values</a>															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+</section>
+
+<section class="section-container section-container--on-the-ground">
+	<div class="container">
+		<h2 class="meet-the-master__title title title--3xl font-sans-semibold text-center">What's new</h2>  
+		<div class="row row-grid-bottom">
+					
+					
+					<div class="col-lg-7 col-xl-8">
+														<div class="news-slider-container">
+									<div class="news-slider">
+																					<div class="teaser-wrapper">
+												
+<article class="teaser teaser--news position-relative p-20 p-md-30 p-lg-40 overlay-container">
+	<img loading="lazy" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/Untitled-design-69.png" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/Untitled-design-69.png 1280w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/Untitled-design-69-640x360.png 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/Untitled-design-69-400x225.png 400w" sizes="(max-width: 1280px) 100vw, 1280px" class="teaser__img full-cover z-0"/>
+	<div class="overlay-content-over w-100">
+		<div class="d-flex justify-content-between align-items-center">
+			<div class="w-100">
+									<div class="teaser__tag title title--2xs font-sans-semibold text-uppercase color-white mb-15">
+						News					</div>
+								<h2 class="teaser--news__title title title--md font-sans-semibold color-white mb-0 mr-5">Wellington College Named Co-educational Independent School of the Year 2026</h2>
+			</div>
+			<a href="https://www.wellingtoncollege.org.uk/news-events/wellington-college-named-co-educational-independent-school-of-the-year-2026/" class="button no-animation d-none d-xl-inline-block">Read more</a>
+		</div>
+	</div>
+
+	<a href="https://www.wellingtoncollege.org.uk/news-events/wellington-college-named-co-educational-independent-school-of-the-year-2026/" class="stretched-link"><div class="visually-hidden">Find out more</div></a>
+
+	<div class="overlay overlay--bottom"></div>
+</article>
+											</div>
+																						<div class="teaser-wrapper">
+												
+<article class="teaser teaser--news position-relative p-20 p-md-30 p-lg-40 overlay-container">
+	<img loading="lazy" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55566564503_398fef852a_k.jpg" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55566564503_398fef852a_k.jpg 2048w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55566564503_398fef852a_k-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55566564503_398fef852a_k-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55566564503_398fef852a_k-1280x853.jpg 1280w" sizes="(max-width: 2048px) 100vw, 2048px" class="teaser__img full-cover z-0"/>
+	<div class="overlay-content-over w-100">
+		<div class="d-flex justify-content-between align-items-center">
+			<div class="w-100">
+									<div class="teaser__tag title title--2xs font-sans-semibold text-uppercase color-white mb-15">
+						News					</div>
+								<h2 class="teaser--news__title title title--md font-sans-semibold color-white mb-0 mr-5">Life Beyond Wellington Week 2026</h2>
+			</div>
+			<a href="https://www.wellingtoncollege.org.uk/news-events/life-beyond-wellington-week-2026/" class="button no-animation d-none d-xl-inline-block">Read more</a>
+		</div>
+	</div>
+
+	<a href="https://www.wellingtoncollege.org.uk/news-events/life-beyond-wellington-week-2026/" class="stretched-link"><div class="visually-hidden">Find out more</div></a>
+
+	<div class="overlay overlay--bottom"></div>
+</article>
+											</div>
+																						<div class="teaser-wrapper">
+												
+<article class="teaser teaser--news position-relative p-20 p-md-30 p-lg-40 overlay-container">
+	<img loading="lazy" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55579154155_5fcfc50fa3_k.jpg" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55579154155_5fcfc50fa3_k.jpg 2048w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55579154155_5fcfc50fa3_k-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55579154155_5fcfc50fa3_k-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/10/55579154155_5fcfc50fa3_k-1280x853.jpg 1280w" sizes="(max-width: 2048px) 100vw, 2048px" class="teaser__img full-cover z-0"/>
+	<div class="overlay-content-over w-100">
+		<div class="d-flex justify-content-between align-items-center">
+			<div class="w-100">
+									<div class="teaser__tag title title--2xs font-sans-semibold text-uppercase color-white mb-15">
+						News					</div>
+								<h2 class="teaser--news__title title title--md font-sans-semibold color-white mb-0 mr-5">Leadership Beyond Limits: Heads of School Conference 2026</h2>
+			</div>
+			<a href="https://www.wellingtoncollege.org.uk/news-events/leadership-beyond-limits-heads-of-school-conference-2026/" class="button no-animation d-none d-xl-inline-block">Read more</a>
+		</div>
+	</div>
+
+	<a href="https://www.wellingtoncollege.org.uk/news-events/leadership-beyond-limits-heads-of-school-conference-2026/" class="stretched-link"><div class="visually-hidden">Find out more</div></a>
+
+	<div class="overlay overlay--bottom"></div>
+</article>
+											</div>
+																				</div>
+								</div>
+									
+
+													
+					</div>
+					<div class="col-lg-5 col-xl-4">
+						
+											<div class="teaser-wrapper">
+																								
+									
+<article class="teaser teaser--event background-yellow p-30 p-md-50" itemscope itemtype="https://schema.org/Event">
+	<header class="teaser__header d-flex justify-content-between align-items-center mb-30">
+		<div class="teaser__tag title title--2xs font-sans-semibold text-uppercase">Event</div>
+	</header>
+
+	<div class="teaser__content">
+		<h2 class="title title--md leading-tight font-sans-semibold mb-15" itemprop="name">Remembrance Sunday South Front Ceremony 2026 &#8211; Upper 6th Form Parents</h2>
+
+		<div>
+							<div
+					class="teaser__date title title--xs font-sans-medium mr-15 mb-15 d-flex align-items-center"
+					itemprop="startDate" content=2026-11-08T10:45					>
+					<img class="mr-5" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/calendar-icon.svg" alt="icon clock" role="img">
+					08 Nov 2026				</div>
+										<div class="teaser__time title title--xs font-sans-medium d-flex align-items-center mr-15 mb-15">
+					<img class="mr-5" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/clock-icon.svg" alt="icon clock" role="img">
+
+					10:45
+											- 11:15									</div>
+										<div class="teaser__location title title--xs font-sans-medium d-flex align-items-center"
+				itemprop="location" content="South Front"
+				>
+				<img class="mr-5" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/map-pin.svg" alt="icon location" role="presentation">
+					South Front				</div>
+								</div>
+
+					<a href="https://www.wellingtoncollege.org.uk/news-events/event/remembrance-sunday-south-front-ceremony-2026-upper-6th-form-parents/" class="button button--simple-arrow mb-50" itemprop="url">Find out more</a>
+			</div>
+
+	</article>
+																					</div>
+					
+					
+					</div>
+				</div>
+	</div>
+
+	<!-- Instagram -->
+	<div class="row-grid-instagram position-relative mb-40">
+		<div class="col-md-12">
+			<div class="background-green">
+				
+	<div class="instagram-icon" role="img">
+		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path fill="#C520A5" fill-rule="evenodd" d="M322.869652,16.1227269 C321.241769,16.1961774 319.830805,16.5941997 318.691486,17.728712 C317.548187,18.8691798 317.155147,20.2855833 317.081514,21.8965313 C317.035742,22.902009 316.768077,30.4981797 317.544207,32.4902762 C318.067597,33.8342218 319.098457,34.8674916 320.454694,35.3925633 C321.087538,35.6387217 321.809936,35.8054742 322.869652,35.8541104 C331.730467,36.2551103 335.015089,36.036744 336.400182,32.4902762 C336.645956,31.858999 336.815113,31.1373975 336.86188,30.080306 C337.26686,21.1967664 336.796207,19.2711724 335.251908,17.728712 C334.027016,16.5068531 332.5862,15.6750759 322.869652,16.1227269 M322.951245,34.0674767 C321.981083,34.0238034 321.454707,33.8620138 321.103459,33.7260312 C320.219865,33.3826005 319.556174,32.721546 319.214876,31.8431178 C318.623823,30.3294421 318.819846,23.1402268 318.872583,21.9769298 C318.924325,20.8374546 319.155174,19.7962442 319.959165,18.992259 C320.954203,17.9996848 322.239792,17.5133234 330.993144,17.908368 C332.135448,17.9599818 333.179243,18.190259 333.985224,18.992259 C334.980262,19.9848333 335.473801,21.2801427 335.071806,29.9999074 C335.028024,30.9676673 334.865833,31.4927391 334.729513,31.8431178 C333.829003,34.1508529 331.757333,34.4714544 322.951245,34.0674767 M331.089663,20.689561 C331.089663,21.3466452 331.623998,21.8806501 332.283709,21.8806501 C332.943419,21.8806501 333.47875,21.3466452 333.47875,20.689561 C333.47875,20.0324768 332.943419,19.4984719 332.283709,19.4984719 C331.623998,19.4984719 331.089663,20.0324768 331.089663,20.689561 M321.862673,25.9879223 C321.862673,28.8028629 324.150266,31.0847911 326.972194,31.0847911 C329.794123,31.0847911 332.081716,28.8028629 332.081716,25.9879223 C332.081716,23.1729818 329.794123,20.8920461 326.972194,20.8920461 C324.150266,20.8920461 321.862673,23.1729818 321.862673,25.9879223 M323.655732,25.9879223 C323.655732,24.1615857 325.140329,22.6796724 326.972194,22.6796724 C328.80406,22.6796724 330.288657,24.1615857 330.288657,25.9879223 C330.288657,27.8152515 328.80406,29.2971649 326.972194,29.2971649 C325.140329,29.2971649 323.655732,27.8152515 323.655732,25.9879223" transform="translate(-317 -16)"/>
+</svg>
+	</div>
+	<div class="instagram-feed instagram-feed--onscroll">
+					<div class="instagram-feed__post js-trigger">
+				<a href="https://www.instagram.com/reel/Dej6ahRt2eq/" class="no-animation">
+					<p class="sr-only">Instragram post number 1</p>
+					
+											<video loading="lazy" class="full-cover" muted loop autoplay playsinline poster="https://scontent-lhr6-1.cdninstagram.com/v/t51.82787-15/851041204_18637114021056330_2332423879467752762_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6bVxoCTmvzEQ7kNvwFmq0Rf&_nc_oc=AdppbNljoYai2K-1FoiLkmXzLO7EQB0r_WANx65bxKJiG75EVkWeEd7T0iohSOKC020&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&_nc_tpa=Q5bMBQJ7S4EaODUZFnUcIwD0knTSS2jmnfcm51tUc1M5wAjTyLMr7p-6I0v2MhFR5JOwIQWfj-kCbbcV6w&oh=00_AQOqk-TcSX7_fvWJ6Xre1RxiNiybIxld80T6oOt2AP8IDg&oe=6ADDA29A">
+							<source src="https://scontent-lhr11-1.cdninstagram.com/o1/v/t2/f2/m86/AQN5FVwjlX9goudPovYlMcXEpd1VPuSpqwuM6Lm471TxHuoqkj3PeGUDbEckPIC_Iif8FmuPvNSZYA5SsyNIb1GKvqfx-UIvDV1YCI8.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_ohc=YH8jMF4hq9oQ7kNvwFRdxi4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjI4MzY1MDM1NzAzMTk4NTIzLCJhc3NldF9hZ2VfZGF5cyI6NCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjI3NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=9b99eeb8ffba579e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERUE3OUMxOUQ5QkE0NjVFOUY1RjcxREYwOTZDOTZDMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EzQTFEQTdERDk1NDRDRTM5QkFDODNFRjJEOUUyRDQ2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb2jIvSsPbiZBUCKAJDMywXQHFUeuFHrhQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQK8lr1JMWj_v6UA2ejRKTgWEa2K4sozFy86ssCtNh63-U9oFz3GssHb5z_I1xLMAN-vr-X9atChGA&oh=00_AQNz3GH5_UR7p5HiPmjZhGYIc2QrufKI4rcCJuPnMUiXoQ&oe=6AD9C320" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					
+					<div class="instagram-feed__post__caption js-triggered">
+						<p>What an incredible build-up to the October Exeat at Wellington College!
+ 
+From Giving Week and Life Beyond Wellington Week to Arts Week, culminating in this evening’s Festival of the Arts, we’ve seen the Wellington community at its very best. And to top it all off, Wellington College has been nam...</p>
+					</div>
+				</a>
+			</div>
+								<div class="instagram-feed__post js-trigger">
+				<a href="https://www.instagram.com/reel/DejVK-8ts2A/" class="no-animation">
+					<p class="sr-only">Instragram post number 2</p>
+					
+											<video loading="lazy" class="full-cover" muted loop autoplay playsinline poster="https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/852558661_18637013743056330_5640741491332161832_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=BnGKfOzDeIwQ7kNvwGXddtL&_nc_oc=AdrjkpJpmR6SRLhUzHrXjB-UVoC_91dQj62957ahJmpIUuAKynWSLj3eto4KdqlgLnE&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&_nc_tpa=Q5bMBQJalsnhE6CQ5lU8dpf3futZKj5EpUalkXSSDjw_LnyX1WHbxgPyONStKhWaptg3PaTlBCq_VRTX2Q&oh=00_AQPxTezLb4_FEVxZGvp_egraocNXoiaeoMVbH9jZDS-DPg&oe=6ADD8B10">
+							<source src="https://scontent-lhr11-1.cdninstagram.com/o1/v/t2/f2/m86/AQObEf4hL0kSKiEZ0JfSiCFP35WL8vb6pYv-Nc6cU-2xLi1JpZlYVReP5iKJiOa79EXhm948uiFGnK7aCMUxRSAI-RicVgwmKD4z5VY.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_ohc=36kNbejhGucQ7kNvwElRL03&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjE3OTI1OTMyODE3ODU1MTAsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjkxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=28b53e419c1f1233&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82ODg3REFEOEZDMEY0M0VGQTAzMEExOEEzQzMzRDVGN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNEQ0Y2RDk5OUMyMzQzMzJCMjM3MDAwNTQ5MzlBMkYyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbM-szc1JavBhUCKAJDMywXQHIwAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQJol-ifhtf4G_ahlLMzdu7gw988kvZFu4qXpN4I2nndaeQDEcaqqTjHZJhddKOHVLmaww0N2OO_aw&oh=00_AQMoHCUSUM9FWl5ejVIYATtx2Q5VYABbygbMcp95Zka2Vw&oe=6AD9C559" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					
+					<div class="instagram-feed__post__caption js-triggered">
+						<p>🏆 What better way to celebrate being named Co-educational Independent School of the Year 2026 than by revisiting Living Together, one of the films we created to mark 50 years of co-education at Wellington!
+
+This award comes at a particularly special moment in our history, as we celebrate 50 year...</p>
+					</div>
+				</a>
+			</div>
+								<div class="instagram-feed__post js-trigger">
+				<a href="https://www.instagram.com/p/DehchQkDXIW/" class="no-animation">
+					<p class="sr-only">Instragram post number 3</p>
+											<div class="icon" role="img">
+							<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M14 8H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V10c0-1.103-.897-2-2-2z"/><path d="M20 2H10a2 2 0 0 0-2 2v2h8a2 2 0 0 1 2 2v8h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg>						</div>
+					
+											<img loading="lazy" class="full-cover" src="https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/848390853_18636706279056330_8123617030914478292_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xorWVSq0UAgQ7kNvwGRel4k&_nc_oc=Adpq27YeYrTsBUZ3WJ3r5qDNq_cNcyFCc8mVzhOpTrRzRsYzWhPllYSOiSimurbcAR0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&_nc_tpa=Q5bMBQITkCvaM9r2NImmM7DYoI0RlCrBTeaWEX8dGf2EHaLVplSaVFAc2Aa1TTFtPWjBqeS4skdsHHjVYA&oh=00_AQNnA94CKdDHGn147ScLwxCLB57kbbbvHqXe2SOAl4T3Tw&oe=6ADD945C" alt="Image with caption: Life Beyond Wellington Week 2026 🌟 
+
+What a we..."/>
+					
+					<div class="instagram-feed__post__caption js-triggered">
+						<p>Life Beyond Wellington Week 2026 🌟 
+
+What a week! From Careers Speed Networking to inspiring talks on engineering, creativity, entrepreneurship and finance, Life Beyond Wellington Week was packed with opportunities to explore what life beyond College could look like. 
+
+Across the week, around 45...</p>
+					</div>
+				</a>
+			</div>
+								<div class="instagram-feed__post js-trigger">
+				<a href="https://www.instagram.com/p/DehJ4gzt7su/" class="no-animation">
+					<p class="sr-only">Instragram post number 4</p>
+					
+											<img loading="lazy" class="full-cover" src="https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/849477446_18636686338056330_3750464610338028533_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=50F-3aUwNtgQ7kNvwHuxICT&_nc_oc=AdrBbsIck_rD5wTVU6AA-nTc5FyUFoWfjtsPkNc-ksYA1OLBvt1wHaTj8SojlF698Mk&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&_nc_tpa=Q5bMBQKG9phIx-oHBgjPFKcSMYCGSEZk-l3EGX7H68hitpbOl_sqEN5UqrHGlcA7QhhcORmfmz2j44nCGg&oh=00_AQNrl_13S_GEkpG6HUz-7YWjeeeuZrIsRY8rlBlE1fieuA&oe=6ADD8CC5" alt="Image with caption: Wellington College is delighted to have been na..."/>
+					
+					<div class="instagram-feed__post__caption js-triggered">
+						<p>Wellington College is delighted to have been named Co-educational Independent School of the Year 2026 at the Independent Schools of the Year Awards!
+
+The recognition celebrates Wellington’s commitment to creating an environment where girls and boys learn, collaborate and flourish together. From a...</p>
+					</div>
+				</a>
+			</div>
+								<div class="instagram-feed__post js-trigger">
+				<a href="https://www.instagram.com/p/DecGOYkDWfJ/" class="no-animation">
+					<p class="sr-only">Instragram post number 5</p>
+											<div class="icon" role="img">
+							<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M14 8H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V10c0-1.103-.897-2-2-2z"/><path d="M20 2H10a2 2 0 0 0-2 2v2h8a2 2 0 0 1 2 2v8h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg>						</div>
+					
+											<img loading="lazy" class="full-cover" src="https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/848439164_18636028453056330_8655227977954034303_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KgsgL-vfo04Q7kNvwEWUXGF&_nc_oc=Adq1uVhuzNvgO7ubduYbE4BD_qruKgRXPlav_oylH2xzaz4uMTlABUZg1gd3D7GDFvQ&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&_nc_tpa=Q5bMBQKYlUe6sDWTkGsuo2hRnQrNujiMEpD32U_Wh9dtCGrmM7qZIw0Wx4_DEvnmQw1dW0AryeAYsKofgw&oh=00_AQMpJBnywbGl1qWZ7sE61lZnAkxgT6TOJ72MTT0ASbeP8Q&oe=6ADD9DBD" alt="Image with caption: Wellington College welcomed 120 student leaders..."/>
+					
+					<div class="instagram-feed__post__caption js-triggered">
+						<p>Wellington College welcomed 120 student leaders from different schools for this year’s Heads of School Conference, organised and led by the College’s own Heads of College. Centred around the theme Leadership Beyond Limits, the day encouraged students to reflect on their responsibilities as leader...</p>
+					</div>
+				</a>
+			</div>
+								<div class="instagram-feed__post js-trigger">
+				<a href="https://www.instagram.com/reel/DeWcoioBAP9/" class="no-animation">
+					<p class="sr-only">Instragram post number 6</p>
+					
+											<video loading="lazy" class="full-cover" muted loop autoplay playsinline poster="https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/840509134_18634596907056330_1701821556469529070_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=x306UH6gOlAQ7kNvwFa7hxP&_nc_oc=AdqNKE5Bam4zAjuSLxVMAFptojvbk6UuMJHTZyoyeJLZd_9jUTjZqMUO55tkjahu77A&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&_nc_tpa=Q5bMBQJlOhuH39F8DMB_iFnnR8Da6jIkUMwbh_C_iJKZjYMa_lpMaYLSYNgsZTXpTNPlR7wtEnSLNKz6mQ&oh=00_AQOmZdD_W3t2ElLQQaF2BznD2lsKspJhf7ZXGoVKI-iriA&oe=6ADDB556">
+							<source src="https://scontent-lhr6-2.cdninstagram.com/o1/v/t2/f2/m86/AQOBe1Pmmiz7O0qKGebbuOwXojMg6JIDIGTklY6uC410W9NyfqPF-i6hDjPin-cKm-RbmXJZ4raEnbB6HAOwP0Ll0K8lmjqZCIN3a1I.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_ohc=aKBdNNt1qwAQ7kNvwH_U0Fz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTExMDAxNjk4ODIxNTE0MywiYXNzZXRfYWdlX2RheXMiOjExLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3ff9804843a21e19&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yQThGMUUyN0E4QTk0MjM0OTQ4M0E1RDhBQUE5Nzc4Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0REMzA2MEYyMEIyOTQ5MTdBN0I5NjM1RUQ2QTE2Rjc5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbO3beEv-P4AxUCKAJDMywXQERCj1wo9cMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5TSlDyygXWiRixOCRj5IuQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQLPulzEQcZJBwV_akqtFVKYp8k00kzVHaTlidvVKaUD5alZVar2liLoFJ5-20iEPez2NmfpT6_4rw&oh=00_AQPxgiK1I23Kc9yPs8fU-CkZMGQFFbba8rGYaIFYuWd98g&oe=6AD9C7DE" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					
+					<div class="instagram-feed__post__caption js-triggered">
+						<p>“We all know that there are talented people within every postcode within this country, but talent alone isn’t enough. If opportunity is not present, then that talent will go to waste, and that’s why widening access here at Wellington is one of the most important programmes that the entire communi...</p>
+					</div>
+				</a>
+			</div>
+				</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-10">
+				<div class="instagram-metadata d-md-flex justify-content-between align-items-center">
+											<p class="title title--xs color-black">@wellingtoncollege</p>
+								
+					<div class="social-media social-media--feed-on-scroll">
+														<a class="social-media__link mr-10" href="https://www.facebook.com/WellingtonCollege" role="button">
+									<p class="sr-only">Social media link: facebook</p>
+									<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-744.000000, -527.000000)" fill="#FFFFFF">
+            <g id="Facebook" transform="translate(744.000000, 527.500000)">
+                <path d="M20,0 C31.0456955,0 40,8.95430446 40,20 C40,31.0456955 31.0456955,40 20,40 C8.95430446,40 0,31.0456955 0,20 C0,8.95430446 8.95430446,0 20,0 Z M24.7983948,9.33333333 L21.7943222,9.33333333 C18.1859479,9.33333333 16.9158937,11.1523277 16.9158937,14.2113043 L16.9158937,16.4625939 L14.6666667,16.4625939 L14.6666667,20.212266 L16.9158937,20.212266 L16.9158937,31.0928973 L21.4179626,31.0928973 L21.4179626,20.2118413 L24.4216099,20.2118413 L24.819658,16.4621692 L21.4179626,16.4621692 L21.4230658,14.5854222 C21.4230658,13.60745 21.5159862,13.0834301 22.9206368,13.0834301 L24.7983948,13.0834301 L24.7983948,9.33333333 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>								</a>
+																<a class="social-media__link mr-10" href="https://twitter.com/WellingtonUK" role="button">
+									<p class="sr-only">Social media link: twitter</p>
+									<svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50ZM19.6599 16.86H16.953L28.8995 32.1471H31.6064L19.6599 16.86ZM22.5914 25.6533L15.0481 15.9048H20.8589L25.8076 22.2964L31.9272 15.9048H33.6355L26.5695 23.283L34.5378 33.5819H28.723L23.3533 26.64L16.7084 33.5819H15L22.5914 25.6533Z" fill="white"/>
+</svg>
+								</a>
+																<a class="social-media__link mr-10" href="https://www.youtube.com/channel/UCqTI4j5uj8bAThuOvA3cvaA" role="button">
+									<p class="sr-only">Social media link: youtube</p>
+									<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-848.000000, -527.000000)" fill="#FFFFFF">
+            <g id="Youtube" transform="translate(848.000000, 527.500000)">
+                <path d="M19.7005591,0 C30.580878,0 39.4011182,8.95430446 39.4011182,20 C39.4011182,31.0456955 30.580878,40 19.7005591,40 C8.8202402,40 0,31.0456955 0,20 C0,8.95430446 8.8202402,0 19.7005591,0 Z M19.809386,12.6669048 L19.5348763,12.6669048 C19.5132936,12.6669644 19.489211,12.6670388 19.4627276,12.6671318 L19.275809,12.667943 C18.133705,12.6737777 14.7359058,12.7062851 12.3265574,12.887398 C11.9160656,12.9378119 11.0222951,12.9418996 10.2236066,13.8105182 C9.5947541,14.4720309 9.39016393,15.9742302 9.39016393,15.9742302 C9.39016393,15.9742302 9.18032787,17.7387183 9.18032787,19.5025251 L9.18032787,21.1566476 C9.18032787,22.9211356 9.39016393,24.6849425 9.39016393,24.6849425 C9.39016393,24.6849425 9.5947541,26.1871418 10.2236066,26.8486545 C11.0222951,27.7172731 12.0708197,27.6900224 12.5377049,27.7806312 C13.1561691,27.8423757 14.2873076,27.8884001 15.4694136,27.9219068 L15.9778049,27.9355097 C17.5890669,27.9762179 19.1727189,27.9947132 19.5746625,27.9990004 L19.6609648,27.9998913 C19.6683529,27.9999641 19.6721311,28 19.6721311,28 L19.6807286,27.9999831 L19.8771516,27.9992276 C20.5133853,27.9960578 22.533792,27.9802528 24.5676085,27.9035477 L25.0755487,27.8830747 C25.7510594,27.8540112 26.4153678,27.8177342 27.0177049,27.772456 C27.427541,27.7213608 28.3219672,27.7172731 29.12,26.8486545 C29.7488525,26.1871418 29.9540984,24.6849425 29.9540984,24.6849425 C29.9540984,24.6849425 30.1639344,22.9211356 30.1639344,21.1566476 L30.1639344,19.5025251 C30.1639344,17.7387183 29.9540984,15.9742302 29.9540984,15.9742302 C29.9540984,15.9742302 29.7488525,14.4720309 29.12,13.8105182 C28.3219672,12.9418996 27.427541,12.9378119 27.0177049,12.887398 C26.4153678,12.8421198 25.7512525,12.8061294 25.0760488,12.7775217 L24.5683591,12.7574203 C22.7050147,12.6885727 20.8536498,12.6719543 20.0684533,12.667943 L19.8815347,12.6671318 C19.8550513,12.6670388 19.8309687,12.6669644 19.809386,12.6669048 Z" id="Combined-Shape"></path>
+                <polygon id="Path" points="17.5055738 23.1609425 17.504918 17.0356482 23.1744262 20.108855"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>								</a>
+																<a class="social-media__link mr-10" href="https://www.instagram.com/wellingtoncollege/" role="button">
+									<p class="sr-only">Social media link: instagram</p>
+									<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-900.000000, -527.000000)" fill="#FFFFFF">
+            <g id="Instagram" transform="translate(900.000000, 527.500000)">
+                <path d="M20,0 C31.0456955,0 40,8.95430446 40,20 C40,31.0456955 31.0456955,40 20,40 C8.95430446,40 0,31.0456955 0,20 C0,8.95430446 8.95430446,0 20,0 Z M20.8458551,9.33380209 L19.1530251,9.33380209 C17.0172875,9.33649663 16.6186156,9.35154781 15.602732,9.39777845 C14.4671646,9.44977899 13.6920454,9.62955864 13.0138161,9.89333917 C12.3122533,10.1657864 11.7171359,10.5302347 11.1242409,11.123352 C10.5309014,11.716247 10.1664531,12.3113644 9.89311694,13.012705 C9.62866974,13.6911565 9.44866787,14.4664979 9.39755622,15.6016209 C9.35211924,16.6175044 9.33662163,17.0163536 9.33382231,19.1521291 L9.33380892,20.8480505 C9.33577469,22.3856449 9.34420845,23.0223837 9.36595867,23.6375865 L9.37371135,23.8430627 C9.38059856,24.0156385 9.388572,24.1940913 9.39777845,24.397268 C9.45000122,25.5328354 9.62978087,26.3079546 9.89333917,26.9861839 C10.1660087,27.6877467 10.5304569,28.2828641 11.1235742,28.8757591 C11.716247,29.4690986 12.3113644,29.8344358 13.0124828,30.1068831 C13.6911565,30.3706636 14.4664979,30.5504432 15.6018431,30.6024438 C16.5770913,30.6468252 16.9833541,30.6624716 18.903685,30.6660363 L21.0957636,30.6660363 C23.0161879,30.6624716 23.4217975,30.6468252 24.3970458,30.6024438 C25.5326132,30.5504432 26.3086213,30.3706636 26.987295,30.1068831 C27.6886356,29.8344358 28.2828641,29.4690986 28.8755369,28.8757591 C29.4688764,28.2828641 29.8333247,27.6877467 30.1066608,26.9864061 C30.3688858,26.3079546 30.5488877,25.5326132 30.6022216,24.3974903 C30.6478569,23.3816067 30.6633758,22.9836433 30.6661774,20.8480576 L30.6661774,19.1521362 C30.6633758,17.0163986 30.6478569,16.6177267 30.6022216,15.6018431 C30.5488877,14.4662757 30.3688858,13.6911565 30.1066608,13.0129272 C29.8333247,12.3113644 29.4688764,11.716247 28.8755369,11.123352 C28.2821974,10.5300125 27.6888579,10.1655642 26.9866283,9.89333917 C26.3066212,9.62955864 25.5310576,9.44977899 24.3954902,9.39777845 C24.1923135,9.38853232 24.0138678,9.38053337 23.8412986,9.37363102 L23.6358295,9.36586492 C23.0206446,9.34408791 22.3838777,9.33574216 20.8458551,9.33380209 Z" id="Combined-Shape"></path>
+                <path d="M19.0441012,11.2529089 L19.0441012,11.2555756 L20.5740683,11.2557432 C20.663576,11.255801 20.750182,11.2558745 20.8340365,11.2559653 L21.3053476,11.2567281 C22.994686,11.2605303 23.3874242,11.274925 24.3112671,11.3169096 C25.351278,11.3644656 25.9157283,11.5382452 26.2917322,11.6842467 C26.7895152,11.8775821 27.1444078,12.1086956 27.5175228,12.4820328 C27.89086,12.85537 28.1219735,13.2109293 28.3157533,13.7087122 C28.4617548,14.0842717 28.6357566,14.648722 28.6830904,15.6887329 C28.7269004,16.6525524 28.7413223,17.0384068 28.7445488,18.9216528 L28.7445488,21.0736804 C28.7413223,22.9569265 28.7269004,23.3427809 28.6830904,24.3066004 C28.6355344,25.3466112 28.4617548,25.9110616 28.3157533,26.286621 C28.1224179,26.784404 27.89086,27.1388521 27.5175228,27.5119671 C27.1441855,27.8853044 26.7897374,28.1164179 26.2917322,28.3097532 C25.9161727,28.4564214 25.351278,28.6297566 24.3112671,28.6773126 C23.3072884,28.722948 22.9304421,28.7366953 20.8340433,28.7391173 L19.1678998,28.7391173 C17.0713808,28.7366953 16.6947116,28.722948 15.6907329,28.6773126 C14.6507221,28.6293121 14.0862717,28.4555325 13.7100456,28.309531 C13.2122626,28.1161957 12.8567034,27.8850821 12.4833661,27.5117449 C12.1100289,27.1384077 11.8789154,26.7837373 11.6851356,26.2857321 C11.5391341,25.9101727 11.3651323,25.3457224 11.3177984,24.3057115 C11.2739885,23.341892 11.2602196,22.9560376 11.2571797,21.071672 L11.2571797,18.9184264 C11.2602196,17.034434 11.2739885,16.6498857 11.3177984,15.6860662 C11.3653545,14.6460553 11.5391341,14.081605 11.6851356,13.7056011 C11.878471,13.2078181 12.1100289,12.8522589 12.4833661,12.4789217 C12.8567034,12.1055844 13.2122626,11.8744709 13.7100456,11.6806911 C14.0860495,11.5340229 14.6507221,11.3606878 15.6907329,11.3129095 C16.5810279,11.2726975 16.9779783,11.257953 18.517906,11.2538634 L19.0441012,11.2529089 L19.0441012,11.2529089 Z M20.0007778,14.5222763 C16.9758574,14.5222763 14.5231652,16.9749685 14.5231652,20.0001111 C14.5231652,23.0252537 16.9758574,25.4768348 20.001,25.4768348 C23.0261426,25.4768348 25.477946,23.0252537 25.477946,20.0001111 C25.477946,16.9749685 23.0259204,14.5222763 20.0007778,14.5222763 Z M25.6948371,13.0262607 C24.9881631,13.0267051 24.4148238,13.5993778 24.4148238,14.306274 C24.4148238,15.0129481 24.9881631,15.5862874 25.6948371,15.5862874 C26.4015111,15.5862874 26.9748504,15.0129481 26.9748504,14.306274 C26.9748504,13.5996 26.4015111,13.0262607 25.6948371,13.0262607 Z" id="Combined-Shape"></path>
+                <path d="M20.001,16.4445185 C21.964576,16.4445185 23.5565926,18.0363129 23.5565926,20.0001111 C23.5565926,21.9636871 21.964576,23.5557037 20.001,23.5557037 C18.0372018,23.5557037 16.4454074,21.9636871 16.4454074,20.0001111 C16.4454074,18.0363129 18.0372018,16.4445185 20.001,16.4445185 L20.001,16.4445185 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>								</a>
+																<a class="social-media__link mr-10" href="https://www.tiktok.com/@wellingtoncollege" role="button">
+									<p class="sr-only">Social media link: tiktok</p>
+									<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Current" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-page-–-Landscape" transform="translate(-952.000000, -16475.000000)">
+            <g id="tiktok" transform="translate(952.000000, 16475.500000)">
+                <path d="M0,20 C0,8.95430446 8.95430446,0 20,0 C31.0456955,0 40,8.95430446 40,20 C40,31.0456955 31.0456955,40 20,40 C8.95430446,40 0,31.0456955 0,20 Z" id="back" fill="#FFFFFF"></path>
+                <path class="path-icon" d="M29,17.9362945 C27.2306211,17.9405268 25.504634,17.3887226 24.0658669,16.3588348 L24.0658669,23.5416015 C24.0648666,26.265798 22.3735253,28.703407 19.8220316,29.6579371 C17.2705379,30.6124672 14.3945672,29.8835188 12.6057791,27.8288936 C10.816991,25.7742683 10.4909341,22.8253261 11.7876521,20.4295444 C13.0843701,18.0337627 15.7316226,16.6941257 18.4300155,17.0681893 L18.4300155,20.6808733 C17.1931175,20.2918105 15.8462622,20.7417287 15.0915423,21.7960932 C14.3368224,22.8504578 14.3451862,24.2704492 15.1122738,25.3158502 C15.8793614,26.3612512 17.2314232,26.7952726 18.4636523,26.3916665 C19.6958815,25.9880605 20.5291714,24.8382458 20.5291421,23.5416015 L20.5291421,9.5 L24.0658669,9.5 C24.0634103,9.79866839 24.0884336,10.0969296 24.1406204,10.3910135 L24.1406204,10.3910135 C24.389,11.7178145 25.1726131,12.8838585 26.3072663,13.6150597 C27.1059992,14.1431941 28.042451,14.4246887 29,14.4244875 L29,17.9362945 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>								</a>
+													</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-container section-container--explore">
+	<div id="explore" class="section explore background-orange">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-flex align-items-end mb-50">
+											<h2 class="explore__title title title--xl font-sans-semibold">Where</br>next?</h2>
+									</div>
+				<div class="col-md-6 mb-md-50 mb-30 mb-md-0 explore__teaser explore__teaser--1">
+					<div>
+						
+<article class="teaser teaser--news teaser--news--extended position-relative overlay-container">
+	<div class="teaser--news__picture">
+		<img loading="posts" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54562581476_ab0ff9518b_k.jpg" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54562581476_ab0ff9518b_k.jpg 2048w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54562581476_ab0ff9518b_k-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54562581476_ab0ff9518b_k-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54562581476_ab0ff9518b_k-1280x853.jpg 1280w" sizes="(max-width: 2048px) 100vw, 2048px" class="full-cover z-0"/>	</div>
+
+	<div class="overlay-content-over w-100">
+		<div class="">
+			<div class="w-100 d-flex justify-content-between align-items-center">
+				<h2 class="teaser--news__title title title--md font-sans-semibold color-white mb-0 mr-5">Current families</h2>
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+					<path d="M1 17H33" stroke="white" stroke-width="2" stroke-linecap="square"/>
+					<path d="M17 1V33" stroke="white" stroke-width="2" stroke-linecap="square"/>
+				</svg>
+			</div>
+
+							<div class="teaser--news__links">
+											<a href="https://www.wellingtoncollege.org.uk/parents-hub/" target="_self" class="teaser--news__link">Parents’ Hub</a>											<a href="https://www.wellingtoncollege.org.uk/news-events/college-term-dates/" target="_self" class="teaser--news__link">Term Dates</a>											<a href="https://www.wellingtoncollege.org.uk/news-events/whats-new/" target="_self" class="teaser--news__link">What’s New</a>											<a href="https://www.wellingtoncollege.org.uk/news-events/school-calendar/" target="_self" class="teaser--news__link">College Calendar</a>											<a href="https://www.wellingtoncollege.org.uk/news-events/sports-fixtures/" target="_self" class="teaser--news__link">Sports Fixtures</a>											<a href="https://www.wellingtoncollege.org.uk/sports-report/" target="_self" class="teaser--news__link">Sports Report</a>									</div>
+					</div>
+	</div>
+
+	<div class="overlay overlay--bottom"></div>
+	<div class="overlay overlay--full"></div>
+</article>
+					</div>
+				</div>
+				<div class="col-md-6 mt-md-50 mb-30 mb-md-0 explore__teaser explore__teaser--2">
+					<div data-column-break="left">
+						
+<article class="teaser teaser--news teaser--news--extended position-relative overlay-container">
+	<div class="teaser--news__picture">
+		<img loading="posts" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54364979335_07c6d30905_k.jpg" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54364979335_07c6d30905_k.jpg 2048w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54364979335_07c6d30905_k-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54364979335_07c6d30905_k-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/54364979335_07c6d30905_k-1280x853.jpg 1280w" sizes="(max-width: 2048px) 100vw, 2048px" class="full-cover z-0"/>	</div>
+
+	<div class="overlay-content-over w-100">
+		<div class="">
+			<div class="w-100 d-flex justify-content-between align-items-center">
+				<h2 class="teaser--news__title title title--md font-sans-semibold color-white mb-0 mr-5">Old Wellingtonians</h2>
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+					<path d="M1 17H33" stroke="white" stroke-width="2" stroke-linecap="square"/>
+					<path d="M17 1V33" stroke="white" stroke-width="2" stroke-linecap="square"/>
+				</svg>
+			</div>
+
+							<div class="teaser--news__links">
+											<a href="https://www.wellingtoncollege.org.uk/about/the-wellington-community/" target="_self" class="teaser--news__link">The Wellington Community</a>											<a href="https://www.wellingtoncollege.org.uk/college-life/life-beyond-wellington/" target="_self" class="teaser--news__link">Life Beyond Wellington</a>											<a href="https://wellingtonconnectglobal.com/" target="_self" class="teaser--news__link">Wellington Connect Global</a>									</div>
+					</div>
+	</div>
+
+	<div class="overlay overlay--bottom"></div>
+	<div class="overlay overlay--full"></div>
+</article>
+					</div>
+				</div>
+				<div class="col-md-6 explore__teaser explore__teaser--3">
+					<div data-column-break="right">
+						
+<article class="teaser teaser--news teaser--news--extended position-relative overlay-container">
+	<div class="teaser--news__picture">
+		<img loading="posts" role="presentation" src="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/53164161255_e8a967cae7_k.jpg" alt="" srcset="https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/53164161255_e8a967cae7_k.jpg 2048w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/53164161255_e8a967cae7_k-640x427.jpg 640w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/53164161255_e8a967cae7_k-400x267.jpg 400w, https://www.wellingtoncollege.org.uk/wp-content/uploads/2026/01/53164161255_e8a967cae7_k-1280x853.jpg 1280w" sizes="(max-width: 2048px) 100vw, 2048px" class="full-cover z-0"/>	</div>
+
+	<div class="overlay-content-over w-100">
+		<div class="">
+			<div class="w-100 d-flex justify-content-between align-items-center">
+				<h2 class="teaser--news__title title title--md font-sans-semibold color-white mb-0 mr-5">Prospective families</h2>
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+					<path d="M1 17H33" stroke="white" stroke-width="2" stroke-linecap="square"/>
+					<path d="M17 1V33" stroke="white" stroke-width="2" stroke-linecap="square"/>
+				</svg>
+			</div>
+
+							<div class="teaser--news__links">
+											<a href="https://www.wellingtoncollege.org.uk/admissions/admissions-overview/" target="_self" class="teaser--news__link">Admissions Overview</a>											<a href="https://www.wellingtoncollege.org.uk/admissions/our-selection-criteria/" target="_self" class="teaser--news__link">Our Selection Criteria</a>											<a href="https://www.wellingtoncollege.org.uk/admissions/visiting-wellington/" target="_self" class="teaser--news__link">Visiting Wellington</a>											<a href="https://www.wellingtoncollege.org.uk/admissions/virtual-tour/" target="_self" class="teaser--news__link">Virtual Tour</a>											<a href="https://www.wellingtoncollege.org.uk/admissions/college-fees/" target="_self" class="teaser--news__link">College Fees</a>											<a href="https://www.wellingtoncollege.org.uk/about/an-introduction-to-wellington/" target="_self" class="teaser--news__link">An Introduction to Wellington</a>											<a href="https://www.wellingtoncollege.org.uk/about/the-masters-mission/" target="_self" class="teaser--news__link">The Master’s Mission</a>											<a href="https://www.wellingtoncollege.org.uk/academic/our-learning-philosophy/" target="_self" class="teaser--news__link">Our Learning Philosophy</a>											<a href="https://www.wellingtoncollege.org.uk/health-wellbeing/excellence-in-care/" target="_self" class="teaser--news__link">Excellence in Care</a>											<a href="https://www.wellingtoncollege.org.uk/college-life/our-houses/" target="_self" class="teaser--news__link">Our Houses</a>									</div>
+					</div>
+	</div>
+
+	<div class="overlay overlay--bottom"></div>
+	<div class="overlay overlay--full"></div>
+</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+			</div>
+			
+</div>
+<!-- END DIV MAIN CONTENT -->
+
+<footer class="site-footer px-20 px-md-0">
+	<div class="container">
+		<div class="row mb-60">
+
+			<div class="col-12 col-lg-5 col-xl-5 pr-2cg mb-0 mb-md-50 mb-lg-0 d-flex flex-column justify-content-between align-items-start">
+				<div class="mb-30 mb-lg-0">
+											<div class="site-footer__colored-block background-orange">
+							<p class="site-footer__tagline font-sans-semibold m-0" aria-level="3" role="heading">
+								Pioneering education							</p>
+						</div>
+																<div class="site-footer__colored-block background-yellow">
+							<p class="site-footer__tagline font-sans-semibold m-0" aria-level="3" role="heading">
+								to serve and help shape 							</p>
+						</div>
+																<div class="site-footer__colored-block background-green">
+							<p class="site-footer__tagline font-sans-semibold m-0" aria-level="3" role="heading">
+								a better world.							</p>
+						</div>
+									</div>
+
+				<img class="logo d-none d-md-block" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/logos/wellington-college-crest-white.svg" alt="Wellington College logo">
+			</div>
+			<div class="col-md-6 col-lg-3 col-xl-3 mb-50 mb-md-0 d-flex flex-column justify-content-between align-items-start">
+				<div>
+											<h3 class="title title--sm color-white font-sans-semibold mb-20">Get in touch</h3>
+					
+					
+						<a href="https://www.google.com/maps/place/Wellington+College/@51.3649947,-0.8060513,14.87z/data=!4m6!3m5!1s0x487681c98c9fd583:0x3f942f25a4912667!8m2!3d51.3679052!4d-0.8130247!16zL20vMDJtdzZj?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+							<address>
+								<p>Wellington College<br />
+Crowthorne<br />
+Berkshire<br />
+RG45 7PU</p>
+							</address>
+						</a>
+					
+											<a href="mailto:info@wellingtoncollege.org.uk">info@wellingtoncollege.org.uk</a>
+					
+											<a href="tel:+44 (0)1344 444000">+44 (0)1344 444000</a>
+									</div>
+			</div>
+			<div class="col-md-6 col-lg-4 col-xl-4 mb-30 mb-md-0">
+									<h3 class="title title--sm color-white font-sans-semibold mb-20">Helpful links</h3>
+				
+									<nav>
+						<ul class="list-unstyled two-columns">
+														<li>
+									<a href="https://www.wellycom.net/" target="_blank" rel="noopener noreferrer external" aria-label="The Wellington Community (Opens in new tab)" class="title title--xs color-white font-sans-medium d-block pb-20">The Wellington Community</a>								</li>
+																<li>
+									<a href="https://wellington.myschoolportal.co.uk/login" target="_blank" rel="noopener noreferrer external" aria-label="Parent Portal (Opens in new tab)" class="title title--xs color-white font-sans-medium d-block pb-20">Parent Portal</a>								</li>
+																<li>
+									<a href="https://www.wellingtoncollege.org.uk/news-events/college-term-dates" target="_self" class="title title--xs color-white font-sans-medium d-block pb-20">College Term Dates</a>								</li>
+																<li>
+									<a href="https://www.wellingtoncollege.org.uk/about/vacancies/" target="_self" class="title title--xs color-white font-sans-medium d-block pb-20">Vacancies</a>								</li>
+																<li>
+									<a href="https://www.wellingtoncollege.org.uk/contact/contact-us" target="_self" class="title title--xs color-white font-sans-medium d-block pb-20">Contact Us</a>								</li>
+																<li>
+									<a href="https://www.wellingtoncollege.org.uk/contact/where-we-are" target="_self" class="title title--xs color-white font-sans-medium d-block pb-20">Where we are</a>								</li>
+																<li>
+									<a href="https://www.wellingtoncollege.org.uk/terms-privacy" target="_self" class="title title--xs color-white font-sans-medium d-block pb-20">Terms &amp; Privacy</a>								</li>
+														</ul>
+					</nav>
+							</div>
+			
+			<div class="row">
+				<div class="col-md-6 col-lg-3 col-xl-3 offset-lg-5">
+					<div class="social-media d-flex gap-2 mt-0 pl-md-cg">
+						<a class="social-media__link" href="https://www.facebook.com/WellingtonCollege"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/facebook_circle_white.svg" alt="facebook Icon"/></a><a class="social-media__link" href="https://twitter.com/WellingtonUK"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/twitter_circle_white.svg" alt="twitter Icon"/></a><a class="social-media__link" href="https://www.youtube.com/channel/UCqTI4j5uj8bAThuOvA3cvaA"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/youtube_circle_white.svg" alt="youtube Icon"/></a><a class="social-media__link" href="https://www.instagram.com/wellingtoncollege/"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/instagram_circle_white.svg" alt="instagram Icon"/></a><a class="social-media__link" href="https://www.tiktok.com/@wellingtoncollege"><img src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/social/tiktok_circle_white.svg" alt="tiktok Icon"/></a>					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-4 d-flex flex-wrap justify-content-md-end align-items-start gap-4 mt-40 mt-md-0">
+					<a href="http://www.goodschoolsguide.co.uk/schools/102896/wellington-college/F98E808#sch_tabs-2" target="_blank" role="button" aria-label="Opens in new tab">
+						<img class="featured-logo" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/logos/gsg.jpg" alt="Good school guide logo">
+					</a>
+					<img class="featured-logo" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/logos/am_schl_pltnm.png" alt="Artsmark Platinum Award logo">
+				</div>
+			</div>
+
+		</div>
+		<div class="row bottom-row mb-30">
+			<div class="col-md-10 d-flex align-items-center d-md-block mb-50 mb-md-0">
+				<img class="logo d-inline-block d-md-none mr-40" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/img/logos/wellington-college-crest-white.svg" alt="Wellington College logo">
+
+				<div class="d-md-inline-flex flex-wrap align-items-center">
+					<p class="title title--xs color-white">© Wellington College 2026</p>
+
+					<div class="dot d-none d-md-inline-block"></div>
+
+					<p class="title title--xs color-white">Wellington College is a charity registered in England and Wales.</p>
+
+					<div class="dot d-none d-md-inline-block"></div>
+
+					<p class="title title--xs color-white">Charity registration number: 309093</p>
+
+					<div class="dot d-none d-md-inline-block"></div>
+
+					<p class="title title--xs color-white">VAT Number: GB572547717</p>
+				</div>
+			</div>
+			<div class="col-md-2 text-md-end">
+				<p class="d-inline-block title title--xs color-white">
+					<a href="https://www.thewebkitchen.co.uk/" target="_blank" rel="external" aria-label="Visit The Web Kitchen website (opens in new tab)" class="color-inherit">Web design</a>
+					by
+					<a href="https://www.thewebkitchen.co.uk/" target="_blank" rel="external" aria-label="Visit The Web Kitchen website (opens in new tab)" class="color-inherit">TWK</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</div>
+<!-- JS ARE LOADED HERE WITH FUNCTION.PHP -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/wellington-2022/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+	var relevanssi_rt_regex = /(&|\?)_(rt|rt_nonce)=(\w+)/g
+	var newUrl = window.location.search.replace(relevanssi_rt_regex, '')
+	if (newUrl.substr(0, 1) == '&') {
+		newUrl = '?' + newUrl.substr(1)
+	}
+	history.replaceState(null, null, window.location.pathname + newUrl + window.location.hash)
+</script>
+<script id="awplife-flickr-freewall-js-js" src="https://www.wellingtoncollege.org.uk/wp-content/plugins/flickr-gallery-premium/assets/js/freewall.js?ver=1.0.6"></script>
+<script id="image-protection-js-extra">
+var imageProtectionVars = {"message":"Image protected","showCredit":"","blurAmount":"10","blurImages":"1","blurVideos":"","disableRightClick":"","protectionLevel":"balanced","neutralizeClipboard":"","interceptScreenRecording":"","printProtection":""};
+//# sourceURL=image-protection-js-extra
+</script>
+<script id="image-protection-js" src="https://www.wellingtoncollege.org.uk/wp-content/plugins/image-protection/protection.js?ver=1.2.5"></script>
+<script id="script-js-js-extra">
+var php_vars = {"themeDirUrl":"https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022","homeUrl":"https://www.wellingtoncollege.org.uk"};
+//# sourceURL=script-js-js-extra
+</script>
+<script id="script-js-js" src="https://www.wellingtoncollege.org.uk/wp-content/themes/wellington-2022/assets/js/scripts.js?ver=1788434836"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.wellingtoncollege.org.uk/wp-includes/js/wp-emoji-release.min.js?ver=a310548cca93ef22a96c05efdc5ef322"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.wellingtoncollege.org.uk/wp-includes/js/wp-emoji-loader.min.js
+</script>
+			<script type="text/javascript" id="wpsp-script-frontend"></script>
+			
+</body>
+
+</html>
