@@ -7,7 +7,9 @@
   @media screen and (max-width:600px)
   body {
   margin: 0;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+/* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background: linear-gradient(135deg, #ffd700, #ff0000); color: white; padding: 20px;
+    
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +17,94 @@
   font-family: Arial, sans-serif;
   color: white;
 }
+/* testing boxes */
+  * {
+    box-sizing: border-box;
+  }
 
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    color: #222;
+  }
+
+  /* Display schedule at 80% scale */
+  .schedule-wrapper {
+    width: 75%;
+    zoom: 0.8;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .header h1 {
+    color: #b22222;
+    font-size: 42px;
+    margin-bottom: 8px;
+  }
+
+  .header p {
+    font-size: 50px;
+    color: #555;
+  }
+
+  .schedule {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .activity {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    min-height: 190px;
+    border-top: 8px solid #b22222;
+    box-shadow: 0 4px 12px #00000015;
+  }
+
+  .time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b22222;
+    margin-bottom: 15px;
+  }
+
+  .activity h2 {
+    font-size: 30px;
+    margin: 0 0 12px;
+  }
+
+  .activity p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .checkin {
+    border-top-color: #b22222;
+  }
+
+  .footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+
+  @media print {
+    body {
+      background: white;
+    }
+
+    .schedule-wrapper {
+      zoom: 0.5;
+    }
+  }
 <!--.scene {
   width: 200px;
   height: 200px;
@@ -282,98 +371,10 @@ a.ex2:hover, a.ex2:active {font-size: 150%;}
 a.ex3:hover, a.ex3:active {background: red;}
 a.ex6:hover, a.ex6:active {background: white;}  
 /*This SECTION MANAGES hover-animate-colors*/ 
-
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    background: #eef1f5;
-    color: #222;
-  }
-
-  /* Display schedule at 80% scale */
-  .schedule-wrapper {
-    width: 75%;
-    zoom: 0.8;
-  }
-
-  .header {
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
-  .header h1 {
-    color: #b22222;
-    font-size: 42px;
-    margin-bottom: 8px;
-  }
-
-  .header p {
-    font-size: 50px;
-    color: #555;
-  }
-
-  .schedule {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
-  }
-
-  .activity {
-    background: white;
-    border-radius: 15px;
-    padding: 25px;
-    min-height: 190px;
-    border-top: 8px solid #b22222;
-    box-shadow: 0 4px 12px #00000015;
-  }
-
-  .time {
-    font-size: 24px;
-    font-weight: bold;
-    color: #b22222;
-    margin-bottom: 15px;
-  }
-
-  .activity h2 {
-    font-size: 30px;
-    margin: 0 0 12px;
-  }
-
-  .activity p {
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0;
-  }
-
-  .checkin {
-    border-top-color: #b22222;
-  }
-
-  .footer {
-    margin-top: 25px;
-    text-align: center;
-    font-size: 18px;
-    color: #555;
-  }
-
-  @media print {
-    body {
-      background: white;
-    }
-
-    .schedule-wrapper {
-      zoom: 0.5;
-    }
-  }
+ 
 </style>
 </head>
 
-/*<body style="background-color:#c40c0c;">*/
 <body style="background: linear-gradient(135deg, #ffd700, #ff0000); color: white; padding: 20px;">
   
   
