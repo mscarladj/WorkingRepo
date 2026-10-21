@@ -383,89 +383,103 @@ a.ex6:hover, a.ex6:active {background: white;}
             margin: 0;
         }
 
-        /* 1. The Trigger Button */
-        .open-btn {
-            background-color: #007BFF;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background 0.2s ease;
-        }
-        .open-btn:hover {
-            background-color: #0056b3;
-        }
+<!-- /* SKills SECTION - style */ -->
+  #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-        /* 2. The Popup Overlay (Hidden by Default) */
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s ease;
-            z-index: 1000;
-        }
+#myImg:hover {opacity: 0.7;}
 
-        /* Class added by JS to show the modal */
-        .modal-overlay.active {
-            opacity: 1;
-            pointer-events: auto;
-        }
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
 
-        /* 3. The Popup Box Content */
-        .modal-box {
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            width: 90%;
-            max-width: 450px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            position: relative;
-            transform: translateY(-20px);
-            transition: transform 0.3s ease;
-        }
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
 
-        /* Smooth slide-down animation when active */
-        .modal-overlay.active .modal-box {
-            transform: translateY(0);
-        }
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
 
-        /* 4. The Close Button */
-        .close-btn {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            font-size: 24px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            color: #aaa;
-        }
-        .close-btn:hover {
-            color: #333;
-        }
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
 
-        h2 {
-            margin-top: 0;
-        } 
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+<!-- /* END Skills SECTION */ -->
 </style>
 </head>
 
-<body style="background: linear-gradient(135deg, #780000 0%, #5A0004 40%, #AF7E27 100%);
+<body>
+ 
+ <body style="background: linear-gradient(135deg, #780000 0%, #5A0004 40%, #AF7E27 100%);
                radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.15) 0%, rgba(0, 0, 0, 0) 70%); color: #0B0F14; padding: 20px;">
              <!--(#DAAA56, #0B0F14, #D4AF37 0%, #DAAA56 100%)-->
                
- 
- <body>
      <div class="slider-container">
         <div class="sliding-bar">
           <div class="sliding-text">TEEN SUMMIT 2026&emsp;&emsp;AMPLIFY YOUR FUTURE&emsp;DREAM&emsp;DECIDE&emsp;&emsp;DO&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</div>
@@ -578,7 +592,25 @@ a.ex6:hover, a.ex6:active {background: white;}
   </div>
 </div>
 
-
+   <div class ="a">
+    <div class="dropdown">
+    <a href="#popup" style="padding: 8px 20px; background-color: red; 
+                            color: #fff; text-decoration: none; border-radius: 5px;">CLICK HERE - Languages and Applications!</a>
+      <div id="popup" class="popup">
+       <div class="popup-content">
+       
+       <img id="myImg" src="https://raw.githubusercontent.com/mscarladj/WorkingRepo/d308b128b8b2cfd155754bdc528a746922ba9c4c/skills_resume.svg" alt="Skills!" style="width:100%;max-width:300px">
+        <p style="text-align:center;">Click the Image</p>
+         <h4 style="color: blue;">
+          <p style="text-align:center;">Here is a list of<br>Coding Disciplines, Applications and Tools<br>that I have enjoyed learning and utilizing<br>during my 24 years with AT&T!</p></h4> 
+           <a href="#" style="display: inline-block; 
+                       margin-top: 10px; padding: 5px 10px; 
+                       background-color: #dc3545; color: #fff; 
+                       text-decoration: none; border-radius: 3px;">Close</a>
+       </div>
+       </div>
+      </div>
+   </div> 
    <div class="slider-container">
         <div class="sliding-bar">
           <div class="sliding-text">Today's Agenda</div>
@@ -708,6 +740,40 @@ a.ex6:hover, a.ex6:active {background: white;}
 
  </div>
 </div>
+
+  <!-- /* Skills SECTION -body */ -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+<!-- /* END Skills SECTION -body*/ -->
  </body>
    
   <div class="a"> 
