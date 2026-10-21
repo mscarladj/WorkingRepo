@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EMBODI Activity Schedule</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    color: #222;
+  }
+
+  /* Display schedule at 50% scale */
+  .schedule-wrapper {
+    width: 200%;
+    zoom: 0.5;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .header h1 {
+    color: #b22222;
+    font-size: 42px;
+    margin-bottom: 8px;
+  }
+
+  .header p {
+    font-size: 20px;
+    color: #555;
+  }
+
+  .schedule {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .activity {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    min-height: 190px;
+    border-top: 8px solid #b22222;
+    box-shadow: 0 4px 12px #00000015;
+  }
+
+  .time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b22222;
+    margin-bottom: 15px;
+  }
+
+  .activity h2 {
+    font-size: 30px;
+    margin: 0 0 12px;
+  }
+
+  .activity p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .music {
+    border-top-color: #237a45;
+  }
+
+  .music .time {
+    color: #237a45;
+  }
+
+  .checkin {
+    border-top-color: #b22222;
+  }
+
+  .footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+
+  @media print {
+    body {
+      background: white;
+    }
+
+    .schedule-wrapper {
+      zoom: 0.5;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="schedule-wrapper">
+
+  <div class="header">
+    <h1>EMBODI Activity Schedule</h1>
+    <p>Daily Program Agenda</p>
+  </div>
+
+  <div class="schedule">
+
+    <!-- Activity 1 -->
+    <div class="activity checkin">
+      <div class="time">9:00 AM – 10:00 AM</div>
+      <h2>Check-in</h2>
+      <p>Welcome participants, confirm attendance,
+      and get ready for the day's activities.</p>
+    </div>
+
+    <!-- Activity 2 -->
+    <div class="activity music">
+      <div class="time">10:00 AM – 11:00 AM</div>
+      <h2>Music</h2>
+      <p>Enjoy music, participate in listening
+      activities, and engage with the group.</p>
+    </div>
+
+    <!-- Add more hard-coded activities below -->
+    <div class="activity">
+      <div class="time">11:00 AM – 12:00 PM</div>
+      <h2>Activity 3</h2>
+      <p>Enter the description for the next activity.</p>
+    </div>
+
+    <div class="activity">
+      <div class="time">12:00 PM – 1:00 PM</div>
+      <h2>Lunch</h2>
+      <p>Lunch and fellowship.</p>
+    </div>
+
+    <div class="activity">
+      <div class="time">1:00 PM – 2:00 PM</div>
+      <h2>Activity 5</h2>
+      <p>Enter the description for this activity.</p>
+    </div>
+
+    <div class="activity">
+      <div class="time">2:00 PM – 3:00 PM</div>
+      <h2>Closing</h2>
+      <p>Final announcements and dismissal.</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    EMBODI | Empowering Males to Build Opportunities for Developing Independence
+  </div>
+
+</div>
+
+</body>
+</html>
