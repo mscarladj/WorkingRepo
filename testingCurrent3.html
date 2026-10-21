@@ -315,8 +315,7 @@ a.ex6:hover, a.ex6:active {background: white;}
     <p>Agenda </p>
   </div>
 
-  <div class="schedule" 
-       style=* {
+  <div class="schedule" style="{
          box-sizing: border-box;
          }
 
@@ -326,83 +325,85 @@ a.ex6:hover, a.ex6:active {background: white;}
         font-family: Arial, sans-serif;
         background: #eef1f5;
         color: #222;
-      }
+        }
 
-  /* Display schedule at 80% scale */
-  .schedule-wrapper {
-    width: 75%;
-    zoom: 0.8;
-  }
+      /* Display schedule at 80% scale */
+        .schedule-wrapper {
+        width: 75%;
+        zoom: 0.8;
+        }
 
-  .header {
-    text-align: center;
-    margin-bottom: 25px;
-  }
+        .header {
+        text-align: center;
+        margin-bottom: 25px;
+          }
 
-  .header h1 {
-    color: #b22222;
-    font-size: 42px;
-    margin-bottom: 8px;
-  }
+      .header h1 {
+        color: #b22222;
+        font-size: 42px;
+        margin-bottom: 8px;
+          }
 
-  .header p {
-    font-size: 50px;
-    color: #555;
-  }
+      .header p {
+        font-size: 50px;
+        color: #555;
+          }
 
-  .schedule {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
-  }
+      .schedule {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+              }
 
-  .activity {
-    background: white;
-    border-radius: 15px;
-    padding: 25px;
-    min-height: 190px;
-    border-top: 8px solid #b22222;
-    box-shadow: 0 4px 12px #00000015;
-  }
+      .activity {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        min-height: 190px;
+        border-top: 8px solid #b22222;
+        box-shadow: 0 4px 12px #00000015;
+              }
 
-  .time {
-    font-size: 24px;
-    font-weight: bold;
-    color: #b22222;
-    margin-bottom: 15px;
-  }
+      .time {
+        font-size: 24px;
+        font-weight: bold;
+        color: #b22222;
+        margin-bottom: 15px;
+            }
 
-  .activity h2 {
-    font-size: 30px;
-    margin: 0 0 12px;
-  }
+      .activity h2 {
+        font-size: 30px;
+        margin: 0 0 12px;
+          }
 
-  .activity p {
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0;
-  }
+      .activity p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+              }
+    
+      .checkin {
+        border-top-color: #b22222;
+            }
 
-  .checkin {
-    border-top-color: #b22222;
-  }
+      .footer {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 18px;
+        color: #555;
+              }
 
-  .footer {
-    margin-top: 25px;
-    text-align: center;
-    font-size: 18px;
-    color: #555;
-  }
-
-  @media print {
-    body {
-      background: white;
-    }
+        @media print {
+          body {
+            background: white;
+                }
 
     .schedule-wrapper {
       zoom: 0.5;
-    }
-  }>
+            }
+        }">
+    
+      </div>
 
     <!-- Activity 1 -->
     <div class="activity Registration and Check-In">
