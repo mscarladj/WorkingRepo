@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amplify Excellence | Youth Program</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    background: #8b0000;
+    color: white;
+}
+
+/* THREE-COLUMN, THREE-ROW SCROLLING LAYOUT */
+.site-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 100vw);
+    grid-template-rows: repeat(3, 100vh);
+    width: 300vw;
+    min-height: 300vh;
+}
+
+/* ALL FOUR PAGES */
+.page {
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+}
+
+#page1 {
+    grid-column: 2;
+    grid-row: 1;
+    background: #c90018;
+}
+
+#page2 {
+    grid-column: 2;
+    grid-row: 2;
+    background: #d4a900;
+    color: #641000;
+}
+
+#page3 {
+    grid-column: 1;
+    grid-row: 2;
+    background: #650000;
+}
+
+#page4 {
+    grid-column: 1;
+    grid-row: 3;
+    background: #d4a900;
+    color: #641000;
+}
+
+h1 {
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+.scroll-btn {
+    border: 2px solid currentColor;
+    background: transparent;
+    color: inherit;
+    padding: 13px 25px;
+    margin: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.scroll-btn:hover {
+    background: white;
+    color: #650000;
+    transform: scale(1.04);
+}
+
+/* PAGE 2: EVENT SCHEDULE */
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 280px));
+    gap: 18px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.event-box {
+    background: #fff5cc;
+    border: 3px solid #641000;
+    border-radius: 14px;
+    padding: 25px 15px;
+    box-shadow: 0 5px 12px #64100030;
+}
+
+.event-time {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.event-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* PAGE 3: NAVBAR */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #3c0000;
+    z-index: 10;
+}
+
+.nav-brand {
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #f4ca39;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.drop-btn {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.drop-btn:hover,
+.drop-btn:focus {
+    color: #f4ca39;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 180px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px #0005;
+    overflow: hidden;
+    text-align: left;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 13px 15px;
+    text-decoration: none;
+    color: #650000;
+}
+
+.dropdown-content a:hover {
+    background: #fff0bb;
+}
+
+.dropdown.open .dropdown-content {
+    display: block;
+}
+
+#page3 .page-content {
+    margin-top: 60px;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 600px) {
+    .page {
+        padding: 20px;
+        min-height: 650px;
+    }
+
+    .schedule {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        gap: 12px;
+    }
+
+    .event-box {
+        padding: 17px 12px;
+    }
+
+    .navbar {
+        padding: 12px;
+        align-items: flex-start;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .drop-btn {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    #page3 .page-content {
+        margin-top: 110px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="site-layout">
+
+    <!-- PAGE 1: START AT TOP -->
+    <section class="page" id="page1">
+        <p class="subtitle">EMBODI • YOUTH LEADERSHIP</p>
+
+        <h1>AMPLIFY</h1>
+
+        <p class="subtitle">
+            Amplify your voice. Build your confidence.
+            Discover your potential.
+        </p>
+
+        <!-- Standalone button, not inside the navbar -->
+        <button class="scroll-btn" onclick="goToPage('page2')">
+            Explore Events ↓
+        </button>
+    </section>
+
+    <!-- PAGE 2: SCHEDULE -->
+    <section class="page" id="page2">
+        <p class="subtitle">LEAD WITH PURPOSE</p>
+
+        <h1>EXCELLENCE</h1>
+
+        <h2>Schedule of Events</h2>
+
+        <div class="schedule">
+
+            <div class="event-box">
+                <span class="event-time">9:00 – 10:00</span>
+                <span class="event-name">Check-In</span>
+            </div>
+
+            <div class="event-box">
+                <span class="event-time">10:00 – 11:00</span>
+                <span class="event-name">Information Session</span>
+            </div>
+
+        </div>
+
+        <p class="subtitle">
+            Show up. Get involved. Strive for excellence.
+        </p>
+
+        <button class="scroll-btn" onclick="goToPage('page3')">
+            ← Meet the Program
+        </button>
+    </section>
+
+    <!-- PAGE 3: NAVBAR WITH THREE DROPDOWNS -->
+    <section class="page" id="page3">
+
+        <nav class="navbar">
+            <div class="nav-brand">EMBODI</div>
+
+            <div class="nav-links">
+
+                <!-- DROPDOWN 1 -->
+                <div class="dropdown">
+                    <button class="drop-btn"
+                            aria-expanded="false"
+                            onclick="toggleDropdown(this)">
+                        Program ▾
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#page1" onclick="navigate(event,'page1')">
+                            Amplify
+                        </a>
+                        <a href="#page2" onclick="navigate(event,'page2')">
+                            Excellence
+                        </a>
+                    </div>
+                </div>
+
+                <!-- DROPDOWN 2 -->
+                <div class="dropdown">
+                    <button class="drop-btn"
+                            aria-expanded="false"
+                            onclick="toggleDropdown(this)">
+                        Events ▾
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#page2" onclick="navigate(event,'page2')">
+                            Check-In
+                        </a>
+                        <a href="#page2" onclick="navigate(event,'page2')">
+                            Information Session
+                        </a>
+                    </div>
+                </div>
+
+                <!-- DROPDOWN 3 -->
+                <div class="dropdown">
+                    <button class="drop-btn"
+                            aria-expanded="false"
+                            onclick="toggleDropdown(this)">
+                        Connect ▾
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#page4" onclick="navigate(event,'page4')">
+                            Our Mission
+                        </a>
+                        <a href="#page1" onclick="navigate(event,'page1')">
+                            Home
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="page-content">
+            <p class="subtitle">EMPOWERING THE NEXT GENERATION</p>
+
+            <h1>LEAD.</h1>
+
+            <h2>Grow • Inspire • Achieve</h2>
+
+            <p class="subtitle">
+                Develop leadership skills, build character,
+                and create opportunities for independence.
+            </p>
+
+            <button class="scroll-btn" onclick="goToPage('page2')">
+                Return to Excellence →
+            </button>
+
+            <button class="scroll-btn" onclick="goToPage('page4')">
+                Our Mission ↓
+            </button>
+        </div>
+    </section>
+
+    <!-- PAGE 4: MISSION -->
+    <section class="page" id="page4">
+        <p class="subtitle">OUR PURPOSE</p>
+
+        <h1>BUILD.</h1>
+
+        <h2>Opportunities for Independence</h2>
+
+        <p class="subtitle">
+            Empowering males to build opportunities
+            for developing independence.
+        </p>
+
+        <button class="scroll-btn" onclick="goToPage('page1')">
+            ↑ Back to Amplify
+        </button>
+    </section>
+
+</div>
+
+<script>
+/* SCROLL TO A PAGE */
+function goToPage(pageId) {
+    const page = document.getElementById(pageId);
+
+    if (page) {
+        page.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "start"
+        });
+    }
+}
+
+/* NAVBAR DROPDOWNS */
+function toggleDropdown(button) {
+    const currentDropdown = button.parentElement;
+    const isOpen = currentDropdown.classList.contains("open");
+
+    document.querySelectorAll(".dropdown").forEach(dropdown => {
+        dropdown.classList.remove("open");
+
+        const dropdownButton = dropdown.querySelector(".drop-btn");
+        dropdownButton.setAttribute("aria-expanded", "false");
+    });
+
+    if (!isOpen) {
+        currentDropdown.classList.add("open");
+        button.setAttribute("aria-expanded", "true");
+    }
+}
+
+/* NAVIGATE FROM DROPDOWN LINKS */
+function navigate(event, pageId) {
+    event.preventDefault();
+    goToPage(pageId);
+
+    document.querySelectorAll(".dropdown").forEach(dropdown => {
+        dropdown.classList.remove("open");
+        dropdown.querySelector(".drop-btn")
+            .setAttribute("aria-expanded", "false");
+    });
+}
+
+/* CLOSE DROPDOWNS WHEN CLICKING OUTSIDE */
+document.addEventListener("click", function(event) {
+    if (!event.target.closest(".dropdown")) {
+        document.querySelectorAll(".dropdown").forEach(dropdown => {
+            dropdown.classList.remove("open");
+            dropdown.querySelector(".drop-btn")
+                .setAttribute("aria-expanded", "false");
+        });
+    }
+});
+</script>
+
+</body>
+</html>
