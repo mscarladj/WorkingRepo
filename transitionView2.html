@@ -435,6 +435,245 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover; 
  }
+    
+ /* START Pop Button SECTION-style */
+  .popup {
+            display: none;
+            position: left;
+            top: 0; left: 0;
+            width: 80%; height: 80%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: left;
+            align-items: left;
+        }
+        .popup-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .popup:target {
+            display: flex;
+        }
+    /*  END POPUP SECTION-style */ 
+
+/* Additional styles for content */
+    h1 {
+      color: #ffffff;
+      text-align: center;
+    }
+
+  /* 2nd POPUP Section - popuptw */
+  /* Popuptw container -change style */
+.popuptw  {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popuptw */
+.popuptw .popuptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: inherit;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+ /* Popuptw arrow */
+ .popuptw .popuptext::after {
+  content: "";
+  position: relative;
+  top: 50%;
+  left: 25%;
+  margin-left: -5px;
+  border-width: -5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} 
+
+/* Toggle this class - hide and show the popuptw */
+.popuptw .show {
+  visibility: visible;
+  
+/* END 2nd POPUP Section - popuptw */
+  
+<!-- THIS SECTION manages the alignment through class -->  
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+}   
+
+/*This SECTION MANAGES hover-animate-colors*/  
+a.ex1:hover, a.ex1:active {color: red;}
+a.ex2:hover, a.ex2:active {font-size: 150%;}
+a.ex3:hover, a.ex3:active {background: red;}
+a.ex6:hover, a.ex6:active {background: white;}  
+/*This SECTION MANAGES hover-animate-colors*/ 
+
+  /* Base styles for presentation */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+<!-- /* SKills SECTION - style */ -->
+  #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+<!-- /* END Skills SECTION */ -->
+     /* Sliding bar SECTION */
+  
+  .sliding-text {
+            position: absolute;
+            white-space: nowrap;
+            color: black;
+            font: Arial;
+            font-size: 20px;
+            font-weight: bold;
+            animation: slide 24s linear infinite;
+                }
+  
+ .slider-container {
+  flex-wrap: wrap;
+  flex:1;
+  position: relative;
+  width: 80%;
+  height: 60px;
+  background-color: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+   }
+  
+ <!--
+   <!--.sliding-bar {-->
+   <!--position: absolute;-->
+  <!--width: 200px;-->
+   <!--height: 100%;-->
+   <!--background-color: white;-->
+   <!--animation: slide 20s linear infinite;-->
+      }-->
+  
+  @keyframes slide {
+      from {
+      left: -200px;
+         }
+     to {
+       left: 100%;
+     }
+   }
+
+/*END Sliding bar SECTION*/
 </style>
 </head>
 
@@ -690,12 +929,7 @@ h2 {
     <!-- PAGE 4: MISSION -->
     <section class="page" id="page4">
         <p class="subtitle">Amplify Your Future</p>
-        <div class="slider-container">
-        <div class="sliding-bar">
-          <div class="sliding-text">&emsp;&emsp;AMPLIFY YOUR FUTURE&emsp;AMPLIFY YOUR FUTURE&emsp;AMPLIFY YOUR FUTURE&emsp;&emsp;AMPLIFY YOUR FUTURE&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</div>
-        </div>
-    </div> 
-
+        
         <h1>DREAM</h1>
         <h1>DECIDE</h1>
         <h1>DO</h1>
