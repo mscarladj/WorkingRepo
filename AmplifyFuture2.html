@@ -189,7 +189,37 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     height: 750px;
   }
 }
+  .game-card {
+  width: min(100%, 760px);
+  margin: 14px auto;
+  padding: 20px;
+  background: #fff5cc;
+  color: #641000;
+  border: 2px solid #d4a900;
+  border-radius: 16px;
+  text-align: center;
+}
 
+.game-choice {
+  padding: 14px 18px;
+  margin: 6px;
+  border: 2px solid #650000;
+  border-radius: 12px;
+  background: white;
+  color: #650000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.game-choice:hover {
+  background: #650000;
+  color: white;
+}
+
+.game-feedback {
+  min-height: 24px;
+  font-weight: bold;
+}
 </style>
 </head>
 <body>
@@ -306,6 +336,33 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     <p class="subtitle">Amplify Your Future</p>
     <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div></div>
     <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
+    
+<section class="game-card">
+  <h2>🎯 THIS OR THAT?</h2>
+  <p>Pick your vibe! There are no wrong answers.</p>
+
+  <h3 id="game-question">
+    What makes a stronger leader?
+  </h3>
+
+  <button class="game-choice"
+    onclick="playChoice('Listening first 👂')">
+    Listening first 👂
+  </button>
+
+  <button class="game-choice"
+    onclick="playChoice('Speaking up 🗣️')">
+    Speaking up 🗣️
+  </button>
+
+  <p id="game-feedback" class="game-feedback">
+    Tap your answer!
+  </p>
+
+  <button class="scroll-btn" onclick="nextQuestion()">
+    Next Question →
+  </button>
+</section>
 
 <!--<section class="parent-feedback">
   <h2>💬 PARENT & GUARDIAN FEEDBACK</h2>
@@ -416,6 +473,53 @@ function updateEventClock() {
 
 updateEventClock();
 setInterval(updateEventClock, 1000);
+
+  
+const summitQuestions = [
+  {
+    question: "What makes a stronger leader?",
+    choices: ["Listening first 👂", "Speaking up 🗣️"]
+  },
+  {
+    question: "How do you learn best?",
+    choices: ["Hands-on practice 🛠️", "Watching first 👀"]
+  },
+  {
+    question: "What's your next big goal?",
+    choices: ["College 🎓", "Career 💼"]
+  },
+  {
+    question: "How do you tackle a challenge?",
+    choices: ["Make a plan 🗓️", "Take action 🚀"]
+  },
+  {
+    question: "What matters most on a team?",
+    choices: ["Creativity 💡", "Teamwork 🤝"]
+  }
+];
+
+let questionIndex = 0;
+
+function playChoice(choice) {
+  document.getElementById("game-feedback").textContent =
+    "You chose " + choice +
+    "! Your perspective matters. Keep amplifying your future!";
+}
+
+function nextQuestion() {
+  questionIndex = (questionIndex + 1) % summitQuestions.length;
+
+  document.getElementById("game-question").textContent =
+    summitQuestions[questionIndex].question;
+
+  const buttons = document.querySelectorAll(".game-choice");
+
+  buttons[0].textContent = summitQuestions[questionIndex].choices[0];
+  buttons[1].textContent = summitQuestions[questionIndex].choices[1];
+
+  document.getElementById("game-feedback").textContent =
+    "Tap your answer!";
+}
 
 </script>
 </body>
