@@ -33,7 +33,11 @@ body {
 #page4 { grid-column:1; grid-row:2; background:linear-gradient(135deg,#641000,#b37700); }
 h1 { font-size:clamp(2.1rem,5.3vw,5rem); font-weight:900; letter-spacing:clamp(1px,.4vw,5px); line-height:1.08; margin:12px 0; }
 h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
-.subtitle { font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }
+
+.subtitle /*{ font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }*/
+  {font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;}
 .scroll-btn {
   border:2px solid currentColor; background:#fff; color:#650000; padding:12px 20px;
   margin:10px 6px; border-radius:30px; cursor:pointer; font-size:1rem;
@@ -115,17 +119,89 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   .dropdown-content { position:fixed; left:5vw; top:20vh; width:90vw; max-width:90vw; max-height:60vh; }
   .popup-content { padding:24px 18px 18px; }
 }
+  
+.event-clock {
+  text-align: center;
+  background: #650000;
+  color: #ffffff;
+  border: 2px solid #d4a900;
+  border-radius: 14px;
+  padding: 12px;
+  margin: 12px auto;
+  width: min(90%, 360px);
+  box-sizing: border-box;
+}
+
+.clock-label {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#event-clock-time {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  margin: 5px 0;
+}
+
+#event-clock-date {
+  font-size: 0.9rem;
+}
+
+  
+.parent-feedback {
+  width: min(100%, 850px);
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff5cc;
+  color: #650000;
+  border: 2px solid #d4a900;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.parent-feedback h2 {
+  margin-top: 0;
+}
+
+.feedback-form {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.feedback-form iframe {
+  display: block;
+  width: 100%;
+  height: 650px;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .parent-feedback {
+    padding: 12px;
+  }
+
+  .feedback-form iframe {
+    height: 750px;
+  }
+}
+
 </style>
 </head>
 <body>
 <main class="site-layout">
   <!-- PAGE 1: TOP LEFT -->
   <section class="page" id="page1">
-    <p class="subtitle">Teen Summit · November 7, 2026</p>
+    <p class="subtitle">Welcome to Teen Summit · November 7, 2026</p>
     <h1>AMPLIFY YOUR FUTURE</h1>
-    <p class="subtitle">Every student has immense potential! In the right environment, it can be nurtured, uncovered, and realized. Welcome to Teen Summit, November 7th, 2026.</p>
+    <p class="subtitle">Every student has immense potential! In the right environment, it can be nurtured, uncovered, and realized!</p>
     <button class="scroll-btn" onclick="goToPage('page2')">Explore Events →</button>
   </section>
+
 
   <!-- PAGE 2: TOP RIGHT -->
   <section class="page" id="page2">
@@ -134,7 +210,14 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     <div class="schedule-wrapper">
       <div class="schedule-heading">
         <h2>Teen Summit Activity Schedule</h2>
-        <p>Schedule of Events</p>
+        
+<div class="event-clock">
+  <div class="clock-label">🕒 CURRENT TIME</div>
+  <div id="event-clock-time">--:--:-- --</div>
+  <div id="event-clock-date"></div>
+</div>
+
+<!--<p>Schedule of Events</p>-->
       </div>
       <div class="schedule">
         <div class="event-box"><span class="event-time">9:30–10:00 AM</span><span class="event-name">Registration and Check-In<br>Location: Gym</span></div>
@@ -223,7 +306,27 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     <p class="subtitle">Amplify Your Future</p>
     <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div></div>
     <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
-    <p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>
+
+    <section class="parent-feedback">
+  <h2>💬 PARENT & GUARDIAN FEEDBACK</h2>
+
+  <p>
+    We thank you for supporting our Teen Summit!
+    Please share your feedback or ask us a question.
+  </p>
+
+  <div class="feedback-form">
+    <iframe
+      id="jotform-feedback"
+      src="https://form.jotform.com/YOUR_JOTFORM_ID"
+      title="Parent and Guardian Feedback Form"
+      loading="lazy"
+      allow="geolocation"
+      frameborder="0">
+    </iframe>
+  </div>
+</section>
+    !<--<p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>-->
     <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
   </section>
 </main>
@@ -290,6 +393,29 @@ popup.addEventListener("click", event => {
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && window.location.hash === "#facebook-popup") window.location.hash = "";
 });
+  
+function updateEventClock() {
+  const now = new Date();
+
+  document.getElementById("event-clock-time").textContent =
+    now.toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit"
+    });
+
+  document.getElementById("event-clock-date").textContent =
+    now.toLocaleDateString([], {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    });
+}
+
+updateEventClock();
+setInterval(updateEventClock, 1000);
+
 </script>
 </body>
 </html>
