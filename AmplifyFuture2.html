@@ -343,7 +343,7 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   <section class="page" id="page3">
 
    <div class="a"> 
-      <h1 style="position: fixed; top: 0; left: 0; width: 100%; text-align: center; font-family: Baskerville;"><a class="ex2"><em>Resources for your success!</em></a></h1>
+      <h1 style="position: relative; top: 0; left: 0; width: 100%; text-align: center; font-family: Baskerville;"><a class="ex2"><em>Resources for your success!</em></a></h1>
     </div>
 
     <!--<div style="position: fixed; top: 0; left: 0; width: 100%; text-align: center; background-color: #f1f1f1; padding: 10px; z-index: 1000;">-->
@@ -404,7 +404,7 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
       <h1>Amplify Your Future</h1>
       <h2>DREAM · DECIDE · DO</h2>
       <button class="scroll-btn" onclick="goToPage('page2')">← Return to Today's Agenda</button>
-      <button class="scroll-btn" onclick="goToPage('page4')">Our Mission ←</button>
+      <button class="scroll-btn" onclick="goToPage('page4')">Parent & Guardian Feedback ←</button>
     </div>
   </section>
 
@@ -471,9 +471,8 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
 
        <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
                 
-</section>
-  
-</main>
+    </section>
+  </main>
 
 <!-- Fixed popup overlay; close button is positioned inside the popup itself. -->
 <div id="facebook-popup" class="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
@@ -591,11 +590,18 @@ const summitQuestions = [
 
 let questionIndex = 0;
 
-function playChoice(choice) {
+/*function playChoice(choice) {
   document.getElementById("game-feedback").textContent =
     "You chose " + choice +
     "! Your perspective matters. Keep amplifying your future!";
-}
+}*/
+
+function playChoice(choice) {
+  document.getElementById("game-feedback").textContent = [
+    "You chose " + choice +
+    "Your perspective matters. Keep amplifying your future!, Strong leader loading!, Your voice, Your power!, Tackling a Challenge is your super Power!";]
+}  
+  
 
 function nextQuestion() {
   questionIndex = (questionIndex + 1) % summitQuestions.length;
