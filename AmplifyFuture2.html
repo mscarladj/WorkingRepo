@@ -220,13 +220,25 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   min-height: 24px;
   font-weight: bold;
 }
+  .css-curve span {
+    display: inline-block; /* Required for transforms to work */
+    font-size: 2rem;
+  }
 </style>
 </head>
 <body>
 <main class="site-layout">
   <!-- PAGE 1: TOP LEFT -->
   <section class="page" id="page1">
-    <p class="subtitle">Welcome to Teen Summit · November 7, 2026</p>
+<h1 class="css-curve">
+  <span style="transform: rotate(-15deg) translateY(10px);">H</span>
+  <span style="transform: rotate(-10deg) translateY(3px);">E</span>
+  <span style="transform: rotate(-5deg) translateY(0px);">L</span>
+  <span style="transform: rotate(0deg) translateY(-2px);">L</span>
+  <span style="transform: rotate(5deg) translateY(0px);">O</span>
+  <span style="transform: rotate(10deg) translateY(3px);">W</span>
+  
+</h1><p class="subtitle">Welcome to Teen Summit · November 7, 2026</p>
     <h1>AMPLIFY YOUR FUTURE</h1>
     <p class="subtitle">Every student has immense potential! In the right environment, it can be nurtured, uncovered, and realized!</p>
     <button class="scroll-btn" onclick="goToPage('page2')">Explore Events →</button>
