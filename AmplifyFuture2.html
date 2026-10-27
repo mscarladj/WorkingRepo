@@ -33,6 +33,7 @@ body {
 #page4 { grid-column:1; grid-row:2; background:linear-gradient(135deg,#641000,#b37700); }
 h1 { font-size:clamp(2.1rem,5.3vw,5rem); font-weight:900; letter-spacing:clamp(1px,.4vw,5px); line-height:1.08; margin:12px 0; }
 h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
+#page5 { grid-column:1; grid-row:2; background:var(--cherry red); }
 
 .subtitle /*{ font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }*/
   {font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
@@ -297,6 +298,7 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     <h1>AMPLIFY YOUR FUTURE</h1>
     <p class="subtitle">Every student has immense potential!<br>In the right environment, it can be nurtured, uncovered, and realized!</br></p>
     <button class="scroll-btn" onclick="goToPage('page2')">Explore Events →</button>
+    <button class="scroll-btn" onclick="goToPage('page5')">↑Parent Feedback</button>
   </section>
 
 
@@ -341,12 +343,11 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   <section class="page" id="page3">
 
    <div class="a"> 
-      <h1 style="font-family: Baskerville;"><a class="ex2"><em>Resources for your success!</em></a></h1>
+      <h1 style="position: fixed; top: 0; left: 0; width: 100%; text-align: center; font-family: Baskerville;"><a class="ex2"><em>Resources for your success!</em></a></h1>
     </div>
 
-    <div style="position: fixed; top: 0; left: 0; width: 100%; text-align: center; background-color: #f1f1f1; padding: 10px; z-index: 1000;">
-     This text is locked at the very top of the screen.
-   </div>
+    <!--<div style="position: fixed; top: 0; left: 0; width: 100%; text-align: center; background-color: #f1f1f1; padding: 10px; z-index: 1000;">-->
+    
     
     <nav class="navbar" aria-label="Resource menus">
       <div class="dropdown">
@@ -409,9 +410,9 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
 
   <!-- PAGE 4: BOTTOM LEFT -->
   <section class="page" id="page4">
-    <p class="subtitle">Amplify Your Future</p>
-    <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div></div>
-    <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
+   <!--<p class="subtitle">Amplify Your Future</p>-->
+    <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div>
+      <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
     
 <section class="game-card">
   <h2>🎯 THIS OR THAT?</h2>
@@ -440,11 +441,20 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   </button>
 </section>
 
-<!--<section class="parent-feedback">
+    
+  <p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>
+     <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
+  </section>
+<!--------------------------------------------------------------------------------------------------->
+   <!-- PAGE 5: BOTTOM LEFT -->
+  <section class="page" id="page4">
+  
+    <section class="parent-feedback">
+  
   <h2>💬 PARENT & GUARDIAN FEEDBACK</h2>
 
   <p>
-    We thank you for supporting our Teen Summit!
+    CCAC Thanks You for supporting Teen Summit!!
     Please share your feedback or ask us a question.
   </p>
 
@@ -458,11 +468,11 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
       frameborder="0">
     </iframe>
   </div>
-</section>-->
-    
-    !<--<p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>-->
-    <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
-  </section>
+
+       <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
+                
+</section>
+  
 </main>
 
 <!-- Fixed popup overlay; close button is positioned inside the popup itself. -->
@@ -601,7 +611,7 @@ function nextQuestion() {
   document.getElementById("game-feedback").textContent =
     "Tap your answer!";
 }
-
+</div>
 </script>
 </body>
 </html>
