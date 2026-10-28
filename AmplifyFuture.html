@@ -7,33 +7,47 @@
 <style>
 :root { --red:#c90018; --dark-red:#650000; --gold:#d4a900; --ink:#641000; }
 * { box-sizing:border-box; }
-html { margin:0; padding:0; scroll-behavior:smooth; }
+html { margin:0; padding:0; scroll-behavior:smooth; width:100%; overflow-x:hidden; }
 body {
   margin:0; padding:0; width:100%; min-height:100%;
   font-family:Arial,Helvetica,sans-serif; color:#fff; background:var(--dark-red);
   overflow:auto;
 }
-/* Four full-screen pages in a tight 2 x 2 grid: no empty grid cells. */
+/* Five responsive pages stacked vertically for reliable scrolling. */
 .site-layout {
-  display:grid;
-  grid-template-columns:repeat(2,100vw);
-  grid-template-rows:repeat(2,100vh);
-  width:200vw; height:200vh; gap:0; margin:0; padding:0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 .page {
-  width:100vw; height:100vh; min-width:0; min-height:0;
-  margin:0; padding:clamp(16px,3vw,36px);
-  display:flex; flex-direction:column; align-items:center; justify-content:center;
-  text-align:center; position:relative; overflow-y:auto; overflow-x:hidden;
-  scroll-margin:0;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  height: auto;
+  margin: 0;
+  padding: clamp(16px, 3vw, 36px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  scroll-margin-top: 0;
 }
-#page1 { grid-column:1; grid-row:1; background:var(--red); }
-#page2 { grid-column:2; grid-row:1; background:var(--gold); color:var(--ink); }
-#page3 { grid-column:2; grid-row:2; background:var(--dark-red); }
-#page4 { grid-column:1; grid-row:2; background:linear-gradient(135deg,#641000,#b37700); }
-h1 { font-size:clamp(2.1rem,5.3vw,5rem); font-weight:900; letter-spacing:clamp(1px,.4vw,5px); line-height:1.08; margin:12px 0; }
-h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
-.subtitle { font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }
+#page1 { background:var(--red); }
+#page2 { background:var(--gold); color:var(--ink); }
+#page3 { background:var(--dark-red); }
+#page4 { background:linear-gradient(135deg,#641000,#b37700); }
+#page5 { background:var(--gold); color:var(--ink); }
+
+.subtitle /*{ font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }*/
+  {font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;}
 .scroll-btn {
   border:2px solid currentColor; background:#fff; color:#650000; padding:12px 20px;
   margin:10px 6px; border-radius:30px; cursor:pointer; font-size:1rem;
@@ -41,7 +55,7 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
 }
 .scroll-btn:hover { background:#ffe9a6; transform:translateY(-2px); }
 #page2 .scroll-btn { background:#650000; color:#fff; }
-.schedule-wrapper { width:min(100%,900px); max-height:58vh; overflow:auto; padding:0 4px; }
+.schedule-wrapper { width:min(100%,900px); max-height:none; overflow:visible; padding:0 4px; }
 .schedule-heading { margin:4px 0 14px; }
 .schedule-heading h2 { margin:4px 0; }
 .schedule-heading p { margin:4px 0; font-size:1.1rem; }
@@ -102,48 +116,239 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
 .sliding-text { display:inline-block; color:#fff; font-size:1.15rem; font-weight:bold; animation:slide 18s linear infinite; }
 @keyframes slide { from { transform:translateX(100%); } to { transform:translateX(-100%); } }
 @media(max-width:800px) {
-  .schedule-wrapper { max-height:55vh; }
+  .page { justify-content: flex-start; }
+  #page1 { justify-content: center; }
+  .schedule-wrapper { width: 100%; }
+  .game-card { padding: 14px; }
+  .game-choice { max-width: 100%; white-space: normal; }
+  .schedule-wrapper { max-height:none; }
   .schedule { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
   .event-box { padding:11px 8px; }
   .navbar { gap:2px; }
   .dropbtn { padding:10px 8px; font-size:.9rem; }
 }
 @media(max-width:520px) {
+  h1 { overflow-wrap: anywhere; }
+  .waviy { max-width: 100%; }
+  .waviy span { letter-spacing: 0; }
+  .scroll-btn { width: min(100%, 340px); }
+  .navbar { width: 100%; }
+  .dropdown { max-width: 100%; }
+  .dropbtn { max-width: 100%; white-space: normal; }
+  .event-clock { width: 100%; }
+  .parent-feedback { margin: 10px auto; }
   .page { padding:14px; }
   .schedule { grid-template-columns:1fr; }
-  .schedule-wrapper { max-height:54vh; }
+  .schedule-wrapper { max-height:none; }
   .dropdown-content { position:fixed; left:5vw; top:20vh; width:90vw; max-width:90vw; max-height:60vh; }
   .popup-content { padding:24px 18px 18px; }
+}
+  
+.event-clock {
+  text-align: center;
+  background: #650000;
+  color: #ffffff;
+  border: 2px solid #d4a900;
+  border-radius: 14px;
+  padding: 12px;
+  margin: 12px auto;
+  width: min(90%, 360px);
+  box-sizing: border-box;
+}
+
+.clock-label {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#event-clock-time {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  margin: 5px 0;
+}
+
+#event-clock-date {
+  font-size: 0.9rem;
+}
+
+  
+.parent-feedback {
+  width: min(100%, 850px);
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff5cc;
+  color: #650000;
+  border: 2px solid #d4a900;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.parent-feedback h2 {
+  margin-top: 0;
+}
+
+.feedback-form {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.feedback-form iframe {
+  display: block;
+  width: 100%;
+  height: 650px;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .parent-feedback {
+    padding: 12px;
+  }
+
+  .feedback-form iframe {
+    height: 750px;
+  }
+}
+  .game-card {
+  width: min(100%, 760px);
+  margin: 14px auto;
+  padding: 20px;
+  background: #fff5cc;
+  color: #641000;
+  border: 2px solid #d4a900;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.game-choice {
+  padding: 14px 18px;
+  margin: 6px;
+  border: 2px solid #650000;
+  border-radius: 12px;
+  background: white;
+  color: #650000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.game-choice:hover {
+  background: #650000;
+  color: white;
+}
+
+.game-feedback {
+  min-height: 24px;
+  font-weight: bold;
+}
+  .css-curve span {
+    display: inline-block; /* Required for transforms to work */
+    font-size: 2rem;
+  }
+    .waviy {
+  position: center;
+}
+.waviy span {
+  position: center;
+  display: inline-block;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 3s infinite;
+  animation-delay: calc(.5s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
 }
 </style>
 </head>
 <body>
 <main class="site-layout">
-  <!-- PAGE 1: TOP LEFT -->
+  <!-- PAGE 1 -->
   <section class="page" id="page1">
-    <p class="subtitle">Teen Summit · November 7, 2026</p>
+<!--<h1 class="css-curve">
+  <span style="transform: rotate(-15deg) translateY(10px);">H</span>
+  <span style="transform: rotate(-10deg) translateY(3px);">E</span>
+  <span style="transform: rotate(-5deg) translateY(0px);">L</span>
+  <span style="transform: rotate(0deg) translateY(-2px);">L</span>
+  <span style="transform: rotate(5deg) translateY(0px);">O</span>
+  <span style="transform: rotate(10deg) translateY(3px);">W</span>-->
+
+ <p class="subtitle">November 7, 2026</p>
+
+ <div class="a">
+   <div class="waviy">
+     <span style="--i:1;">W</span>
+     <span style="--i:2">e</span>
+     <span style="--i:3">l</span>
+     <span style="--i:4">c</span>
+     <span style="--i:5">o</span>
+     <span style="--i:6">m</span>
+     <span style="--i:7">e</span>
+  </div>
+
+
+   <div>
+     <span style="--i:8">t</span>
+     <span style="--i:9">o</span>
+   </div>
+
+ 
+  <div class="waviy">
+    <span style="--i:9; padding: 40px 50px;">T</span>
+    <span style="--i:10; padding: 40px 50px;">E</span>
+    <span style="--i:11; padding: 40px 50px;">E</span>
+    <span style="--i:12; padding: 40px 50px;">N</span>
+  </div>
+
+   
+   <div class="waviy">
+    <span style="--i:13; padding: 40px 50px;">S</span>
+    <span style="--i:14; padding: 40px 50px;">U</span>
+    <span style="--i:15; padding: 40px 50px;">M</span>
+    <span style="--i:16; padding: 40px 50px;">M</span>
+    <span style="--i:17; padding: 40px 50px;">I</span>
+    <span style="--i:18; padding: 40px 50px;">T</span>
+   </div>
+</div>
+    
+
     <h1>AMPLIFY YOUR FUTURE</h1>
-    <p class="subtitle">Every student has immense potential! In the right environment, it can be nurtured, uncovered, and realized. Welcome to Teen Summit, November 7th, 2026.</p>
+    <p class="subtitle">Every student has immense potential!<br>In the right environment, it can be nurtured, uncovered, and realized!</p>
     <button class="scroll-btn" onclick="goToPage('page2')">Explore Events →</button>
+    <button class="scroll-btn" onclick="goToPage('page5')">↑Parent Feedback</button>
   </section>
 
-  <!-- PAGE 2: TOP RIGHT -->
+
+  <!-- PAGE 2 -->
   <section class="page" id="page2">
     <p class="subtitle">Amplify Your Future</p>
     <h1>DREAM · DECIDE · DO</h1>
     <div class="schedule-wrapper">
       <div class="schedule-heading">
         <h2>Teen Summit Activity Schedule</h2>
-        <p>Schedule of Events</p>
+        
+<div class="event-clock">
+  <div class="clock-label">🕒 CURRENT TIME</div>
+  <div id="event-clock-time">--:--:-- --</div>
+  <div id="event-clock-date"></div>
+</div>
+
+<!--<p>Schedule of Events</p>-->
       </div>
       <div class="schedule">
         <div class="event-box"><span class="event-time">9:30–10:00 AM</span><span class="event-name">Registration and Check-In<br>Location: Gym</span></div>
         <div class="event-box"><span class="event-time">10:00–10:15 AM</span><span class="event-name">Opening and Official Welcome<br>Location: Gym</span></div>
-        <div class="event-box"><span class="event-time">10:15–11:00 AM</span><span class="event-name">Technology Session<br>Location: Gym</span></div>
+        <div class="event-box"><span class="event-time">10:15–11:00 AM</span><span class="event-name">Technology Session<br>Speaker: Marla Chanault<br>Location: Gym</span></div>
         <div class="event-box"><span class="event-time">11:00–11:10 AM</span><span class="event-name">Break · Giveaway · Transition<br>Location: Gym</span></div>
-        <div class="event-box"><span class="event-time">11:10–11:55 AM</span><span class="event-name">Entrepreneurship Session<br>Location: Gym</span></div>
+        <div class="event-box"><span class="event-time">11:10–11:55 AM</span><span class="event-name">Entrepreneurship Session<br>Speaker: Marla Chanault<br>Location: Gym</span></div>
         <div class="event-box"><span class="event-time">11:55 AM–12:05 PM</span><span class="event-name">Break · Giveaway · Transition<br>Location: Gym</span></div>
-        <div class="event-box"><span class="event-time">12:05–12:50 PM</span><span class="event-name">Money Talk Session<br>Location: Gym</span></div>
+        <div class="event-box"><span class="event-time">12:05–12:50 PM</span><span class="event-name">Money Talk Session<br>Speaker: Marla Chanault<br>Location: Gym</span></div>
         <div class="event-box"><span class="event-time">12:50–1:00 PM</span><span class="event-name">Lunch and College Fair Instructions<br>Location: Gym</span></div>
         <div class="event-box"><span class="event-time">1:00–1:55 PM</span><span class="event-name">Lunch, College and Career Fair<br>Location: Gym</span></div>
         <div class="event-box"><span class="event-time">1:55–2:00 PM</span><span class="event-name">Transition to Gym<br>Location: Gym</span></div>
@@ -157,8 +362,16 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     <button class="scroll-btn" onclick="goToPage('page3')">College, Career and Scholarship Info ↓</button>
   </section>
 
-  <!-- PAGE 3: BOTTOM RIGHT -->
+  <!-- PAGE 3 -->
   <section class="page" id="page3">
+
+   <div class="a"> 
+      <h1 style="position: relative; top: 0; left: 0; width: 100%; text-align: center; font-family: Baskerville;"><a class="ex2"><em>Resources for your success!</em></a></h1>
+    </div>
+
+    <!--<div style="position: fixed; top: 0; left: 0; width: 100%; text-align: center; background-color: #f1f1f1; padding: 10px; z-index: 1000;">-->
+    
+    
     <nav class="navbar" aria-label="Resource menus">
       <div class="dropdown">
         <button class="dropbtn" type="button" aria-expanded="false">College Resources ▾</button>
@@ -210,28 +423,86 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
 
     <a class="resource-link" href="#facebook-popup">Click for List of Facebook Groups</a>
     <div class="page-content">
-      <p class="subtitle">Resources</p>
+     
       <h1>Amplify Your Future</h1>
       <h2>DREAM · DECIDE · DO</h2>
       <button class="scroll-btn" onclick="goToPage('page2')">← Return to Today's Agenda</button>
-      <button class="scroll-btn" onclick="goToPage('page4')">Our Mission ←</button>
+      <button class="scroll-btn" onclick="goToPage('page4')">Parent & Guardian Feedback ←</button>
     </div>
   </section>
 
-  <!-- PAGE 4: BOTTOM LEFT -->
+  <!-- PAGE 4 -->
   <section class="page" id="page4">
-    <p class="subtitle">Amplify Your Future</p>
-    <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div></div>
-    <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
-    <p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>
-    <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
+   <!--<p class="subtitle">Amplify Your Future</p>-->
+    <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div>
+      <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
+    
+<section class="game-card">
+  <h2>🎯 THIS OR THAT?</h2>
+  <p>Pick your vibe! There are no wrong answers.</p>
+
+  <h3 id="game-question">
+    What makes a stronger leader?
+  </h3>
+
+  <button class="game-choice"
+    onclick="playChoice('Listening first 👂')">
+    Listening first 👂
+  </button>
+
+  <button class="game-choice"
+    onclick="playChoice('Speaking up 🗣️')">
+    Speaking up 🗣️
+  </button>
+
+  <p id="game-feedback" class="game-feedback">
+    Tap your answer!
+  </p>
+
+  <button class="scroll-btn" onclick="nextQuestion()">
+    Next Question →
+  </button>
+</section>
+
+    
+  <p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>
+     <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
+  </section>
+<!--------------------------------------------------------------------------------------------------->
+   <!-- PAGE 5 -->
+  <section class="page" id="page5">
+  
+    <section class="parent-feedback">
+  
+  <h2>💬 PARENT & GUARDIAN FEEDBACK</h2>
+
+  <p>
+    CCAC Thanks You for supporting Teen Summit!!
+    Please share your feedback or ask us a question.
+  </p>
+
+  <div class="feedback-form">
+    <iframe
+      id="jotform-feedback"
+      src="https://form.jotform.com/262991109179063"
+      title="Parent and Guardian Feedback Form"
+      loading="lazy"
+      allow="geolocation"
+      frameborder="0">
+    </iframe>
+  </div>
+
+       <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
+                
+    </section>
   </section>
 </main>
 
 <!-- Fixed popup overlay; close button is positioned inside the popup itself. -->
 <div id="facebook-popup" class="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
   <div class="popup-content">
-    <a class="popup-close" href="#" aria-label="Close popup" title="Close">&times;</a>
+    <button class="popup-close" type="button" aria-label="Close popup" title="Close">&times;</button>
+    <!--<a class="popup-close" href="#" aria-label="Close popup" title="Close">&times;</a>-->
     <h2 id="popup-title">Facebook Groups</h2>
     <ul>
       <li>Scholarships for African American Students - HBCUs</li>
@@ -252,7 +523,7 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
 <script>
 function goToPage(pageId) {
   const page = document.getElementById(pageId);
-  if (page) page.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
+  if (page) page.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 // Dropdown buttons work with mouse, keyboard, and touch.
@@ -288,8 +559,111 @@ popup.addEventListener("click", event => {
   if (event.target === popup) window.location.hash = "";
 });
 document.addEventListener("keydown", event => {
-  if (event.key === "Escape" && window.location.hash === "#facebook-popup") window.location.hash = "";
+  if (event.key === "Escape" && window.location.hash === "#facebook-popup") closePopup();
 });
+  
+function updateEventClock() {
+  const now = new Date();
+
+  document.getElementById("event-clock-time").textContent =
+    now.toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit"
+    });
+
+  document.getElementById("event-clock-date").textContent =
+    now.toLocaleDateString([], {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    });
+}
+
+updateEventClock();
+setInterval(updateEventClock, 1000);
+
+  
+const summitQuestions = [
+  {
+    question: "What makes a stronger leader?",
+    choices: ["Listening first 👂", "Speaking up 🗣️"]
+  },
+  {
+    question: "How do you learn best?",
+    choices: ["Hands-on practice 🛠️", "Watching first 👀"]
+  },
+  {
+    question: "What's your next big goal?",
+    choices: ["College 🎓", "Career 💼"]
+  },
+  {
+    question: "Did you visit all of the college stations today?",
+    choices: ["Working on it💡", "YES!!"]
+  },
+  {
+    question: "How do you tackle a challenge?",
+    choices: ["Make a plan 🗓️", "Take action 🚀"]
+  },
+  {
+    question: "What matters most on a team?",
+    choices: ["Creativity 💡", "Teamwork 🤝"]
+  }
+];
+
+let questionIndex = 0;
+
+function playChoice(choice) {
+  const responses = [
+    {
+      "Listening first 👂": "Great choice! Listening builds trust and helps leaders understand others.",
+      "Speaking up 🗣️": "Great choice! Speaking up respectfully helps leaders share ideas and stand up for others."
+    },
+    {
+      "Hands-on practice 🛠️": "You learn by doing! Practice turns ideas into real skills.",
+      "Watching first 👀": "Observing first can help you learn the steps and feel ready to try."
+    },
+    {
+      "College 🎓": "College can open doors. Explore programs, costs, and scholarships that fit your goals.",
+      "Career 💼": "Career planning starts now! Explore interests, skills, and pathways to work you enjoy."
+    },
+    {
+      "Working on it💡": "Keep exploring! Visit another station and ask a question that helps your future.",
+      "YES!!": "Amazing! You explored the stations and took a step toward your future."
+    },
+    {
+      "Make a plan 🗓️": "A clear plan breaks a big challenge into manageable steps.",
+      "Take action 🚀": "Taking the first step builds momentum. Learn, adjust, and keep going."
+    },
+    {
+      "Creativity 💡": "Creativity brings fresh ideas to a team. Keep thinking beyond the obvious.",
+      "Teamwork 🤝": "Teamwork helps people combine strengths and reach shared goals."
+    }
+  ];
+  const responseSet = responses[questionIndex] || {};
+  document.getElementById("game-feedback").textContent =
+    responseSet[choice] || ("You chose " + choice + ". Your perspective matters—keep amplifying your future!");
+  document.querySelectorAll(".game-choice").forEach(button => {
+    button.setAttribute("aria-pressed", String(button.textContent.trim() === choice));
+  });
+}
+
+function nextQuestion() {
+  questionIndex = (questionIndex + 1) % summitQuestions.length;
+
+  document.getElementById("game-question").textContent =
+    summitQuestions[questionIndex].question;
+
+  const buttons = document.querySelectorAll(".game-choice");
+
+  buttons[0].textContent = summitQuestions[questionIndex].choices[0];
+  buttons[1].textContent = summitQuestions[questionIndex].choices[1];
+
+  document.getElementById("game-feedback").textContent =
+    "Tap your answer!";
+}
+
 </script>
 </body>
 </html>
