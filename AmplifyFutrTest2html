@@ -577,12 +577,11 @@ body {
   }
 }
 
-/* Elegant border for all five pages */
-:root {
-  --border-gold: #d4a900;
-  --border-burgundy: #650000;
-  --border-red: #c90018;
-}
+
+/* =========================================
+   ELEGANT BURGUNDY & GOLD CORNER RIBBONS
+   Apply to all five pages
+   ========================================= */
 
 .page,
 section.page {
@@ -591,202 +590,103 @@ section.page {
   box-sizing: border-box;
 }
 
-/* Fine gold frame */
-.page::before,
-section.page::before {
-  content: "";
-  position: absolute;
-  inset: 12px;
-  border: 2px solid var(--border-gold);
-  outline: 1px solid rgba(212, 169, 0, 0.55);
-  outline-offset: 4px;
-  border-radius: 4px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-/*-------------------------------------------------------------*/  
-/* Decorative burgundy corner accents */
-
-/* ==========================================
-   TEEN SUMMIT — ELEGANT FLOWING GOLD BORDER
-   Burgundy + Red Gradient + Gold Ribbons
-   ========================================== */
-
-:root {
-  --burgundy: #650000;
-  --deep-red: #8b0000;
-  --bright-red: #c90018;
-  --gold: #d4a900;
-  --light-gold: #fff0a6;
-}
-
-/* Apply to all five page sections */
-.page,
-section.page {
-  position: relative;
-  isolation: isolate;
-  box-sizing: border-box;
-  overflow: hidden;
-
-  /* Keep your existing page background colors */
-}
-
-/* Gradient corners and curved gold ribbons */
+/* Gold ribbon flourishes confined to corners */
 .page::before,
 section.page::before {
   content: "";
   position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: 2;
   pointer-events: none;
 
   background:
-    /* Burgundy-red corner gradients */
+    /* TOP LEFT ribbon */
     radial-gradient(
-      ellipse at top left,
-      #650000 0%,
-      #8b0000 38%,
-      #c90018 58%,
-      transparent 78%
-    ) top left / 38% 38% no-repeat,
+      ellipse at 0% 0%,
+      transparent 48%,
+      #8b0000 49%,
+      #b8860b 51%,
+      #fff1a8 53%,
+      #d4a017 55%,
+      #8b6508 57%,
+      transparent 60%
+    ) top left / 105px 105px no-repeat,
 
+    /* TOP RIGHT ribbon */
     radial-gradient(
-      ellipse at top right,
-      #650000 0%,
-      #8b0000 38%,
-      #c90018 58%,
-      transparent 78%
-    ) top right / 38% 38% no-repeat,
+      ellipse at 100% 0%,
+      transparent 48%,
+      #8b0000 49%,
+      #b8860b 51%,
+      #fff1a8 53%,
+      #d4a017 55%,
+      #8b6508 57%,
+      transparent 60%
+    ) top right / 105px 105px no-repeat,
 
+    /* BOTTOM LEFT ribbon */
     radial-gradient(
-      ellipse at bottom left,
-      #650000 0%,
-      #8b0000 38%,
-      #c90018 58%,
-      transparent 78%
-    ) bottom left / 38% 38% no-repeat,
+      ellipse at 0% 100%,
+      transparent 48%,
+      #8b0000 49%,
+      #b8860b 51%,
+      #fff1a8 53%,
+      #d4a017 55%,
+      #8b6508 57%,
+      transparent 60%
+    ) bottom left / 105px 105px no-repeat,
 
+    /* BOTTOM RIGHT ribbon */
     radial-gradient(
-      ellipse at bottom right,
-      #650000 0%,
-      #8b0000 38%,
-      #c90018 58%,
-      transparent 78%
-    ) bottom right / 38% 38% no-repeat,
-
-    /* Flowing metallic-gold ribbon curves */
-    radial-gradient(
-      ellipse at top left,
-      transparent 57%,
-      #a87500 59%,
-      #fff0a6 61%,
-      #d4a900 63%,
-      transparent 66%
-    ) top left / 48% 48% no-repeat,
-
-    radial-gradient(
-      ellipse at top right,
-      transparent 57%,
-      #a87500 59%,
-      #fff0a6 61%,
-      #d4a900 63%,
-      transparent 66%
-    ) top right / 48% 48% no-repeat,
-
-    radial-gradient(
-      ellipse at bottom left,
-      transparent 57%,
-      #a87500 59%,
-      #fff0a6 61%,
-      #d4a900 63%,
-      transparent 66%
-    ) bottom left / 48% 48% no-repeat,
-
-    radial-gradient(
-      ellipse at bottom right,
-      transparent 57%,
-      #a87500 59%,
-      #fff0a6 61%,
-      #d4a900 63%,
-      transparent 66%
-    ) bottom right / 48% 48% no-repeat,
-
-    /* Fine gold accents sweeping diagonally */
-    linear-gradient(
-      145deg,
-      transparent 44%,
-      #d4a900 45%,
-      #fff0a6 46%,
-      transparent 47%
-    ) top left / 40% 34% no-repeat,
-
-    linear-gradient(
-      215deg,
-      transparent 44%,
-      #d4a900 45%,
-      #fff0a6 46%,
-      transparent 47%
-    ) top right / 40% 34% no-repeat,
-
-    linear-gradient(
-      35deg,
-      transparent 44%,
-      #d4a900 45%,
-      #fff0a6 46%,
-      transparent 47%
-    ) bottom left / 40% 34% no-repeat,
-
-    linear-gradient(
-      325deg,
-      transparent 44%,
-      #d4a900 45%,
-      #fff0a6 46%,
-      transparent 47%
-    ) bottom right / 40% 34% no-repeat;
+      ellipse at 100% 100%,
+      transparent 48%,
+      #8b0000 49%,
+      #b8860b 51%,
+      #fff1a8 53%,
+      #d4a017 55%,
+      #8b6508 57%,
+      transparent 60%
+    ) bottom right / 105px 105px no-repeat;
 
   opacity: 0.98;
 }
 
-/* Elegant double gold frame */
+/* Thin double gold frame */
 .page::after,
 section.page::after {
   content: "";
   position: absolute;
-  inset: 14px;
-  z-index: 2;
+  inset: 12px;
+  z-index: 3;
+  border: 2px solid #d4a900;
+  outline: 1px solid #a87500;
+  outline-offset: 3px;
+  border-radius: 2px;
   pointer-events: none;
-  border: 2px solid var(--gold);
-  border-radius: 3px;
-  box-shadow:
-    inset 0 0 0 3px rgba(212, 169, 0, 0.15),
-    0 0 5px rgba(101, 0, 0, 0.3);
 }
 
-/* Keep page content above decorative backgrounds */
+/* Keep content readable and interactive */
 .page > *,
 section.page > * {
   position: relative;
-  z-index: 1;
 }
 
-/* Mobile-friendly border */
+/* Smaller corner decorations on mobile */
 @media (max-width: 600px) {
   .page::before,
   section.page::before {
     background-size:
-      52% 27%, 52% 27%,
-      52% 27%, 52% 27%,
-      55% 34%, 55% 34%,
-      55% 34%, 55% 34%,
-      45% 23%, 45% 23%,
-      45% 23%, 45% 23%;
+      65px 65px,
+      65px 65px,
+      65px 65px,
+      65px 65px;
   }
 
   .page::after,
   section.page::after {
     inset: 7px;
-    border-width: 1.5px;
+    border-width: 1px;
+    outline-offset: 2px;
   }
 }
 
@@ -799,6 +699,30 @@ section.page > * {
 <!-------------------------------------------------------------------------------------------------->  
   <!-- PAGE 1 -->
   <section class="page" id="page1">
+    
+<div class="corner-ribbons" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff5b8"/>
+        <stop offset="28%" stop-color="#d4a017"/>
+        <stop offset="48%" stop-color="#fff0a0"/>
+        <stop offset="72%" stop-color="#b8860b"/>
+        <stop offset="100%" stop-color="#fff1b0"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="#790000" stroke-width="15"/>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
+
+    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
+  </svg>
+</div>
+
 
       <p class="subtitle">November 7, 2026</p>
 
@@ -850,6 +774,30 @@ section.page > * {
 <!----------------------------------------------------------------------------------------------------->
   <!-- PAGE 2 -->
   <section class="page" id="page2">
+    
+<div class="corner-ribbons" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff5b8"/>
+        <stop offset="28%" stop-color="#d4a017"/>
+        <stop offset="48%" stop-color="#fff0a0"/>
+        <stop offset="72%" stop-color="#b8860b"/>
+        <stop offset="100%" stop-color="#fff1b0"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="#790000" stroke-width="15"/>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
+
+    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
+  </svg>
+</div>
+
     <p class="subtitle">Amplify Your Future</p>
     <h1>DREAM · DECIDE · DO</h1>
     <div class="schedule-wrapper">
@@ -888,6 +836,30 @@ section.page > * {
   <!------------------------------------------------------------------------------------------------------------------>
   <!-- PAGE 3 -->
   <section class="page" id="page3">
+    
+<div class="corner-ribbons" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff5b8"/>
+        <stop offset="28%" stop-color="#d4a017"/>
+        <stop offset="48%" stop-color="#fff0a0"/>
+        <stop offset="72%" stop-color="#b8860b"/>
+        <stop offset="100%" stop-color="#fff1b0"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="#790000" stroke-width="15"/>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
+
+    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
+  </svg>
+</div>
+
 
     <div class="a"> 
       <h1 style="position: relative; top: 0; left: 0; width: 100%; text-align: center; font-family: Baskerville;"><a class="ex2"><em>Resources for your success!</em></a></h1>
@@ -971,6 +943,30 @@ section.page > * {
   <!------------------------------------------------------------------------------------------------------------>
   <!-- PAGE 4 -->
   <section class="page" id="page4">
+    
+<div class="corner-ribbons" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff5b8"/>
+        <stop offset="28%" stop-color="#d4a017"/>
+        <stop offset="48%" stop-color="#fff0a0"/>
+        <stop offset="72%" stop-color="#b8860b"/>
+        <stop offset="100%" stop-color="#fff1b0"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="#790000" stroke-width="15"/>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
+
+    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
+  </svg>
+</div>
+
    <p class="subtitle">Amplify Your Future - What will you choose?</p>
     <!--<div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div>-->
       <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
@@ -1012,6 +1008,30 @@ section.page > * {
 <!--------------------------------------------------------------------------------------------------->
    <!-- PAGE 5 -->
   <section class="page" id="page5">
+    
+<div class="corner-ribbons" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff5b8"/>
+        <stop offset="28%" stop-color="#d4a017"/>
+        <stop offset="48%" stop-color="#fff0a0"/>
+        <stop offset="72%" stop-color="#b8860b"/>
+        <stop offset="100%" stop-color="#fff1b0"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="#790000" stroke-width="15"/>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
+
+    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
+  </svg>
+</div>
+
   
     <section class="parent-feedback">
   
@@ -1042,6 +1062,30 @@ section.page > * {
    
 <!-- PAGE 6: MEET THE PANEL -->
 <section class="page" id="page6">
+  
+<div class="corner-ribbons" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff5b8"/>
+        <stop offset="28%" stop-color="#d4a017"/>
+        <stop offset="48%" stop-color="#fff0a0"/>
+        <stop offset="72%" stop-color="#b8860b"/>
+        <stop offset="100%" stop-color="#fff1b0"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="#790000" stroke-width="15"/>
+
+    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
+
+    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
+      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
+  </svg>
+</div>
+
   <section id="meet-the-panel" class="panel-page">
 
  <header class="panel-header">
