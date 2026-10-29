@@ -17,15 +17,15 @@ body {
 .site-layout {
   display:flex;
   flex-direction:column;
-  grid-template-columns:repeat(2,100vw);
-  grid-template-rows:repeat(2,100vh);
-  width:100vw; height:100vh; gap:0; margin:0; padding:0;
+/*grid-template-columns:repeat(2,100vw);
+  grid-template-rows:repeat(2,100vh);*/
+  width:100%; min-height:100vh; margin:0; padding:0;
 }
 .page {
-  width:100vw; height:100vh; min-width:0; min-height:0;
+  width:100%; min-height:100vh; min-width:0; min-height:svh; height: auto;
   margin:0; padding:clamp(16px,3vw,36px);
   display:flex; flex-direction:column; align-items:center; justify-content:center;
-  text-align:center; position:relative; overflow-y:auto; overflow-x:hidden;
+  text-align:center; position:relative; overflow: visible;
   scroll-margin:0;
 }
 #page1 { grid-column:1; grid-row:1; background:var(--red); }
