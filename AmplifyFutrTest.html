@@ -214,37 +214,110 @@ body {
     height: 700px;
   }
 }
-  .game-card {
-  width: min(100%, 760px);
-  margin: 14px auto;
-  padding: 20px;
-  background: #fff5cc;
-  color: #641000;
-  border: 2px solid #d4a900;
-  border-radius: 16px;
-  text-align: center;
-}
-
-.game-choice {
-  padding: 14px 18px;
-  margin: 6px;
-  border: 2px solid #650000;
-  border-radius: 12px;
-  background: white;
-  color: #650000;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.game-choice:hover {
+/*This or that section*/
+  
+.choice-game {
+  width: min(100%, 650px);
+  margin: 20px auto;
+  padding: 24px;
   background: #650000;
   color: white;
+  border: 3px solid #d4a900;
+  border-radius: 18px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.game-feedback {
-  min-height: 24px;
-  font-weight: bold;
+.choice-game h2 {
+  color: #ffd84d;
+  font-size: clamp(1.7rem, 5vw, 2.5rem);
+  margin: 0 0 8px;
 }
+
+.game-subtitle {
+  margin-bottom: 22px;
+}
+
+#questionCounter {
+  color: #ffd84d;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+#questionTitle {
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  margin: 18px 0;
+}
+
+.choice-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.choice-btn,
+#nextQuestion,
+#restartGame {
+  width: 100%;
+  min-height: 54px;
+  padding: 14px;
+  border: 2px solid #d4a900;
+  border-radius: 12px;
+  background: #d4a900;
+  color: #260000;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+  touch-action: manipulation;
+}
+
+.choice-btn:hover,
+#nextQuestion:hover,
+#restartGame:hover {
+  background: #ffe680;
+}
+
+.choice-btn:focus-visible,
+#nextQuestion:focus-visible,
+#restartGame:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 3px;
+}
+
+.choice-btn:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+#choiceResponse {
+  min-height: 50px;
+  line-height: 1.6;
+  margin: 16px 0;
+  overflow-wrap: anywhere;
+}
+
+#nextQuestion,
+#restartGame {
+  margin-top: 10px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 480px) {
+  .choice-game {
+    padding: 16px;
+  }
+
+  .choice-buttons {
+    grid-template-columns: 1fr;
+  }
+}
+/*END This or that section*/
+  
   
     .waviy {
   position: center;
@@ -683,36 +756,39 @@ body {
   <!------------------------------------------------------------------------------------------------------------>
   <!-- PAGE 4 -->
   <section class="page" id="page4">
-   <!--<p class="subtitle">Amplify Your Future</p>-->
-    <div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div>
+   <p class="subtitle">Amplify Your Future - What's Your Choice?</p>
+    <!--<div class="slider-container"><div class="sliding-text">AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE · AMPLIFY YOUR FUTURE ·</div>-->
       <h1>DREAM</h1><h1>DECIDE</h1><h1>DO</h1>
     
-<section class="game-card">
-  <h2>🎯 THIS OR THAT?</h2>
-  <p>Pick your vibe! There are no wrong answers.</p>
 
-  <h3 id="game-question">
-    What makes a stronger leader?
-  </h3>
+<div id="thisOrThat" class="choice-game">
+  <h2>THIS OR THAT?</h2>
+  <p class="game-subtitle">Make your choice. Discover your strengths!</p>
 
-  <button class="game-choice"
-    onclick="playChoice('Listening first 👂')">
-    Listening first 👂
-  </button>
+  <div id="questionCounter">Question 1 of 6</div>
 
-  <button class="game-choice"
-    onclick="playChoice('Speaking up 🗣️')">
-    Speaking up 🗣️
-  </button>
+  <h3 id="questionTitle">What makes a great leader?</h3>
 
-  <p id="game-feedback" class="game-feedback">
-    Tap your answer!
-  </p>
+  <div class="choice-buttons">
+    <button class="choice-btn" id="choiceA" onclick="playChoice(0)">
+      Listening first 👂
+    </button>
 
-  <button class="scroll-btn" onclick="nextQuestion()">
+    <button class="choice-btn" id="choiceB" onclick="playChoice(1)">
+      Speaking up 🗣️
+    </button>
+  </div>
+
+  <div id="choiceResponse" role="status" aria-live="polite"></div>
+
+  <button id="nextQuestion" onclick="nextChoiceQuestion()" hidden>
     Next Question →
   </button>
-</section>
+
+  <button id="restartGame" onclick="restartChoiceGame()" hidden>
+    Play Again ↻
+  </button>
+</div>
 
     
   <p class="subtitle">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”<br>— Malcolm X</p>
@@ -778,10 +854,8 @@ body {
 
   </section>
 </section>
-   
-<!-------------------------------------------------------------------------------------------------------->
-
 </main>
+<!-------------------------------------------------------------------------------------------------------->
 
 <script>
 function goToPage(pageId) {
@@ -853,7 +927,7 @@ const summitQuestions = [
     choices: ["College 🎓", "Career 💼"]
   },
   {
-    question: "Did you visit all of the college stations today?",
+    question: "Did you visit all of the college and career stations today?",
     choices: ["Working on it💡", "YES!!"]
   },
   {
@@ -865,60 +939,155 @@ const summitQuestions = [
     choices: ["Creativity 💡", "Teamwork 🤝"]
   }
 ];
-
+//-------------------------------------------------------------------------------------------------------------//
+  
 let questionIndex = 0;
+let choiceAnswered = false;
+
+const questions = [
+  {
+    title: "What makes a great leader?",
+    choices: ["Listening first 👂", "Speaking up 🗣️"]
+  },
+  {
+    title: "How do you learn best?",
+    choices: ["Hands-on practice 🛠️", "Watching first 👀"]
+  },
+  {
+    title: "What are you exploring?",
+    choices: ["College 🎓", "Career 💼"]
+  },
+  {
+    title: "Have you explored the stations?",
+    choices: ["Working on it💡", "YES!!"]
+  },
+  {
+    title: "How do you tackle a challenge?",
+    choices: ["Make a plan 🗓️", "Take action 🚀"]
+  },
+  {
+    title: "What makes a stronger team?",
+    choices: ["Creativity 💡", "Teamwork 🤝"]
+  }
+];
+
+const responses = [
+  {
+    "Listening first 👂":
+      "Great choice! Listening builds trust and helps leaders understand others.",
+    "Speaking up 🗣️":
+      "Great choice! Speaking up respectfully helps leaders share ideas and stand up for others."
+  },
+  {
+    "Hands-on practice 🛠️":
+      "You learn by doing! Practice turns ideas into real skills.",
+    "Watching first 👀":
+      "Observing first can help you learn the steps and feel ready to try."
+  },
+  {
+    "College 🎓":
+      "College can open doors. Explore programs, costs, and scholarships that fit your goals.",
+    "Career 💼":
+      "Career planning starts now! Explore interests, skills, and pathways to work you enjoy."
+  },
+  {
+    "Working on it💡":
+      "Keep exploring! Visit another station and ask a question that helps your future.",
+    "YES!!":
+      "Amazing! You explored the stations and took a step toward your future."
+  },
+  {
+    "Make a plan 🗓️":
+      "A clear plan breaks a big challenge into manageable steps.",
+    "Take action 🚀":
+      "Taking the first step builds momentum. Learn, adjust, and keep going."
+  },
+  {
+    "Creativity 💡":
+      "Creativity brings fresh ideas to a team. Keep thinking beyond the obvious.",
+    "Teamwork 🤝":
+      "Teamwork helps people combine strengths and reach shared goals."
+  }
+];
+
+function showChoiceQuestion() {
+  const question = questions[questionIndex];
+
+  document.getElementById("questionCounter").textContent =
+    `Question ${questionIndex + 1} of ${questions.length}`;
+
+  document.getElementById("questionTitle").textContent =
+    question.title;
+
+  document.getElementById("choiceA").textContent =
+    question.choices[0];
+
+  document.getElementById("choiceB").textContent =
+    question.choices[1];
+
+  document.getElementById("choiceResponse").textContent = "";
+
+  document.getElementById("choiceA").disabled = false;
+  document.getElementById("choiceB").disabled = false;
+
+  document.getElementById("nextQuestion").hidden = true;
+  document.getElementById("restartGame").hidden = true;
+
+  choiceAnswered = false;
+}
 
 function playChoice(choice) {
-  const responses = [
-    {
-      "Listening first 👂": "Great choice! Listening builds trust and helps leaders understand others.",
-      "Speaking up 🗣️": "Great choice! Speaking up respectfully helps leaders share ideas and stand up for others."
-    },
-    {
-      "Hands-on practice 🛠️": "You learn by doing! Practice turns ideas into real skills.",
-      "Watching first 👀": "Observing first can help you learn the steps and feel ready to try."
-    },
-    {
-      "College 🎓": "College can open doors. Explore programs, costs, and scholarships that fit your goals.",
-      "Career 💼": "Career planning starts now! Explore interests, skills, and pathways to work you enjoy."
-    },
-    {
-      "Working on it💡": "Keep exploring! Visit another station and ask a question that helps your future.",
-      "YES!!": "Amazing! You explored the stations and took a step toward your future."
-    },
-    {
-      "Make a plan 🗓️": "A clear plan breaks a big challenge into manageable steps.",
-      "Take action 🚀": "Taking the first step builds momentum. Learn, adjust, and keep going."
-    },
-    {
-      "Creativity 💡": "Creativity brings fresh ideas to a team. Keep thinking beyond the obvious.",
-      "Teamwork 🤝": "Teamwork helps people combine strengths and reach shared goals."
-    }
-  ];
+  // Prevent double-clicks and repeated answers.
+  if (choiceAnswered) return;
 
-  //<!-------------------------------------------------------------------------------------------------->//
-  const responseSet = responses[questionIndex] || {};
-  document.getElementById("game-feedback").textContent =
-    responseSet[choice] || ("You chose " + choice + ". Your perspective matters—keep amplifying your future!");
-  document.querySelectorAll(".game-choice").forEach(button => {
-    button.setAttribute("aria-pressed", String(button.textContent.trim() === choice));
-  });
+  const question = questions[questionIndex];
+  const selectedChoice = question.choices[choice];
+
+  // Only accept a valid choice for the current question.
+  if (!selectedChoice || !responses[questionIndex] ||
+      !Object.prototype.hasOwnProperty.call(
+        responses[questionIndex], selectedChoice
+      )) {
+    return;
+  }
+
+  choiceAnswered = true;
+
+  document.getElementById("choiceResponse").textContent =
+    responses[questionIndex][selectedChoice];
+
+  document.getElementById("choiceA").disabled = true;
+  document.getElementById("choiceB").disabled = true;
+
+  if (questionIndex < questions.length - 1) {
+    document.getElementById("nextQuestion").hidden = false;
+  } else {
+    document.getElementById("restartGame").hidden = false;
+  }
 }
 
-function nextQuestion() {
-  questionIndex = (questionIndex + 1) % summitQuestions.length;
+function nextChoiceQuestion() {
+  if (!choiceAnswered || questionIndex >= questions.length - 1) {
+    return;
+  }
 
-  document.getElementById("game-question").textContent =
-    summitQuestions[questionIndex].question;
-
-  const buttons = document.querySelectorAll(".game-choice");
-
-  buttons[0].textContent = summitQuestions[questionIndex].choices[0];
-  buttons[1].textContent = summitQuestions[questionIndex].choices[1];
-
-  document.getElementById("game-feedback").textContent =
-    "Tap your answer!";
+  questionIndex++;
+  showChoiceQuestion();
 }
+
+function restartChoiceGame() {
+  questionIndex = 0;
+  choiceAnswered = false;
+  showChoiceQuestion();
+}
+
+// Start the game after its HTML is available.
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", showChoiceQuestion);
+} else {
+  showChoiceQuestion();
+}
+
 //<!--------------------------------------------------------------------------------------------------------->//
 /*Panel Members Bios*/
 const panelMembers = [
