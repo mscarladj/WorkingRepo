@@ -431,6 +431,79 @@ body {
   }
 }
   
+/* Meet the Panel: responsive, single scrolling page */
+#page6 {
+  display: block;
+  min-height: 100vh;
+  padding: 0;
+}
+
+#meet-the-panel {
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+}
+
+.panel-grid {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.panel-card {
+  height: 100%;
+  min-width: 0;
+}
+
+.panel-photo,
+.panel-avatar {
+  height: 180px;
+}
+
+.panel-bio {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 850px) {
+  .panel-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .panel-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .panel-photo,
+  .panel-avatar {
+    height: 120px;
+  }
+
+  .panel-info {
+    padding: 10px;
+  }
+
+  .panel-info h2 {
+    font-size: 15px;
+  }
+
+  .panel-role,
+  .panel-bio {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -675,37 +748,35 @@ body {
   </section>
 
   <!------------------------------------------------------------------------------------------------------->
-   <!-- PAGE 6: BOTTOM LEFT -->
-  <section class="page" id="page6">
+   
+<!-- PAGE 6: MEET THE PANEL -->
+<section class="page" id="page6">
+  <section id="meet-the-panel" class="panel-page">
 
-  <a href="#meet-the-panel">Meet the Panel</a>
-    
-<!-- =====================================
-     EMBODI: MEET THE PANEL
-     Add this section inside your <body>
-====================================== -->
+    <header class="panel-header">
+      <p class="panel-eyebrow">TEEN SUMMIT • NOVEMBER 7, 2026</p>
+      <h1>Meet the Panel</h1>
+      <p class="panel-intro">
+        Meet the professionals, entrepreneurs, educators, and community
+        leaders ready to share their journeys and inspire your future.
+      </p>
+      <p class="panel-intro">
+        Explore all 19 panel members below.
+      </p>
+    </header>
 
-<section id="meet-the-panel" class="panel-page">
-  <header class="panel-header">
-    <p class="panel-eyebrow">Panel Members</p>
-    <h1>Meet the Panel</h1>
-    <div class="gold-line"></div>
-    <h4 class="panel-intro">
-      Meet the professionals, entrepreneurs, educators, and
-      community leaders ready to share their journeys and inspire your future.
-    </h4>
-    <!--<p class="panel-count">
-      Meet all <span id="panel-count">17</span> Career Fair Participants
-    </p>-->
-  </header>
+    <!-- All panel members display together. No search or popups. -->
+    <div id="panel-grid" class="panel-grid"></div>
 
-  <div id="panel-grid" class="panel-grid"></div>
+    <footer class="panel-footer">
+      <h2>DREAM · DECIDE · DO</h2>
+      <p>Every journey has a lesson. Every conversation is an opportunity.</p>
+      <button class="scroll-btn" onclick="goToPage('page1')">
+        ↑ Back to Welcome
+      </button>
+    </footer>
 
-  <footer class="panel-footer">
-    <h5>Dream Decide Do</h5>
-    <p>Every journey has a lesson. Every conversation is an opportunity.</p>
-  </footer>
-   <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
+  </section>
 </section>
    
 <!-------------------------------------------------------------------------------------------------------->
@@ -745,15 +816,6 @@ document.addEventListener("click", event => {
   }
 });
 
-// Close popup with its X, by clicking the dark backdrop, or with Escape.
-const popup = document.getElementById("facebook-popup");
-popup.addEventListener("click", event => {
-  if (event.target === popup) window.location.hash = "";
-});
-document.addEventListener("keydown", event => {
-  if (event.key === "Escape" && window.location.hash === "#facebook-popup") closePopup();
-});
-  
 function updateEventClock() {
   const now = new Date();
 
@@ -834,7 +896,7 @@ function playChoice(choice) {
     }
   ];
 
-  <!-------------------------------------------------------------------------------------------------->
+  //<!-------------------------------------------------------------------------------------------------->//
   const responseSet = responses[questionIndex] || {};
   document.getElementById("game-feedback").textContent =
     responseSet[choice] || ("You chose " + choice + ". Your perspective matters—keep amplifying your future!");
@@ -857,7 +919,7 @@ function nextQuestion() {
   document.getElementById("game-feedback").textContent =
     "Tap your answer!";
 }
-<!--------------------------------------------------------------------------------------------------------->
+//<!--------------------------------------------------------------------------------------------------------->//
 /*Panel Members Bios*/
 const panelMembers = [
     {
@@ -1051,81 +1113,84 @@ She aims to improve continuity of care, quality of life, and access to medical, 
     }
   ];
 
-  const grid = root.querySelector("#panel-grid");
-  const count = root.querySelector("#panel-count");
+const grid = document.getElementById("panel-grid");
 
-  function initials(name) {
-    return name
-      .replace(/^(Chief|Dr\.)\s+/i, "")
-      .split(/[\s.-]+/)
-      .filter(Boolean)
-      .slice(0, 2)
-      .map(part => part[0])
-      .join("")
-      .toUpperCase();
-  }
+function initials(name) {
+  return name
+    .replace(/^(Chief|Dr\.)\s+/i, "")
+    .split(/[\s.-]+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(part => part[0])
+    .join("")
+    .toUpperCase();
+}
 
-  function renderMembers() {
-    count.textContent = panelMembers.length;
-    grid.replaceChildren();
+function renderMembers() {
+  if (!grid) return;
 
-    panelMembers.forEach(member => {
-      const card = document.createElement("article");
-      card.className = "panel-card";
+  grid.replaceChildren();
 
-      if (member.photo) {
-        const photo = document.createElement("img");
-        photo.className = "panel-photo";
-        photo.src = member.photo;
-        photo.alt = "Photo of " + member.name;
-        photo.loading = "lazy";
+  panelMembers.forEach(member => {
+    const card = document.createElement("article");
+    card.className = "panel-card";
 
-        photo.onerror = () => {
-          const avatar = document.createElement("div");
-          avatar.className = "panel-avatar";
-          avatar.textContent = initials(member.name);
-          photo.replaceWith(avatar);
-        };
+    // Display the photo when a valid photo URL is supplied.
+    if (member.photo && member.photo.trim() !== "") {
+      const photo = document.createElement("img");
+      photo.className = "panel-photo";
+      photo.src = member.photo;
+      photo.alt = "Photo of " + member.name;
+      photo.loading = "lazy";
 
-        card.appendChild(photo);
-      } else {
+      photo.onerror = () => {
         const avatar = document.createElement("div");
         avatar.className = "panel-avatar";
         avatar.textContent = initials(member.name);
-        avatar.setAttribute("aria-label", "Photo not provided");
-        card.appendChild(avatar);
-      }
+        avatar.setAttribute("aria-label", "Photo unavailable");
+        photo.replaceWith(avatar);
+      };
 
-      const info = document.createElement("div");
-      info.className = "panel-info";
+      card.appendChild(photo);
+    } else {
+      const avatar = document.createElement("div");
+      avatar.className = "panel-avatar";
+      avatar.textContent = initials(member.name);
+      avatar.setAttribute("aria-label", "Photo not provided");
+      card.appendChild(avatar);
+    }
 
-      const category = document.createElement("span");
-      category.className = "panel-tag";
-      category.textContent = member.category;
+    const info = document.createElement("div");
+    info.className = "panel-info";
 
-      const name = document.createElement("h2");
-      name.textContent = member.name;
+    const category = document.createElement("span");
+    category.className = "panel-tag";
+    category.textContent = member.category || "Panel Member";
 
-      const role = document.createElement("p");
-      role.className = "panel-role";
-      role.textContent = member.role;
+    const name = document.createElement("h2");
+    name.textContent = member.name;
 
-      const bio = document.createElement("p");
-      bio.className = "panel-bio";
+    const role = document.createElement("p");
+    role.className = "panel-role";
+    role.textContent = member.role;
 
-      const maxLength = 190;
-      bio.textContent = member.bio.length > maxLength
-        ? member.bio.slice(0, maxLength).trimEnd() + "…"
-        : member.bio;
+    const bio = document.createElement("p");
+    bio.className = "panel-bio";
 
-      info.append(category, name, role, bio);
-      card.appendChild(info);
-      grid.appendChild(card);
-    });
-  }
+    // Short bio for a compact, easy-to-scan page.
+    const maxLength = 190;
+    bio.textContent = member.bio.length > maxLength
+      ? member.bio.slice(0, maxLength).trimEnd() + "…"
+      : member.bio;
 
-  renderMembers();
-})();
+    info.append(category, name, role, bio);
+    card.appendChild(info);
+    grid.appendChild(card);
+  });
+}
+
+renderMembers();
+
 
 </script>
 </body>
