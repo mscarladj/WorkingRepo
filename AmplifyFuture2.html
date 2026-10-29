@@ -242,6 +242,366 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
     transform: rotateY(360deg) 
   }
 }
+ 
+/* ===== PANEL PAGE style section ===== */
+
+.panel-page {
+  --panel-red: #971b25;
+  --panel-dark: #590d16;
+  --panel-gold: #d5a52c;
+  --panel-cream: #faf6ec;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px 22px;
+  background: var(--panel-cream);
+  color: #282323;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-margin-top: 20px;
+}
+
+.panel-page *,
+.panel-page *::before,
+.panel-page *::after {
+  box-sizing: border-box;
+}
+
+.panel-header {
+  max-width: 850px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.panel-eyebrow {
+  color: var(--panel-red);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.panel-header h1 {
+  color: var(--panel-dark);
+  font-size: clamp(36px, 5vw, 58px);
+  line-height: 1.1;
+  margin: 12px 0;
+}
+
+.gold-line {
+  width: 90px;
+  height: 5px;
+  background: var(--panel-gold);
+  margin: 18px auto;
+  border-radius: 5px;
+}
+
+.panel-intro {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.panel-count {
+  color: var(--panel-red);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+/* ===== SEARCH ===== */
+
+.panel-toolbar {
+  max-width: 600px;
+  margin: 0 auto 32px;
+}
+
+.panel-toolbar label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.panel-toolbar input {
+  width: 100%;
+  min-width: 0;
+  padding: 15px;
+  border: 2px solid #d9cdb8;
+  border-radius: 10px;
+  background: white;
+  color: #222;
+  font-size: 16px;
+}
+
+.panel-toolbar input:focus {
+  outline: 3px solid #e8c65e;
+  outline-offset: 2px;
+}
+
+/* ===== PROFILE CARDS ===== */
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1250px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.panel-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: white;
+  border-top: 6px solid var(--panel-gold);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(45, 22, 22, 0.09);
+  transition: transform 0.2s ease;
+}
+
+.panel-card:hover {
+  transform: translateY(-4px);
+}
+
+.panel-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 145px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    135deg,
+    var(--panel-dark),
+    var(--panel-red)
+  );
+  color: #f8d878;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.panel-card img.panel-photo {
+  display: block;
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+  object-position: center top;
+  background: #eee5d6;
+}
+
+.panel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: 22px;
+}
+
+.panel-tag {
+  display: inline-block;
+  color: var(--panel-red);
+  background: #f9edcf;
+  border-radius: 30px;
+  padding: 6px 10px;
+  margin-bottom: 12px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.panel-info h2 {
+  color: var(--panel-dark);
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 0 0 8px;
+  overflow-wrap: anywhere;
+}
+
+.panel-role {
+  color: #795b13;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+
+.panel-bio {
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0 0 18px;
+  overflow-wrap: anywhere;
+}
+
+/* ===== READ MORE ===== */
+
+.panel-read-more {
+  margin-top: auto;
+  border: 0;
+  border-radius: 8px;
+  padding: 11px 15px;
+  background: var(--panel-red);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.panel-read-more:hover,
+.panel-read-more:focus-visible {
+  background: var(--panel-dark);
+}
+
+.panel-read-more:focus-visible {
+  outline: 3px solid var(--panel-gold);
+  outline-offset: 3px;
+}
+
+/* ===== BIO POPUP ===== */
+
+.panel-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(25, 10, 12, 0.78);
+}
+
+.panel-modal.is-open {
+  display: flex;
+}
+
+.panel-modal-content {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 30px;
+  background: white;
+  border-top: 7px solid var(--panel-gold);
+  border-radius: 14px;
+}
+
+.panel-modal-content h2 {
+  color: var(--panel-dark);
+  font-size: 28px;
+  line-height: 1.3;
+  padding-right: 35px;
+  margin: 8px 0;
+}
+
+.panel-modal-content h3 {
+  color: #795b13;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.panel-modal-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.panel-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--panel-dark);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.panel-empty {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.panel-footer {
+  max-width: 900px;
+  margin: 45px auto 0;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 14px;
+  background: var(--panel-dark);
+  color: white;
+}
+
+.panel-footer h2 {
+  color: #f8d878;
+  font-size: clamp(21px, 3vw, 29px);
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.panel-footer p {
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ===== TABLET ===== */
+
+@media (max-width: 950px) {
+  .panel-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+/* ===== PHONE ===== */
+
+@media (max-width: 600px) {
+  .panel-page {
+    padding: 30px 13px;
+  }
+
+  .panel-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .panel-info {
+    padding: 20px;
+  }
+
+  .panel-avatar {
+    height: 125px;
+  }
+
+  .panel-card:hover {
+    transform: none;
+  }
+
+  .panel-modal {
+    padding: 10px;
+  }
+
+  .panel-modal-content {
+    max-height: 90vh;
+    padding: 23px 18px;
+  }
+
+  .panel-modal-content h2 {
+    font-size: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel-card {
+    transition: none;
+  }
+}
 </style>
 </head>
 <body>
@@ -470,8 +830,55 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   </div>
 
        <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Amplify</button>
-                
     </section>
+
+    <a href="#meet-the-panel">Meet the Panel</a>
+    
+<!-- =====================================
+     EMBODI: MEET THE PANEL
+     Add this section inside your <body>
+====================================== -->
+
+<section id="meet-the-panel" class="panel-page">
+
+  <header class="panel-header">
+    <p class="panel-eyebrow">EMBODI 2026–2027</p>
+    <h1>Meet the Panel</h1>
+    <div class="gold-line"></div>
+    <p class="panel-intro">
+      Meet the professionals, entrepreneurs, educators, and
+      community leaders who are here to share their journeys,
+      inspire your dreams, and help you build your future.
+    </p>
+    <p class="panel-count">
+      <span id="panel-count">17</span> Career Fair Participants
+    </p>
+  </header>
+
+  <div class="panel-toolbar">
+    <label for="panel-search">Find a panel member</label>
+    <input
+      id="panel-search"
+      type="search"
+      placeholder="Search a name, career, or organization..."
+      autocomplete="off"
+    >
+  </div>
+
+  <div id="panel-grid" class="panel-grid"></div>
+
+  <p id="panel-empty" class="panel-empty" hidden>
+    No panel members found. Try another search.
+  </p>
+
+  <footer class="panel-footer">
+    <h2>Dream Big. Lead Boldly. Build Your Future.</h2>
+    <p>
+      Every journey has a lesson. Every conversation is an opportunity.
+    </p>
+  </footer>
+
+</section>
   </main>
 
 <!-- Fixed popup overlay; close button is positioned inside the popup itself. -->
@@ -496,6 +903,29 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }
   </div>
 </div>
 
+
+<!-- BIO POPUP -->
+<div
+  id="panel-modal"
+  class="panel-modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="panel-modal-name"
+  aria-hidden="true"
+>
+  <div class="panel-modal-content">
+    <button
+      type="button"
+      class="panel-modal-close"
+      aria-label="Close biography"
+    >×</button>
+    <span class="panel-tag">MEET THE PANEL</span>
+    <h2 id="panel-modal-name"></h2>
+    <h3 id="panel-modal-role"></h3>
+    <p id="panel-modal-bio"></p>
+  </div>
+</div>
+  
 <script>
 function goToPage(pageId) {
   const page = document.getElementById(pageId);
@@ -617,7 +1047,353 @@ function nextQuestion() {
   document.getElementById("game-feedback").textContent =
     "Tap your answer!";
 }
+(() => {
+  const root = document.getElementById("meet-the-panel");
+  if (!root || root.dataset.initialized === "true") return;
+  root.dataset.initialized = "true";
 
+  /*
+    To add a real headshot, set photo to its image path.
+    Example: photo: "images/chief-williams.jpg"
+    Leave photo empty to show the initials graphic.
+  */
+
+  const panelMembers = [
+    {
+      name: "Chief Lenon Williams",
+      role: "Chief of Police | Forest Park Police Department, Oklahoma",
+      category: "Law Enforcement & Public Safety",
+      photo: "",
+      bio: `Chief Lenon Williams has nearly three decades of law enforcement experience and is committed to public safety, ethical leadership, accountability, and community trust.
+
+His background includes private security, executive protection, threat assessment, crisis management, and protective operations. He holds master's degrees in psychology and education and leadership.
+
+His leadership is grounded in Honor, Pride, and Integrity, with an emphasis on serving communities with dignity and professionalism.`
+    },
+    {
+      name: "Kimberly Y. Evans",
+      role: "Purposed Consulting, LLC",
+      category: "Financial Services & Business Consulting",
+      photo: "",
+      bio: `Purposed Consulting, LLC is a full-service financial services and business consulting firm serving individuals, families, and business owners.
+
+The firm provides financial education and personalized financial and business strategies.`
+    },
+    {
+      name: "Dr. Vonte Brisker",
+      role: "Banking Professional & People Leader",
+      category: "Banking & Business",
+      photo: "",
+      bio: `Dr. Vonte Brisker is an accomplished banking professional with more than 13 years of industry experience.
+
+His background includes portfolio growth, operational excellence, client success, and leadership. He holds a Doctor of Business Administration (DBA) in International Market Research.`
+    },
+    {
+      name: "Dr. Terri Major-Kincade",
+      role: "Neonatologist | Author | Researcher | Advocate",
+      category: "Medicine & Healthcare",
+      photo: "",
+      bio: `For 26 years, Dr. Terri Major-Kincade has cared for premature newborns and supported their families. She is also a pediatric palliative care physician, medical director, professor, researcher, and mentor.
+
+A Prairie View A&M University graduate, she earned her medical degree from UCLA. Her advocacy includes work with the March of Dimes and policymakers.
+
+She is an author of children's books, family guides, a memoir, medical textbook chapters, and research articles. Her career combines medicine, research, writing, teaching, and advocacy.`
+    },
+    {
+      name: "Demetre Bivins",
+      role: "Founder | SCB Connection, Inc.",
+      category: "Youth Development & Conflict Management",
+      photo: "",
+      bio: `Demetré Bivins founded Students Combating Bullying Connection, Inc. in 2014 to empower young people with resilience, courage, confidence, and practical life skills.
+
+The nonprofit focuses on peer pressure, social media, emotional management, peaceful conflict resolution, and healthy relationships.
+
+She holds a bachelor's degree in management and a master's degree in Conflict Management and brings more than 20 years of Human Resources leadership experience. Her community work includes mentoring youth and leading The Connection Club.`
+    },
+    {
+      name: "Sabrina Watkins",
+      role: "Owner | Lucky Goat Coffee, Frisco",
+      category: "Entrepreneurship & Hospitality",
+      photo: "",
+      bio: `Sabrina Watkins became the owner of Lucky Goat Coffee's first Texas location after a 2023 trip to Tallahassee rekindled her dream of business ownership.
+
+A longtime Texas resident with a background in the airline industry and nonprofit sector, she chose Frisco for its community spirit and growing coffee culture.
+
+Her cafe emphasizes high-quality coffee, espresso-based drinks, and a welcoming atmosphere.`
+    },
+    {
+      name: "Micah Hall",
+      role: "Aerospace Systems Engineer | The Boeing Company",
+      category: "Engineering & Aerospace",
+      photo: "",
+      bio: `Micah Hall is an aerospace systems engineer who supports complex defense programs involving radar systems, software integration and testing, requirements development, systems integration, and flight test support.
+
+At Boeing, Micah works with military customers, suppliers, and engineering teams to develop and validate advanced aerospace systems.
+
+Micah holds bachelor's and master's degrees in electrical engineering from Prairie View A&M University and is passionate about hands-on engineering and technical problem-solving.`
+    },
+    {
+      name: "Kendu-Marquette Williams",
+      role: "Fashion Designer | Stylist | Creative Director",
+      category: "Fashion, Media & Creative Arts",
+      photo: "",
+      bio: `Kendu-Marquette Williams is a Dallas-based fashion designer, stylist, and creative director and the founder of ART IV PLAY.
+
+His work connects high-end streetwear, custom garment embellishment, fashion, and film. His experience includes a fashion internship with Tommy Bahama and leadership roles in the Texas fashion community.
+
+He mentors emerging creatives, encouraging them to develop their skills, build authentic personal brands, and pursue creative careers with confidence.`
+    },
+    {
+      name: "Karen Robinson",
+      role: "Journalist | Journalism Instructor at SMU",
+      category: "Journalism & Communications",
+      photo: "",
+      bio: `Karen Robinson has worked in journalism for more than 30 years.
+
+She spent 15 years as a business news reporter with The Dallas Morning News and also works part-time as a journalism instructor at Southern Methodist University.`
+    },
+    {
+      name: "Ozell Graham",
+      role: "Hair & Skin Care Professional | Barber Shop Owner",
+      category: "Beauty, Grooming & Entrepreneurship",
+      photo: "",
+      bio: `Ozell Graham is a hair and skin care professional and barber shop owner.`
+    },
+    {
+      name: "Willis Hunt",
+      role: "Founder | Krkonos",
+      category: "Real Estate & Community Development",
+      photo: "",
+      bio: `Willis Hunt is the founder of Krkonos, an organization focused on revitalizing communities through an integrated real estate development model.
+
+His work emphasizes high-quality housing, economic opportunity, sustainable infrastructure, local workforce empowerment, and long-term community resilience.`
+    },
+    {
+      name: "Dr. Amber Hill",
+      role: "Keynote Speaker | Educator | Author | Founder & CEO",
+      category: "Education, Leadership & Youth Development",
+      photo: "",
+      bio: `Dr. Amber Hill is a nationally recognized keynote speaker, award-winning educator, best-selling author, and founder and CEO of Epiphany Hill Enterprises LLC.
+
+With more than 25 years of experience, she supports schools, universities, and organizations in education, leadership, and youth development.
+
+A former Division I basketball student-athlete and collegiate coach, she uses storytelling, research, and practical strategies to strengthen leadership identity, emotional wellness, belonging, and organizational culture.`
+    },
+    {
+      name: "Marcus Ezidore",
+      role: "Project Specialist | Corgan Education Studio",
+      category: "Architecture & Design",
+      photo: "",
+      bio: `Marcus Ezidore is a Howard University honors graduate with a master's degree in architecture.
+
+He currently works as a project specialist in Corgan's Education Studio while working toward professional licensure.`
+    },
+    {
+      name: "Isata Sannon",
+      role: "Founder | ATASI Head & Scalp Spa",
+      category: "Beauty, Scalp Wellness & Entrepreneurship",
+      photo: "",
+      bio: `ATASI Head & Scalp Spa in Frisco, Texas, centers its services on scalp wellness, restoration, and self-care.
+
+The business offers personalized experiences that may include microscopic scalp analysis, deep cleansing, advanced scalp treatments, therapeutic techniques, and relaxation.
+
+The supplied biography identifies Isata Sannoh as the licensed cosmetologist and scalp specialist who founded ATASI. The spa welcomes clients with a variety of hair textures and scalp needs.`
+    },
+    {
+      name: "Darius Blount",
+      role: "Assistant Vice President, z/VM at Citibank | Director, STEMCYCLES",
+      category: "Technology, Robotics & STEM Education",
+      photo: "",
+      bio: `Darius Blount leads STEMCYCLES, a nonprofit supporting youth robotics and engineering initiatives, including Trinity Force and ByteForce.
+
+He also mentors and coaches Annalytix FRC Team 10312 in Anna, Texas. The rookie team won the Innovation in Control award in its 2025 debut season.
+
+His work includes student-led STEM workshops and coding and design camps. Professionally, he works in enterprise technology, with experience in datacenter monitoring, global network infrastructure, and network administration.`
+    },
+    {
+      name: "Alexcia Williams",
+      role: "Residential Design Professional",
+      category: "Architecture & Home Design",
+      photo: "",
+      bio: `Alexcia Williams plans, draws, and manages the design of single-family homes, multifamily homes, and duplexes.
+
+Her work considers client lifestyles, budgets, and applicable local building codes.`
+    },
+    {
+      name: "Dr. Unique T. Williams, DDS",
+      role: "General Dentist",
+      category: "Dentistry & Healthcare",
+      photo: "",
+      bio: `Dr. Unique T. Williams is from Shreveport, Louisiana, and graduated from Meharry Medical College in 2018.
+
+She completed a General Practice Residency at Louisiana State University in Baton Rouge in 2019. Before becoming a general dentist, she worked for two years as a dental hygienist.
+
+Her experience in both roles supports her approach to preventive care and comprehensive, patient-centered dental treatment. She values continued learning, hands-on experience, and volunteering.`
+    },
+    {
+      name: "Marion Adams",
+      role: "Oncology Social Worker",
+      category: "Healthcare, Social Work & Patient Advocacy",
+      photo: "",
+      bio: `Marion Adams provides psychosocial support to cancer patients and their families as they navigate healthcare and the effects of a cancer diagnosis.
+
+Her work includes patient advocacy, connecting families with medical and community resources, coordinating referrals, providing emotional support, and collaborating with healthcare teams.
+
+She aims to improve continuity of care, quality of life, and access to medical, emotional, financial, and social support.`
+    },
+    {
+      name: "Rita Dixon",
+      role: "Attorney | Law Firm Owner",
+      category: "Law & Entrepreneurship",
+      photo: "",
+      bio: `Rita Dixon is an attorney and owner of a law firm located in Frisco, Texas.`
+    }
+  ];
+
+  const grid = root.querySelector("#panel-grid");
+  const search = root.querySelector("#panel-search");
+  const count = root.querySelector("#panel-count");
+  const empty = root.querySelector("#panel-empty");
+
+  const modal = document.getElementById("panel-modal");
+  const modalName = document.getElementById("panel-modal-name");
+  const modalRole = document.getElementById("panel-modal-role");
+  const modalBio = document.getElementById("panel-modal-bio");
+  const closeButton = modal.querySelector(".panel-modal-close");
+
+  let previousFocus = null;
+
+  function initials(name) {
+    return name
+      .replace(/^(Chief|Dr\.)\s+/i, "")
+      .split(/[\s.-]+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map(part => part[0])
+      .join("")
+      .toUpperCase();
+  }
+
+  function openBio(member, button) {
+    previousFocus = button;
+    modalName.textContent = member.name;
+    modalRole.textContent = member.role;
+    modalBio.textContent = member.bio;
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+    closeButton.focus();
+  }
+
+  function closeBio() {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    if (previousFocus && previousFocus.isConnected) {
+      previousFocus.focus();
+    }
+  }
+
+  function renderMembers() {
+    const query = search.value.trim().toLowerCase();
+
+    const filtered = panelMembers.filter(member => {
+      const searchable = [
+        member.name,
+        member.role,
+        member.category,
+        member.bio
+      ].join(" ").toLowerCase();
+
+      return searchable.includes(query);
+    });
+
+    count.textContent = filtered.length;
+    empty.hidden = filtered.length > 0;
+    grid.replaceChildren();
+
+    filtered.forEach(member => {
+      const card = document.createElement("article");
+      card.className = "panel-card";
+
+      if (member.photo) {
+        const photo = document.createElement("img");
+        photo.className = "panel-photo";
+        photo.src = member.photo;
+        photo.alt = "Portrait of " + member.name;
+        photo.loading = "lazy";
+        photo.onerror = () => {
+          const avatar = document.createElement("div");
+          avatar.className = "panel-avatar";
+          avatar.setAttribute("aria-label", "Photo not available");
+          avatar.textContent = initials(member.name);
+          photo.replaceWith(avatar);
+        };
+        card.appendChild(photo);
+      } else {
+        const avatar = document.createElement("div");
+        avatar.className = "panel-avatar";
+        avatar.setAttribute("aria-label", "Photo not provided");
+        avatar.textContent = initials(member.name);
+        card.appendChild(avatar);
+      }
+
+      const info = document.createElement("div");
+      info.className = "panel-info";
+
+      const tag = document.createElement("span");
+      tag.className = "panel-tag";
+      tag.textContent = member.category;
+
+      const name = document.createElement("h2");
+      name.textContent = member.name;
+
+      const role = document.createElement("p");
+      role.className = "panel-role";
+      role.textContent = member.role;
+
+      const bio = document.createElement("p");
+      bio.className = "panel-bio";
+
+      const limit = 175;
+      const needsMore = member.bio.length > limit;
+      bio.textContent = needsMore
+        ? member.bio.slice(0, limit).trimEnd() + "…"
+        : member.bio;
+
+      info.append(tag, name, role, bio);
+
+      if (needsMore) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "panel-read-more";
+        button.textContent = "Read Full Bio";
+        button.addEventListener("click", () => openBio(member, button));
+        info.appendChild(button);
+      }
+
+      card.appendChild(info);
+      grid.appendChild(card);
+    });
+  }
+
+  search.addEventListener("input", renderMembers);
+  closeButton.addEventListener("click", closeBio);
+
+  modal.addEventListener("click", event => {
+    if (event.target === modal) closeBio();
+  });
+
+  document.addEventListener("keydown", event => {
+    if (!modal.classList.contains("is-open")) return;
+
+    if (event.key === "Escape") {
+      closeBio();
+    }
+  });
+
+  renderMembers();
+})();
 </script>
 </body>
 </html>
