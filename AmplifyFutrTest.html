@@ -577,6 +577,68 @@ body {
   }
 }
 
+/* Elegant border for all five pages */
+:root {
+  --border-gold: #d4a900;
+  --border-burgundy: #650000;
+  --border-red: #c90018;
+}
+
+.page,
+section.page {
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+}
+
+/* Fine gold frame */
+.page::before,
+section.page::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 2px solid var(--border-gold);
+  outline: 1px solid rgba(212, 169, 0, 0.55);
+  outline-offset: 4px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Decorative burgundy corner accents */
+.page::after,
+section.page::after {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  border-top: 4px solid var(--border-burgundy);
+  border-bottom: 4px solid var(--border-burgundy);
+  pointer-events: none;
+  z-index: 5;
+  opacity: 0.85;
+}
+
+/* Keep content above the page background */
+.page > *,
+section.page > * {
+  position: relative;
+}
+
+/* Responsive spacing for phones */
+@media (max-width: 600px) {
+  .page::before,
+  section.page::before {
+    inset: 6px;
+    outline-offset: 2px;
+  }
+
+  .page::after,
+  section.page::after {
+    inset: 12px;
+    border-width: 2px;
+  }
+}
+
 </style>
 </head>
 <body>
