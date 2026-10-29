@@ -39,9 +39,9 @@ body {
   scroll-margin-top: 0;
 }
 #page1 { background:var(--red); }
-#page2 { background:var(--sand); color:var(--ink); }
+#page2 { background:var(--red); color:var(--ink); }
 #page3 { background:var(--red); }
-#page4 { background:linear-gradient(135deg, #ffd700, #ff0000);
+#page4 { background:var(--red); }
 #page5 { background:var(--dark red); color:var(--ink); }
 #page6 { grid-column:1; grid-row:1; background:var(--red); }
 
@@ -831,7 +831,6 @@ body {
   <section id="meet-the-panel" class="panel-page">
 
  <header class="panel-header">
-<!--<div class="slider-container"><div class="sliding-text">Every journey has a lesson! Every conversation is an opportunity!</div>-->
  <p class="panel-eyebrow">Every journey has a lesson! Every conversation is an opportunity!</p>
    <h1>Meet the Panel</h1>
     <p class="panel-intro">
@@ -844,11 +843,12 @@ body {
     <!-- All panel members display together. No search or popups. -->
     <div id="panel-grid" class="panel-grid"></div>
 
-<!--<footer class="panel-footer">
-           <h2>DREAM · DECIDE · DO</h2>
-         </footer>-->
+         <footer class="panel-footer">
+           <h2>DREAM · DECIDE · DO</h2
+          <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Welcome</button>
+         </footer>
 
-      <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Welcome</button>
+      
 
   </section>
 </section>
@@ -1357,7 +1357,6 @@ function renderMembers() {
 }
 
 renderMembers();
-
 
 </script>
 </body>
