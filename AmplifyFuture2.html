@@ -412,6 +412,112 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }*/
     grid-template-columns: 1fr;
   }
 }
+  /******************************************************************************/
+  /*New panel and bio controls*/
+    .panel-section {
+    padding: 40px 6%;
+    background: #fff;
+    color: #650000;
+}
+
+.panel-section h1 {
+    text-align: center;
+    color: #800000;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.panel-section > p {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.panel-container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.panel-card {
+    background: #fff;
+    border: 2px solid #d4a900;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 22px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
+.panel-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.panel-info img {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #d4a900;
+}
+
+.panel-details h2 {
+    color: #650000;
+    margin-bottom: 8px;
+}
+
+.panel-details h3 {
+    color: #9b7a00;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.panel-card button {
+    background: #800000;
+    color: white;
+    border: 2px solid #d4a900;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.panel-card button:hover {
+    background: #d4a900;
+    color: #650000;
+}
+
+.panel-bio {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff8e5;
+    border-left: 5px solid #d4a900;
+    border-radius: 6px;
+    line-height: 1.7;
+}
+
+.panel-bio.active {
+    display: block;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+    .panel-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .panel-info img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .panel-section h1 {
+        font-size: 27px;
+    }
+}
+
+  /***************************************************************************/
 
   
 </style>
@@ -663,7 +769,66 @@ h2 { font-size:clamp(1.3rem,2.5vw,2.2rem); margin:10px 0; }*/
 <!------------------------------------------------------------------------------------------------------->
    <!-- PAGE 6: BOTTOM LEFT -->
   <section class="page" id="page6">
+<section class="panel-section">
+    <h1>MEET THE PANEL</h1>
+    <p>Meet the leaders, professionals, and mentors
+       sharing their knowledge and experiences.</p>
 
+    <div class="panel-container">
+
+        <!-- PANEL MEMBER 1 -->
+        <div class="panel-card">
+            <div class="panel-info">
+                <img src="images/speaker1.jpg" alt="Panel Member 1">
+
+                <div class="panel-details">
+                    <h2>Panel Member Name</h2>
+                    <h3>Professional Title</h3>
+
+                    <button onclick="showBio('bio1')">
+                        View Bio +
+                    </button>
+                </div>
+            </div>
+
+            <div id="bio1" class="panel-bio">
+                <h3>About Panel Member</h3>
+                <p>
+                    Insert the panel member's biography here.
+                    Include professional experience, accomplishments,
+                    education, and advice for young people.
+                </p>
+                <button onclick="hideBio('bio1')">Close Bio</button>
+            </div>
+        </div>
+
+
+        <!-- PANEL MEMBER 2 -->
+        <div class="panel-card">
+            <div class="panel-info">
+                <img src="images/speaker2.jpg" alt="Panel Member 2">
+
+                <div class="panel-details">
+                    <h2>Panel Member Name</h2>
+                    <h3>Professional Title</h3>
+
+                    <button onclick="showBio('bio2')">
+                        View Bio +
+                    </button>
+                </div>
+            </div>
+
+            <div id="bio2" class="panel-bio">
+                <h3>About Panel Member</h3>
+                <p>
+                    Insert the second panel member's biography here.
+                </p>
+                <button onclick="hideBio('bio2')">Close Bio</button>
+            </div>
+        </div>
+
+    </div>
+</section>
   <a href="#meet-the-panel">Meet the Panel</a>
     
 <!-- =====================================
@@ -1144,7 +1309,25 @@ She aims to improve continuity of care, quality of life, and access to medical, 
 
   renderMembers();
 })();
- 
+
+  //***************************************************************************//
+  //*new panel controls java //
+  
+function showBio(id) {
+
+    // Close other bios
+    document.querySelectorAll('.panel-bio')
+        .forEach(bio => bio.classList.remove('active'));
+
+    // Open selected bio
+    document.getElementById(id).classList.add('active');
+}
+
+function hideBio(id) {
+    document.getElementById(id).classList.remove('active');
+}
+  //*******************************************************************************//
+  
 </script>
 </body>
 </html>
