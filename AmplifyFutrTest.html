@@ -793,6 +793,15 @@ section.page > * {
     }
 }
 
+      .wavy-border { 
+    background:var(--red); 
+    /* The mask uses alternating radial circles to cut out a wavy shape */
+  -webkit-mask: radial-gradient(20px at 50% 100%, #0000 98%, #000) 50% calc(100% - 20px) / 80px 100% repeat-x,
+                radial-gradient(20px at 50% 0%,   #000 99%, #0000 101%) bottom / 80px 40px repeat-x;
+  height: 200px;
+}
+
+
 </style>
 </head>
 <body>
@@ -801,6 +810,7 @@ section.page > * {
 <!-------------------------------------------------------------------------------------------------->  
   <!-- PAGE 1 -->
   <section class="page" id="page1">
+
     
 <div class="corner-ribbons" aria-hidden="true">
   <svg viewBox="0 0 200 200">
