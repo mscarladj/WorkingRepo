@@ -45,6 +45,7 @@ body {
 #page5 { background:var(--dark red); color:var(--ink); }
 #page6 { grid-column:1; grid-row:1; background:var(--red); }
 #page7 { background:var(--dark red); color:var(--ink); }
+#page8 { grid-column:1; grid-row:1; background:var(--red); }
 
   
 .subtitle /*{ font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }*/
@@ -579,9 +580,9 @@ body {
   }
 }
 /*------------------------------------------------------------------------------------------*/
-  /*meet the parent Panel2*/
+/*meet the parent Panel2*/
   
-    .panel2-page {
+ .panel2-page {
   width: 100%;
   min-width: 0;
   padding: 30px 16px;
@@ -737,6 +738,79 @@ body {
   .panel2-bio {
     font-size: 12px;
     line-height: 1.5;
+  }
+}
+
+@media (max-width: 350px) {
+  .panel2-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+  /* Meet the Panel: responsive, single scrolling page */
+#page8 {
+  display: block;
+  min-height: 100vh;
+  padding: 0;
+}
+
+#meet-the-panel2 {
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+}
+
+.panel2-grid {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.panel2-card {
+  height: 100%;
+  min-width: 0;
+}
+
+.panel2-photo,
+.panel2-avatar {
+  height: 180px;
+}
+
+.panel2-bio {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 850px) {
+  .panel2-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .panel2-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .panel2-photo,
+  .panel2-avatar {
+    height: 120px;
+  }
+
+  .panel2-info {
+    padding: 10px;
+  }
+
+  .panel2-info h2 {
+    font-size: 15px;
+  }
+
+  .panel2-role,
+  .panel2-bio {
+    font-size: 12px;
   }
 }
 
