@@ -44,7 +44,9 @@ body {
 #page4 { background:var(--red); }
 #page5 { background:var(--dark red); color:var(--ink); }
 #page6 { grid-column:1; grid-row:1; background:var(--red); }
+#page7 { background:var(--dark red); color:var(--ink); }
 
+  
 .subtitle /*{ font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }*/
   {font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
   font-size: 1.25rem;
@@ -850,7 +852,7 @@ section.page {
   <div class="feedback-form">
     <iframe
       id="jotform-feedback"
-      src="https://form.jotform.com/262991109179063"
+      src="https://form.jotform.com/263014748542154"
       title="Parent and Guardian Feedback Form"
       loading="lazy"
       allow="geolocation"
@@ -917,7 +919,37 @@ section.page {
 </section>
 </main>
 <!-------------------------------------------------------------------------------------------------------->
+   <!-- PAGE 7 -->
+  <section class="page" id="page7">
+    
+  <section class="student-feedback">
+  
+  <h2>STUDENT FEEDBACK</h2>
 
+  <p>
+    CCAC Thanks You for supporting Teen Summit!!
+    Please share your feedback or ask us a question.
+  </p>
+
+  <div class="feedback-form">
+    <iframe
+      id="jotform-feedback"
+      src="https://form.jotform.com/260114420307138"
+      title="Student Feedback Form"
+      loading="lazy"
+      allow="geolocation"
+      frameborder="0">
+    </iframe>
+  </div>
+
+       <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Welcome</button>
+                
+    </section>
+  </section>
+
+
+
+  
 <script>
 function goToPage(pageId) {
   const page = document.getElementById(pageId);
