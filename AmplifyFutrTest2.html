@@ -662,11 +662,11 @@ section.page {
 
     <h1>AMPLIFY YOUR FUTURE</h1>
     <p class="subtitle">Every student has immense potential!<br>In the right environment, it can be nurtured, uncovered, and realized!</p>
-    <button class="scroll-btn" onclick="goToPage('page2')">Today's Schedule of Events →</button><br><button class="scroll-btn" onclick="goToPage('page6')">↑Meet the Panel</button></br>
- 
-    <button class="scroll-btn" onclick="goToPage('page3')">College, Career and Scholarship Info ↓</button><br>
+    <button class="scroll-btn" onclick="goToPage('page2')">Today's Schedule of Events →</button> 
+    <button class="scroll-btn" onclick="goToPage('page3')">College, Career and Scholarship Info ↓</button>
+    <button class="scroll-btn" onclick="goToPage('page6')">↑Meet the College and Career Panel</button>
     <br><button class="scroll-btn" onclick="goToPage('page4')">THIS or THAT</button></br>
-    <button class="scroll-btn" onclick="goToPage('page6')">↑Meet the Panel</button><br><button class="scroll-btn" onclick="goToPage('page4')">THIS or THAT</button></br>
+    <button class="scroll-btn" onclick="goToPage('page6')">↑Meet the Parent Panel</button>
     <button class="scroll-btn" onclick="goToPage('page5')">↑Parent & Guardian Feedback</button><br><button class="scroll-btn" onclick="goToPage('page7')">↑Student Feedback</button></br>
   </section>
 
@@ -790,7 +790,6 @@ section.page {
       <h2>DREAM · DECIDE · DO</h2>
 
       <button class="scroll-btn" onclick="goToPage('page2')">← Return to Today's Agenda</button>
-      <button class="scroll-btn" onclick="goToPage('page5')">Parent & Guardian Feedback ←</button>
     </div>
   </section>
 
@@ -869,34 +868,10 @@ section.page {
    
 <!-- PAGE 6: MEET THE PANEL -->
 <section class="page" id="page6">
-  
-<div class="corner-ribbons" aria-hidden="true">
-  <svg viewBox="0 0 200 200">
-    <defs>
-      <linearGradient id="goldRibbon" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#fff5b8"/>
-        <stop offset="28%" stop-color="#d4a017"/>
-        <stop offset="48%" stop-color="#fff0a0"/>
-        <stop offset="72%" stop-color="#b8860b"/>
-        <stop offset="100%" stop-color="#fff1b0"/>
-      </linearGradient>
-    </defs>
-
-    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
-      fill="none" stroke="#790000" stroke-width="15"/>
-
-    <path d="M8 2 C28 12 24 35 48 42 S72 63 92 48"
-      fill="none" stroke="url(#goldRibbon)" stroke-width="9"/>
-
-    <path d="M2 18 C20 30 17 48 39 56 S60 74 78 63"
-      fill="none" stroke="url(#goldRibbon)" stroke-width="4"/>
-  </svg>
-</div>
-
   <section id="meet-the-panel" class="panel-page">
 
  <header class="panel-header">
- <p class="panel-eyebrow">Every journey has a lesson! Every conversation is an opportunity!</p>
+ <p class="panel-eyebrow">Every Conversation is an Opportunity!</p>
    <h1>Meet the Panel</h1>
     <p class="panel-intro">
         Meet the professionals, entrepreneurs, educators, and community
@@ -908,13 +883,9 @@ section.page {
     <!-- All panel members display together. No search or popups. -->
     <div id="panel-grid" class="panel-grid"></div>
 
-         <footer class="panel-footer">
-           <h2>DREAM · DECIDE · DO</h2
-          <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Welcome</button>
-         </footer>
-
-      
-
+        
+     <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Welcome</button>
+       
   </section>
 </section>
 </main>
@@ -948,7 +919,7 @@ section.page {
   </section>
 
 
-
+/**********************************************************************************/
   
 <script>
 function goToPage(pageId) {
