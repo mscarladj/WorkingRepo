@@ -821,6 +821,42 @@ body {
 }
 
   
+  /* PARENT PANEL PHOTO DISPLAY */
+/********************  check after pictures appear
+.panel2-photo {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: center 25%;
+    background: #faf6ec;
+    border-bottom: 4px solid #d4a900;
+}
+
+.panel2-card {
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.panel2-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #590d1630;
+}
+
+.panel2-avatar {
+    height: 210px;
+    width: 100%;
+    background: linear-gradient(135deg, #590d16, #971b25);
+    color: #f8d878;
+}
+
+@media(max-width:520px) {
+    .panel2-photo,
+    .panel2-avatar {
+        height: 145px;
+    }
+} ***************/
+
+  
 /* SIMPLE THICK BURGUNDY-GOLD-WHITE BORDER */
 
 .page,
@@ -1695,49 +1731,49 @@ const panel2Membs = [
       name: "Debra Taylor",
       role: "Parent Panel",
       category: "",
-      photo: "",
+      photo: "images/debra-taylor.jpg",
       bio: `Mother to a freshman majoring in Psychology at the University of North TX at Dallas.`
     },
     {
       name: "Kenyia Powel",
       role: "Parent Panel",
       category: "",
-      photo: "",
+      photo: "images/kenyia-powel.jpg",
       bio: `Mother to a freshman majoring in Veterinary Surgery Medicine at Texas State University in San Marcos, TX.`
     },
     {
       name: "Seraphia Price",
       role: "Parent Panel",
       category: "",
-      photo: "",
+      photo: "images/seraphia-price.jpg",
       bio: `Mother to a freshman majoring in Kinesiology at the University of Texas at Austin, TX.`
     },
     {
       name: "Tracy Eubanks",
       role: "Parent Forum Presenter",
       category: "",
-      photo: "",
+      photo: "images/tracy-eubanks.jpg",
       bio: `In her 10th year as a Lead Counselor between Garland ISD and Plano ISD & 30th year as a counselor overall.`
     },
     {
       name: "Major Singleton",
       role: "Parent Forum Presenter",
       category: "",
-      photo: "",
+      photo: "images/major-singleton.jpg",
       bio: `23-year Navy Veteran; retired as a Lieutenant Commander.`
     },
     {
       name: "Paul Richardson",
       role: "Parent Forum Presenter",
       category: "",
-      photo: "",
+      photo: "images/paul-richardson.jpg",
       bio: `Active-duty Captain, U.S. Navy.`
     },
     {
       name: "Soluto Uba, Esq.",
       role: "Parent Forum Presenter",
       category: "",
-      photo: "",
+      photo: "images/soluto-uba.jpg",
       bio: `Founder and Managing Attorney at Uba Law Group.`
     }
   ];
