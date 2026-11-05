@@ -46,7 +46,8 @@ body {
 #page6 { grid-column:1; grid-row:1; background:var(--red); }
 #page7 { background:var(--dark-red); color:var(--ink); }
 #page8 { grid-column:1; grid-row:1; background:var(--red); }
-
+#page9 { background:var(--red); }
+#page10 { background:var(--dark-red); color:var(--ink); }
   
 .subtitle /*{ font-size:clamp(1rem,1.5vw,1.25rem); max-width:760px; line-height:1.5; margin:10px auto; }*/
   {font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
@@ -934,7 +935,112 @@ div.c {
 
 div.d {
   text-align: justify;
-} 
+}
+
+  
+/********************************************/  
+  /* PAGE 9 COLLEGE FAIR */
+
+#page9 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #650000,
+        #c90018,
+        #d4a900
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.college-fair-container {
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.college-fair-image {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    object-fit: contain;
+    border: 5px solid #d4a900;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* MOBILE COMPATIBILITY */
+
+@media (max-width: 600px) {
+    #page9 {
+        padding: 10px;
+    }
+
+    .college-fair-image {
+        width: 100%;
+        border-width: 3px;
+    }
+}
+  /********************************************/  
+  /* PAGE 10 parent panel agenda */
+
+#page10 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #650000,
+        #c90018,
+        #d4a900
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.parent-panel-container {
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-panel-image {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    object-fit: contain;
+    border: 5px solid #d4a900;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* MOBILE COMPATIBILITY */
+
+@media (max-width: 600px) {
+    #page10 {
+        padding: 10px;
+    }
+
+    .parent-panel-image {
+        width: 100%;
+        border-width: 3px;
+    }
+}
+  
 </style>
 </head>
 <body>
@@ -1272,17 +1378,23 @@ div.d {
    <!-- PAGE 9 -->
       <section class="page" id="page9">
     
- 
-      <h2>PARENT PANEL AGENDA</h2>
+       <h2>College Fair AGENDA</h2>
 
-      <div>  
-        src="tnSmt-agenda_image1.svg"
-      </div>
+      <div class="college-fair-container">
 
+        <img
+            src="tnSmt-agenda_image1.svg"
+            alt="Teen Summit College Fair"
+            class="college-fair-image"
+        >
+
+      </div>  
         
-           <p>
-             CCAC Thanks You for Supporting Teen Summit!!
-           </p>
+         <!--src="tnSmt-agenda_image1.svg"-->
+
+                  <p>
+                     CCAC Thanks You for Supporting Teen Summit!!
+                 </p>
 
 
 
@@ -1292,8 +1404,39 @@ div.d {
     
       </section>
 
+   
 <!------------------------------------------------------------------------------------------------------->
+
+   <!-- PAGE 10 -->
+      <section class="page" id="page10">
+    
+       <h2>PARENT PANEL AGENDA</h2>
+
+      <div class=" parent-panel-container">
+
+        <img
+            src="tnSmt-agenda_image1.svg"
+            alt="Parent Panel Agenda"
+            class=" parent-panel-image"
+        >
+
+      </div>  
+        
        
+                  <p>
+                     CCAC Thanks You for Supporting Teen Summit!!
+                 </p>
+
+
+
+    
+         <button class="scroll-btn" onclick="goToPage('page1')">↑ Back to Welcome</button>
+                
+    
+      </section>
+
+
+    
   </section>
 </section>
 </main>
