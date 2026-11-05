@@ -944,49 +944,29 @@ div.d {
 #page9 {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #650000,
-        #c90018,
-        #d4a900
-    );
+    height: 100vh;
+
+    background-image: url("TeenSummitPoster.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #650000;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+
+    overflow: hidden;
     box-sizing: border-box;
 }
 
-.college-fair-container {
-    width: 100%;
-    max-width: 950px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.college-fair-image {
-    display: block;
-    width: 100%;
-    max-width: 850px;
-    height: auto;
-    object-fit: contain;
-    border: 5px solid #d4a900;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
-}
-
-/* MOBILE COMPATIBILITY */
+/* MOBILE RESPONSIVENESS */
 
 @media (max-width: 600px) {
     #page9 {
-        padding: 10px;
-    }
-
-    .college-fair-image {
-        width: 100%;
-        border-width: 3px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
   /********************************************/  
@@ -995,49 +975,29 @@ div.d {
 #page10 {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #650000,
-        #c90018,
-        #d4a900
-    );
+    height: 100vh;
+
+    background-image: url("tnSmt-agenda_image1.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #650000;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+
+    overflow: hidden;
     box-sizing: border-box;
 }
 
-.parent-panel-container {
-    width: 100%;
-    max-width: 950px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.parent-panel-image {
-    display: block;
-    width: 100%;
-    max-width: 850px;
-    height: auto;
-    object-fit: contain;
-    border: 5px solid #d4a900;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
-}
-
-/* MOBILE COMPATIBILITY */
+/* MOBILE RESPONSIVENESS */
 
 @media (max-width: 600px) {
     #page10 {
-        padding: 10px;
-    }
-
-    .parent-panel-image {
-        width: 100%;
-        border-width: 3px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
   
@@ -1093,9 +1053,9 @@ div.d {
     <p class="subtitle">Every student has immense potential!<br>In the right environment, it can be nurtured, uncovered, and realized!</p>
     <button class="scroll-btn" onclick="goToPage('page2')">Today's Schedule of Events →</button> 
     <button class="scroll-btn" onclick="goToPage('page3')">College, Career and Scholarship Info ↓</button>
-    <button class="scroll-btn" onclick="goToPage('page6')">↑Meet the College and Career Panel</button>
+    <button class="scroll-btn" onclick="goToPage('page6')">↑Meet the College and Career Panel</button><button class="scroll-btn" onclick="goToPage('page9')"> List of Collegs visiting Today!</button>
     <br><button class="scroll-btn" onclick="goToPage('page4')">THIS or THAT</button></br>
-    <button class="scroll-btn" onclick="goToPage('page8')">↑Meet the Parent Panel</button>
+    <button class="scroll-btn" onclick="goToPage('page8')">↑Meet the Parent Panel</button><button class="scroll-btn" onclick="goToPage('page10')">Parent Panel Agenda</button>
     <button class="scroll-btn" onclick="goToPage('page5')">↑Parent & Guardian Feedback</button><br><button class="scroll-btn" onclick="goToPage('page7')">↑Student Feedback</button></br>
   </section>
 
@@ -1380,14 +1340,8 @@ div.d {
     
        <h2>College Fair AGENDA</h2>
 
-      <div class="college-fair-container">
-
-        <img
-            src="tnSmt-agenda_image1.svg"
-            alt="Teen Summit College Fair"
-            class="college-fair-image"
-        >
-
+      <div class="page9-content"
+             alt="Teen Summit College Fair">      
       </div>  
         
          <!--src="tnSmt-agenda_image1.svg"-->
@@ -1412,15 +1366,10 @@ div.d {
     
        <h2>PARENT PANEL AGENDA</h2>
 
-      <div class=" parent-panel-container">
-
-        <img
-            src="tnSmt-agenda_image1.svg"
-            alt="Parent Panel Agenda"
-            class=" parent-panel-image"
-        >
-
+       <div class="page10-content"
+             alt="Parent Panel Agenda">      
       </div>  
+        
         
        
                   <p>
