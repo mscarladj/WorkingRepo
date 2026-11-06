@@ -544,6 +544,16 @@ body {
   overflow-wrap: anywhere;
 }
 
+  /*added to increase space for bio**/
+
+  .panel-bio {
+    max-height: none;
+    height: auto;
+    overflow: visible;
+    display: block;
+    -webkit-line-clamp: unset; 
+      }
+
 @media (max-width: 850px) {
   .panel-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1597,7 +1607,7 @@ const panelMembers = [
       role: "Chief of Police | Forest Park Police Department, Oklahoma",
       category: "Law Enforcement & Public Safety",
       photo: "images/chief-w.jpg",
-      bio: `Chief Lenon Williams has nearly three decades of law enforcement experience and is committed to public safety, ethical leadership, accountability, and community trust. His background includes private security, executive protection, threat assessment, crisis management, and protective operations. He holds master's degrees in psychology, education, and leadership.
+      bio: `Chief Lenon Williams has nearly three decades of law enforcement experience with a background in specialized security, risk analysis, and emergency response. He holds master's degrees in psychology, education, and leadership. 
             His leadership is grounded in Honor, Pride, and Integrity, with an emphasis on serving communities with dignity and professionalism.`
     },
     {
